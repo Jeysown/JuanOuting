@@ -15,7 +15,4 @@ function closeNav() {
     document.getElementById("myNav").style.height = "0%";
     document.getElementById( "navbar-toggle" ).setAttribute( "onClick", "javascript: openNav();" );
 }
-
-$('body').scrollspy({ target: '.header-container' });
-
 </script>

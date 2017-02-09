@@ -19,13 +19,14 @@ body{
   margin-right: 0px;
 }
 .navbar-default{
-  background-color: white;
-  border-color: white;
+  background-color: transparent;
+  border-color: transparent;
 
 }
 .navbar-custom .navbar-brand {
-  color: #212121;
+  color: white;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+      font-size: 2em;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -39,34 +40,34 @@ body{
 .navbar-custom .navbar-toggle {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  color: #212121;
+  color: white;
   font-size: 12px;
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #0b6087;
+  background-color: transparent;
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: #212121;
+  color: white;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #0b6087;
+  color: transparent;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
-  color: #212121;
-  background-color: #0b6087;
+  color: white;
+  background-color: gray;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
-  color: #212121;
-  background-color: #0b6087;
+  color: white;
+  background-color: gray;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -87,19 +88,26 @@ body{
     border-radius: 3px;
   }
 }
-@media(max-width:768px){
-  .navbar-custom{
-      box-shadow: 1px 1px 5px 3px rgba(0,0,0,0.1);
-  }
+.navbar-custom.affix .navbar-toggle{
+  color:gray;
 }
-@media (min-width: 768px) {
   .navbar-custom.affix {
         box-shadow: 1px 1px 5px 3px rgba(0,0,0,0.1);
     padding: 8px 0;
+    background-color: white;
   }
   .navbar-custom.affix .navbar-brand {
     font-size: 2em;
+    color:gray;
   }
+  .navbar-custom.affix .nav li a {
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      font-weight: 400;
+      letter-spacing: 1px;
+      color: gray;
+
+
 }
 #myNav{
   margin-top: 54px;
