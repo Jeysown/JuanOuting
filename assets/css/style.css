@@ -1,0 +1,380 @@
+@font-face {
+    font-family: 'Sortdecai';
+    src: url('../fonts/fonts/sortdecai_brush_script-webfont.woff2') format('woff2'),
+         url('../fonts/fonts/sortdecai_brush_script-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html,body,#page, header { height:100%;}
+body{
+  padding:0;margin:0;
+}
+
+.marketing .col-lg-6 {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.marketing .col-lg-6 p {
+  margin-left: 10px;
+}
+
+.navbar-custom {
+  background-color: #054664;
+  border-color: transparent;
+}
+.navbar-custom .navbar-brand {
+  color: #fff;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #fff;
+}
+.navbar-custom .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-custom .navbar-toggle {
+  background-color: #0b6087;
+  border-color:  #0b6087;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #0b6087;
+}
+.navbar-custom .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #0b6087;
+  outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: #0b6087;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #0b6087;
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-custom.affix {
+    background-color:  #054664;
+    padding: 0px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+.result-title{
+  margin-bottom:10px;
+  margin-top:15px;
+  font-weight:bold;
+  font-size:30px;
+  color:#0b6087;
+}
+footer{
+  background-color: #054664;
+  color:#fff;
+}
+
+.divider{
+  width: 70%; color: #777; height: 1px; background-color:#777;
+  opacity: .3;
+}
+.divider2{
+  width: 100%; color: #777; height: 1px; background-color:#777;
+  opacity: .3;
+}
+.check{
+  color:#0b6087;
+  font-size: 20px;
+}
+.contact-logo{
+  font-weight:bold;font-size:40px;color:#0b6087;float:left;
+}
+.canvasjs-chart-credit{
+  font-size: 250px;
+}
+.title-result{
+  text-align:center;
+  font-weight: bolder;
+  color:rgb(11, 96, 135);
+  font-size:27px;
+
+}
+.result{
+  padding-left:150px;
+}
+@media(max-width:520px){
+  .result{
+    padding-left: 0px;
+  }
+}
+body,html{
+    height: 100%;
+  }
+
+  nav.sidebar, .main{
+    -webkit-transition: margin 200ms ease-out;
+      -moz-transition: margin 200ms ease-out;
+      -o-transition: margin 200ms ease-out;
+      transition: margin 200ms ease-out;
+  }
+
+  .main{
+    padding: 10px 10px 0 10px;
+  }
+
+ @media (min-width: 765px) {
+
+    .main{
+      position: absolute;
+      width: calc(100% - 40px);
+      margin-left: 40px;
+      float: right;
+    }
+
+    nav.sidebar:hover + .main{
+      margin-left: 200px;
+    }
+
+    nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+      margin-left: 0px;
+    }
+
+    nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+      text-align: center;
+      width: 100%;
+      margin-left: 0px;
+    }
+
+    nav.sidebar a{
+      padding-right: 13px;
+    }
+
+    nav.sidebar .navbar-nav > li:first-child{
+      border-top: 1px #e5e5e5 solid;
+    }
+
+    nav.sidebar .navbar-nav > li{
+      border-bottom: 1px #e5e5e5 solid;
+    }
+
+    nav.sidebar .navbar-nav .open .dropdown-menu {
+      position: static;
+      float: none;
+      width: auto;
+      margin-top: 0;
+      background-color: transparent;
+      border: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+
+    nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+      padding: 0 0px 0 0px;
+    }
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+      color: #777;
+    }
+
+    nav.sidebar{
+      height: 100%;
+      margin-left: -160px;
+      float: left;
+      margin-bottom: 0px;
+    }
+
+    nav.sidebar li {
+      width: 100%;
+    }
+
+    nav.sidebar:hover{
+      margin-left: 0px;
+    }
+
+    .forAnimate{
+      opacity: 0;
+    }
+  }
+
+  @media (min-width: 1330px) {
+
+    .main{
+      width: calc(100% - 200px);
+      margin-left: 200px;
+    }
+
+    nav.sidebar{
+      margin-left: 0px;
+      float: left;
+    }
+
+    nav.sidebar .forAnimate{
+      opacity: 1;
+    }
+  }
+
+  nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #CCC;
+    background-color: transparent;
+  }
+
+  nav:hover .forAnimate{
+    opacity: 1;
+  }
+  .parent-header {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .child-header {
+      transition: all 2s ease;
+      background:url('../images/header.jpg') no-repeat;
+      background-attachment:fixed;
+      background-position:center;
+      background-size:cover;
+      filter:brightness(.7);
+      z-index: -1;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+  }
+
+  .parent-header:hover > .child-header {
+      transform: scale(1.05);
+  }
+.header-text{
+  color: white;
+  padding: 0.5em;
+  margin: 0;
+  z-index: 50;
+}
+.header-jumbotron{
+    font-size: 100px;
+  padding-top: 15%;
+  font-family:Sortdecai;
+}
+.header-hr{
+width: 50%;
+border-top: 3px solid #f1f1f1;
+padding-bottom: 50px;
+}
+.header-result{
+  border: 4px solid white;
+  color:white;
+  font-size: 25px;
+  padding: 20px 40px;
+}
+.header-result:hover, .header-result:focus{
+  color: white;
+      text-decoration: underline;
+}
+.overview{
+vertical-align: middle;
+padding-top: 20px;
+}
+.yey{
+  padding: 60px; /*size of the frame*/
+/*give the frame's background colour a gradient*/
+background: #fff; /*fallback colour for browsers that don't support gradients*/
+-webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+-moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+border: 2px solid #e7e7e7 ;
+margin-bottom: 10px;
+  font-size:20px;
+  background-position: center;
+  vertical-align: bottom;
+
+}
+.yey1{
+  padding: 40px; /*size of the frame*/
+/*give the frame's background colour a gradient*/
+background: #fff; /*fallback colour for browsers that don't support gradients*/
+-webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+-moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+border: 2px solid #e7e7e7 ;
+margin-bottom: 10px;
+  font-size:20px;
+  background-position: center;
+  vertical-align: bottom;
+}
+.yey>h1>span{
+  font-weight: bold;
+}
+.yey1>h1>span{
+  font-weight: bold;
+}
+.yey2{
+  padding: 50px; /*size of the frame*/
+margin-bottom: 10px;
+  font-size:20px;
+  background-position: center;
+  vertical-align: bottom;
+}
+.yey2>h1>span{
+  font-weight: bold;
+  font-size: 150px;
+}
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #e7e7e7;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #e7e7e7;
+}
