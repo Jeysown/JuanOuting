@@ -32,7 +32,7 @@ body{
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #212121;
+  color: white;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
@@ -42,6 +42,7 @@ body{
   text-transform: uppercase;
   color: white;
   font-size: 12px;
+  cursor: pointer;
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
@@ -73,16 +74,16 @@ body{
   .navbar-custom {
     background-color: transparent;
     padding: 5px 0;
-    -webkit-transition: padding 0.5s;
-    -moz-transition: padding 0.5s;
-    transition: padding 0.5s;
+    -webkit-transition: padding 0.7s;
+    -moz-transition: padding 0.7s;
+    transition: padding 0.7s;
     border: none;
   }
   .navbar-custom .navbar-brand {
     font-size: 2em;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    transition: all 0.5s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
   }
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 3px;
@@ -124,22 +125,21 @@ collapse
     left: 0;
     background-color: white;
     overflow-y: hidden;
-    transition: 0.5s;
+    transition: 0.7s;
 
 }
 
 .overlay-content {
     position: relative;
-    top: 25%;
     width: 100%;
-    text-align: center;
-    margin-top: 30px;
+    padding: 10px;
 }
 
 .overlay a {
-    padding: 8px;
+      box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
+    padding: 15px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
