@@ -49,9 +49,41 @@
       <div class="child-header"></div>
 
   </div>
-  <div class="" style="height:900px;">
-
-
+  <div class="container">
+    <div class="row deck-row">
+      <div class="featured-title">
+        Featured Destinations
+      </div>
+      <div class="col-sm-4 card">
+        <img src="assets/images/1.jpg" alt="" class="r-img">
+        <p class="r-name"><b class="r-price">₱5000 </b> 88 Forest and Hotspring Resort</p>
+      </div>
+      <div class="col-sm-4 card">
+        <img src="assets/images/2.jpg" alt="" class="r-img">
+        <p class="r-name"><b class="r-price">₱23230 </b> Joyce Resort</p>
+      </div>
+      <div class="col-sm-4 card">
+        <img src="assets/images/3.jpg" alt="" class="r-img">
+        <p class="r-name"><b class="r-price">₱33233 </b> Jason Patrick S Lopez Resort</p>
+      </div>
+    </div>
+    <div class="row deck-row">
+      <div class="featured-title">
+        Calamba, Laguna
+      </div>
+      <div class="col-sm-4 card">
+        <img src="assets/images/1.jpg" alt="" class="r-img">
+        <p class="r-name"><b class="r-price">₱5000 </b> 88 Forest and Hotspring Resort</p>
+      </div>
+      <div class="col-sm-4 card">
+        <img src="assets/images/2.jpg" alt="" class="r-img">
+        <p class="r-name"><b class="r-price">₱23230 </b> Joyce Resort</p>
+      </div>
+      <div class="col-sm-4 card">
+        <img src="assets/images/3.jpg" alt="" class="r-img">
+        <p class="r-name"><b class="r-price">₱33233 </b> Jason Patrick S Lopez Resort</p>
+      </div>
+    </div>
   </div>
 
 <?php include 'footer.php' ?>
