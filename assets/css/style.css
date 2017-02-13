@@ -47,7 +47,7 @@ body{
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: transparent;
+  background-color: #fff;
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -58,7 +58,7 @@ body{
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: transparent;
+  color: #fff;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
