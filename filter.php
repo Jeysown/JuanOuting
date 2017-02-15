@@ -46,7 +46,7 @@
           </div>
 
   </nav>
-  <div class="" style="height:500px;">
+  <div class="" style="height:100px;">
 
   </div>
   <div class="container">
@@ -92,12 +92,12 @@
             </div>
             <div class="filter-box-content">
               <span class="filter-facilities">
-                  <input type="checkbox"  id="kitchen" name="kitchen" onclick="kitchen()" value="0">
-                  <label for="kitchen" class="filter-label">Pansol</label>
+                  <input type="checkbox"  id="Pansol" name="kitchen" onclick="kitchen()" value="0">
+                  <label for="Pansol" class="filter-label">Pansol</label>
                 </span>
               <span class="filter-facilities">
-                  <input type="checkbox"  id="billiard" name="kitchen" onclick="kitchen()" value="1">
-                  <label for="billiard" class="filter-label">Bagong Kalsada</label>
+                  <input type="checkbox"  id="Bagong" name="kitchen" onclick="kitchen()" value="1">
+                  <label for="Bagong" class="filter-label">Bagong Kalsada</label>
               </span>
               </div>
             </div>
@@ -126,30 +126,22 @@
     <div class="col-sm-9 filtered-resort">
 
     <div class="row deck-row">
-      <div class="featured-title">
-        Calamba, Laguna
-      </div>
-      <div class="col-sm-6 card">
+      <div class="col-sm-6 filtered-card">
         <img src="assets/images/1.jpg" alt="" class="r-img">
-        <p class="r-name"><b class="r-price">₱5000 </b> 88 Forest and Hotspring Resort</p>
-        <div class="deck-rating">
-          <span>★★★★</span>
-        </div>
+        <p class="r-content"><b class="r-price">₱5000 </b><span class="indiv-rating">★★★★</span></p>
+        <p class="r-name"> 88 Forest and Hotspring abcd asdsa Resort </p>
       </div>
-      <div class="col-sm-6 card">
+      <div class="col-sm-6 filtered-card">
         <img src="assets/images/2.jpg" alt="" class="r-img">
-        <p class="r-name"><b class="r-price">₱23230 </b> Joyce Resort</p>
-        <div class="deck-rating">
-          <span>★★★★</span>
-        </div>
+        <p class="r-content"><b class="r-price">₱5000 </b><span class="indiv-rating">★★★★</span></p>
+        <p class="r-name"> Pogi akoasdsa Resort </p>
       </div>
-      <div class="col-sm-6 card">
+      <div class="col-sm-6 filtered-card">
         <img src="assets/images/3.jpg" alt="" class="r-img">
-        <p class="r-name"><b class="r-price">₱33233 </b> Jason Patrick S Lopez Resort</p>
-        <div class="deck-rating">
-          <span>★★★★</span>
-        </div>
+        <p class="r-content"><b class="r-price">₱5000 </b><span class="indiv-rating">★★★★</span></p>
+        <p class="r-name"> Jason Patrick S Lopez Resort </p>
       </div>
+
     </div>
         </div>
   </div>
