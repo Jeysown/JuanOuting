@@ -1,4 +1,4 @@
-<div class="footer">
+﻿<div class="footer">
   <div class="container" >
     <div class="row footer-container footer-hr">
       <div class="footer-content">
@@ -86,7 +86,8 @@ function openSearch() {
 
 function closeSearch() {
     document.getElementById("mySearch").style.height = "0%";
-          Object.assign(document.getElementById("mainNav").style,{display:"block",animation:"fadeIn .71s",transition:"all 2s"});
-          document.body.style.overflow = 'visible';
+          Object.assign(document.getElementById("mainNav").style,{display:"block",animation:"fadeIn .71s"});
+          
+	  document.body.style.overflow = 'visible';
 }
 </script>
