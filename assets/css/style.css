@@ -162,7 +162,8 @@ collapse
     width: 100%;
     position: relative;
   z-index: 1;
-  overflow:visible
+  overflow:visible;
+
   }
 
   .child-header {
@@ -216,6 +217,10 @@ padding-left: 8px;
 }
 .r-price{
   font-size: 1.2em;
+}
+.off-r-price{
+  font-size: 1em;
+  text-decoration: line-through;
 }
 .deck-rating > .stars-filter {
   unicode-bidi: bidi-override;
@@ -595,4 +600,8 @@ padding: 0px 8px;
 @keyframes fadeIn {
     from { opacity: 0; }
       to { opacity: 1; }
+}
+/*spinner*/
+.spin{
+  padding-bottom: 10px;
 }

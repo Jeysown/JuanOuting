@@ -76,6 +76,9 @@ function closeNav() {
     document.getElementById("myNav").style.height = "0%";
     document.getElementById( "navbar-toggle" ).setAttribute( "onClick", "javascript: openNav();" );
 }
+$( "#spinner" ).spinner();
+$( "#spinner1" ).spinner();
+$( "#spinner2" ).spinner();
 </script>
 
 <script type="text/javascript">
