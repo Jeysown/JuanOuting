@@ -63,9 +63,9 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/header.js"></script>
 <script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="assets/js/ease.js"></script>
-    <script type="text/javascript" src="assets/js/functions.js"></script>
-    <script src="assets/js/search.js"></script>
+<script type="text/javascript" src="assets/js/ease.js"></script>
+<script type="text/javascript" src="assets/js/functions.js"></script>
+<script src="assets/js/search.js"></script>
 <script>
 function openNav() {
     document.getElementById("myNav").style.height = "100%";
@@ -76,18 +76,13 @@ function closeNav() {
     document.getElementById("myNav").style.height = "0%";
     document.getElementById( "navbar-toggle" ).setAttribute( "onClick", "javascript: openNav();" );
 }
-function openSearch() {
-    document.getElementById("mySearch").style.height = "100%";
-    Object.assign(document.getElementById("mainNav").style,{display:"none"});
-    document.body.style.overflow = 'hidden';
+</script>
 
-
+<script type="text/javascript">
+if (screen && screen.width < 768) {
+  document.write('<script type="text/javascript" src="assets/js/search1.js"><\/script>');
 }
-
-function closeSearch() {
-    document.getElementById("mySearch").style.height = "0%";
-          Object.assign(document.getElementById("mainNav").style,{display:"block",animation:"fadeIn .71s"});
-          
-	  document.body.style.overflow = 'visible';
+else {
+  document.write('<script type="text/javascript" src="assets/js/search2.js"><\/script>');
 }
 </script>

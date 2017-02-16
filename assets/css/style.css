@@ -138,14 +138,13 @@ collapse
     transition: 0.3s;
 }
 
+
 .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
 }
 
 .overlay .closebtn {
-    right: 45px;
-    font-size: 60px;
-    float: right;
+    display: none;
 }
 
 @media screen and (max-height: 450px) {
@@ -162,7 +161,8 @@ collapse
     height: 100%;
     width: 100%;
     position: relative;
-  z-index: 10;overflow:visible
+  z-index: 1;
+  overflow:visible
   }
 
   .child-header {
@@ -379,32 +379,34 @@ padding-left: 8px;
 }
 .search-location{
   width: 25%;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
   float: left;
 }
 .search-day{
-  width: 12%;
+  width: 13%;
   text-align: left;
   float: left;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 .search-date{
-  width: 15%;
+  width: 16%;
   float: left;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 .search-submit{
-  width:18%;
+  width:17%;
   float: left;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 .input-content{
   width: 100%;
   outline: none !important;
   z-index: 5;
-  overflow: visible;
+  overflow: hidden;
   cursor: pointer;
 height: 38px;
 border: 1px solid #ccc;
@@ -449,6 +451,7 @@ padding: 0px 8px;
   position: absolute;
   top: 100%;
   left: 0;
+  height: 300px;
   z-index: 1000;
   float: left;
   display: none;
@@ -472,6 +475,8 @@ padding: 0px 8px;
   background-clip: padding-box;
   *border-right-width: 2px;
   *border-bottom-width: 2px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .ui-menu-item > a.ui-corner-all {
@@ -496,11 +501,42 @@ padding: 0px 8px;
 }
 /*search responsive*/
 .search-container-responsive{
+  display: block;
+  box-shadow: 1px 1px 5px 3px rgba(0,0,0,0.1);
+  background-color: white;
+  padding: 20px 30px;
+  margin: auto;
+}
+.search-location-responsive{
   display: none;
 }
+.closebtn{
+  display: none;
+}
+.dropdown-menu{
+  width: 100%;
+}
+.dropdown-menu>li>a{
+  font-size:14px;
+}
+@media(max-width:1199px){
+  .search-dropdown{
+    padding-left: 0px;
+  }
+}
 @media(max-width:768px){
+  .ui-autocomplete {
+    width: 100px;
+  }
+  .closebtn{
+    display: block;
+  }
+  .search-location-responsive{
+    display: block;
+  }
   .search-container{
     display: none;
+    overflow: hidden;
   }
   .search-container-responsive{
     display: block;
@@ -541,6 +577,15 @@ padding: 0px 8px;
   }
   .overlay-content-search{
     padding: 0px 25px;
+  }
+  .overlay .closebtn {
+      right: 45px;
+      font-size: 60px;
+      float: right;
+      display: block;
+  }
+  .search-dropdown{
+    padding-left: 10px;
   }
 }
 @-webkit-keyframes fadeIn {
