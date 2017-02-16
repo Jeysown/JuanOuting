@@ -206,7 +206,7 @@ padding-left: 8px;
   padding-bottom: 10px;
 }
 /*resort name*/
-.r-name{
+.r-name,.r-p{
   font-size: 1em;
   margin: 0px;
   font-weight: lighter;
@@ -604,4 +604,76 @@ padding: 0px 8px;
 /*spinner*/
 .spin{
   padding-bottom: 10px;
+}
+/*front end per resort*/
+.parent-resort {
+  width: 100%;
+  position: relative;
+z-index: 1;
+overflow:hidden;
+
+}
+.resort-img {
+    transition: all 1s ease;
+    background:url('../images/balinese/1.png') no-repeat;
+    background-position:center;
+    background-size:cover;
+    z-index: -1;
+    height: 398px;
+    margin-bottom: 50px;
+        overflow: hidden;
+    width: 100%;
+    cursor: pointer;
+}
+.parent-resort:hover > .resort-img {
+    transform: scale(1.05);
+
+}
+.resort-name{
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 24px;
+}
+.r-review{
+    font-weight: 500;
+    line-height: 26px;
+    padding: 0;
+    font-size: 18px;
+    display: inline;
+    vertical-align: top;
+    float: right;
+    clear: both;
+}
+.r-rating{
+  font-size:1.5em;
+  color:#2f566b;
+  float: right;
+  clear: both;
+}
+.r-overall{
+  padding-top: 30px;
+}
+.r-title-description{
+  color:#696969;
+  font-size: 1.4em;
+  padding-bottom: 10px;
+  position: relative;
+  min-height: 1px;
+  border-bottom: 1px solid #e8e8e8;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.r-content-description{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media(max-width:768px){
+  .r-rating,.r-review{
+    float:none;
+    text-align: center;
+    clear: both;
+  }
+  .r-title{
+    text-align: center;
+  }
 }

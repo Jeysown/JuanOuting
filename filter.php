@@ -57,7 +57,7 @@
               </div>
               <div class="filter-box-content">
                 <span class="filter-facilities spin">
-                    <input id="spinner" name="value" style="width:30px;height:20px;" min="0">
+                    <input id="spinner" name="value" style="width:30px;height:20px;" min="0"  >
                     <label for="Bedrooms" class="filter-label">Bedrooms</label>
                   </span>
                 <span class="filter-facilities spin">
