@@ -177,8 +177,11 @@
         <!-- Other Charges -->
 
       </div>
+      <div class="col-sm-4 deck r-overall" >
+        <p style="position:fixed;">dadsasa</p>
+      </div>
       <!-- Reviews -->
-      <div class="col-sm-12 deck">
+      <div class="col-sm-12 deck" style="background-color:white;">
         <div class="r-title-description" >
             <p>Reviews</p>
         </div>
