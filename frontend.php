@@ -78,35 +78,114 @@
             We can only accommodate around 16 persons, 24 can be manageable to sleep and less than 100 to party
             at the social hall Or swimming and stargazing on a late evening.</p>
             <!-- Check in Check out -->
-        <div class="r-title-description">
-            <p>Check In / Check Out</p>
+        <div>
+          <div class="r-title-description">
+              <p>Check In / Check Out</p>
+          </div>
+          <div class="col-xs-6 r-content-description">
+            <p>Check In: <b>8AM</b></p>
+          </div>
+          <div class="col-xs-6 r-content-description">
+            <p>Check Out: <b>6AM</b></p>
+          </div>
         </div>
-        <div class="col-xs-6 r-content-description">
-          <p>Check In: 8AM</p>
+        <!-- Check in Check out -->
+        <!-- Bathrooms, Bedrooms, and Beds -->
+        <div>
+          <div class="r-title-description">
+              <p>Bathrooms, Bedrooms, and Beds</p>
+          </div>
+          <div class="col-xs-6 col-sm-4 r-content-description">
+            <p>Bathrooms: <b>4</b></p>
+          </div>
+          <div class="col-xs-6 col-sm-4 r-content-description">
+            <p>Bedrooms: <b>4</b></p>
+          </div>
+          <div class="col-xs-6 col-sm-4 r-content-description">
+            <p>Beds: <b>4</b></p>
+          </div>
         </div>
-        <div class="col-xs-6 r-content-description">
-          <p>Check Out: 6AM</p>
+        <!-- Bathrooms, Bedrooms, and Beds -->
+        <!--What they have  -->
+      <div>
+          <div class="r-title-description">
+              <p>What they offer</p>
+          </div>
+          <div class="col-xs-6 col-sm-4 r-content-description">
+            <p><b>Kiddie Pool: 3ft</b></p>
+          </div>
+          <div class="col-xs-6 col-sm-4 r-content-description">
+            <p><b>Adult Pool:6ft</b></p>
+          </div>
+          <div class="col-xs-6 col-sm-4 r-content-description">
+            <p><b>Jacuzzi</b></p>
+          </div>
+          <div class="col-xs-6 col-sm-4 r-content-description">
+            <p><b>Billiards</b></p>
+          </div>
+          <div class="col-xs-6 col-sm-4 r-content-description">
+            <p><b>Videoke</b></p>
+          </div>
+          <div class="col-xs-6 col-sm-4 r-content-description">
+            <p><b>Kitchen</b></p>
+          </div>
+          <div class="col-xs-6 col-sm-4 r-content-description">
+            <p><b>Griller</b></p>
+          </div>
+          <div class="col-xs-6 col-sm-4 r-content-description">
+            <p><b>Function Hall</b></p>
+          </div>
         </div>
         <!--What they have  -->
-        <div class="r-title-description">
-            <p>What they offer</p>
+        <!-- Other Charges -->
+        <div>
+          <div class="r-title-description" >
+              <p>Other Charges</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 r-content-description">
+            <p>LPG: <b>Php300.00/22hr ; Php150.00/day or night </b></p>
+          </div>
         </div>
-        <div class="col-xs-6 col-sm-4 r-content-description">
-          <p>Accommodates: 16+</p>
-        </div>
-        <div class="col-xs-6 col-sm-4 r-content-description">
-          <p>Bathrooms: 4</p>
-        </div>
-        <div class="col-xs-6 col-sm-4 r-content-description">
-          <p>Bedrooms: 4</p>
-        </div>
-        <div class="col-xs-6 col-sm-12 r-content-description">
-          <p>Beds: 4</p>
-        </div>
-        <div class="r-title-description">
-            <p>What they offer</p>
-        </div>
+        <!-- Other Charges -->
+
       </div>
+      <!-- Reviews -->
+      <div class="col-sm-12 deck">
+        <div class="r-title-description" >
+            <p>Reviews</p>
+        </div>
+          <div class="review-content">
+            <div class="col-sm-3 r-content-description">
+              <center><img src="assets/images/jason.jpg" class="img-responsive img-circle" alt="">
+              <p class="review-name">Jason Lopez</p>
+              <p>Manila, Philippines</p>
+              </center>
+            </div>
+            <div class="col-sm-9 r-content-description r-review-comment" style="">
+              <p class="r-comment-header"><b>Best Resort Ever</b> <span class="r-review-rating">★★★★</span></p>
+              <p>Vonn was an excellent host in all aspects, especially in terms of communication. He really is a Superhost. I enjoyed my week-long stay at Vonn's place in Manila. Everything was exactly as advertised. The place was very clean, comfortable and cozy. Arrival and departure was a breeze. This condo is close to everything, from malls, tourist spots, and restaurants. It is very much accessible to public transit, LRT train station is just a stone-throw away. and Overall, I had a great and wonderful experience.</p>
+              <p>Reviewed February 26, 2017</p>
+            </div>
+            <div class="col-lg-12 review-hr">
+            </div>
+        </div>
+        <div class="review-content">
+          <div class="col-sm-3 r-content-description">
+            <center><img src="assets/images/joyce.jpg" class="img-responsive img-circle" alt="">
+            <p class="review-name">Joyce Ann Potestades</p>
+            <p>Manila, Philippines</p>
+            </center>
+          </div>
+          <div class="col-sm-9 r-content-description r-review-comment" style="">
+            <p class="r-comment-header"><b>Not very satisfied</b> <span class="r-review-rating">★★★</span></p>
+            <p>The flat is cozy and clean. Although the bedroom can be a bit tight-spaced when using all of the three beds. Nevertheless, the beds are quite comfortable! There are some restaurants in walking distance and two convenience stores next door. The place is quite convenience and easy to find by (online) taxi. Overall we had an amazing stays here and definitely would like to go back if we happen to visit Manila again in the future.</p>
+            <p>Reviewed January 2, 2017</p>
+          </div>
+          <div class="col-lg-12 review-hr">
+          </div>
+      </div>
+      </div>
+        <!-- Reviews -->
     </div>
   </div>
 

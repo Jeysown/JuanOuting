@@ -656,11 +656,11 @@ overflow:hidden;
 .r-title-description{
   color:#696969;
   font-size: 1.4em;
-  padding-bottom: 10px;
   position: relative;
   min-height: 1px;
   border-bottom: 1px solid #e8e8e8;
   padding-top: 10px;
+  clear: both;
   margin-bottom: 10px;
 }
 .r-content-description{
@@ -676,4 +676,37 @@ overflow:hidden;
   .r-title{
     text-align: center;
   }
+}
+.img-circle{
+  margin: 0 auto;
+border: 7px solid #fff;
+  width:100px;
+}
+.review-hr{
+  border-bottom: 1px solid #e8e8e8;
+  clear: both;
+  padding-bottom: 10px;
+}
+.r-review-comment{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.r-comment-header{
+  font-size: 1.2em;
+}
+.review-name{
+  font-weight: bolder;
+  margin:0px;
+}
+.r-review-rating{
+  font-size:1.2em;
+  color:#2f566b;
+  float: right;
+  clear: both;
+  margin-top: -5px;
+}
+.review-content{
+  padding-top: 10px;
+  margin-bottom: 10px;
+  clear: both;
 }
