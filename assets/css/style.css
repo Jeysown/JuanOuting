@@ -705,7 +705,7 @@ border: 7px solid #fff;
   clear: both;
   margin-top: -5px;
 }
-.review-content{
+.review-content,.r-location{
   padding-top: 10px;
   margin-bottom: 10px;
   clear: both;

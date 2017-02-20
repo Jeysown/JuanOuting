@@ -229,6 +229,14 @@
         </div>
       </div>
         <!-- Reviews -->
+        <!-- Location -->
+        <div class="col-sm-12 deck r-location">
+          <div class="r-title-description" >
+              <p>Location</p>
+          </div>
+            <iframe src="https://www.google.com/maps/embed/v1/place?q=Technological%20Institute%20of%20the%20Philippines&zoom=17 &key=AIzaSyBVPZIWcBs6SVr5uECLmrhe8c-9DD8dGe0" style="height:500px;width:100%;border:none"></iframe>
+        </div>
+          <!-- Location -->
     </div>
   </div>
 
