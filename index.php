@@ -29,7 +29,6 @@
         <img src="assets/images/1.jpg" alt="" class="r-img">
         <p class="r-content"><b class="r-price">₱5000 </b><span class="indiv-rating">★★★★</span></p>
         <p class="r-name"> 88 Forest and Hotspring abcd asdsa Resort </p>
-        <p><b>50 pax</b></p>
       </div>
       <div class="col-sm-4 card">
         <img src="assets/images/2.jpg" alt="" class="r-img">

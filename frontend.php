@@ -115,7 +115,7 @@
             <p><b>Kiddie Pool: 3ft</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><b>Adult Pool:6ft</b></p>
+            <p><b>Adult Pool: 6ft</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
             <p><b>Jacuzzi</b></p>
@@ -135,8 +135,36 @@
           <div class="col-xs-6 col-sm-4 r-content-description">
             <p><b>Function Hall</b></p>
           </div>
+          <div class="col-xs-6 col-sm-4 r-content-description">
+            <p><b>Wifi</b></p>
+          </div>
         </div>
         <!--What they have  -->
+        <!-- Description -->
+        <div>
+          <div class="r-title-description" >
+              <p>Description</p>
+          </div>
+          <div class="col-xs-12 r-content-description">
+            <p>Clean and open space good for party, wedding reception, baptismal, debut, team building or just plain family gathering or friends get together. As listed 16 pax to comfortably sleep on the listed price in the excess of 16 pax shall be subject to additional fee, we can also accommodate less 100 people to party at the social hall but subject to confirmation and additional fee. The spacious pavillion with good air circulation will give you a relaxing feeling.</p>
+          </div>
+        </div>
+        <!-- Description -->
+        <!-- House Rules -->
+        <div>
+          <div class="r-title-description" >
+              <p>House Rules</p>
+          </div>
+          <div class="col-xs-12 r-content-description">
+            <p>We request a non smoking on the bedroom and toilet and bathrooms. As much as possible please keep our place clean so others can also enjoy our place.
+              Smoking is allowed only at the social hall provided that the cigarette buts will only end up at the ash tray.</p>
+            <p>No drinking or eating inside the swimming pool.</p>
+            <p>We have provide beautiful ceramic vases to contemplate the resort and tropical feel in our rest house please do take good care of them any damage will be charge accordingly, we do not provide towels,blankets and toiletries please do bring your own.</p>
+            <p>A care taker will always be present to assist you but please do respect that he is there to check if everthing is in good condition nothing more nothing less</p>
+            <p>Please keep in mind that the karaoke machine is provided free of charge but if the microphone is damage by you or your group you will be charge to the security deposit</p>
+          </div>
+        </div>
+        <!-- House Rules -->
         <!-- Other Charges -->
         <div>
           <div class="r-title-description" >
@@ -183,7 +211,22 @@
           </div>
           <div class="col-lg-12 review-hr">
           </div>
-      </div>
+        </div>
+        <div class="review-content">
+          <div class="col-sm-3 r-content-description">
+            <center><img src="assets/images/glen.jpg" class="img-responsive img-circle" alt="">
+            <p class="review-name">Glenwin Bernabe</p>
+            <p>Manila, Philippines</p>
+            </center>
+          </div>
+          <div class="col-sm-9 r-content-description r-review-comment" style="">
+            <p class="r-comment-header"><b>Great Place</b> <span class="r-review-rating">★★★★</span></p>
+            <p>Place is beautifully designed and practical. Just make sure to bring blankets, toilet paper and prepare for cold showers. Only a single electric stove available and no microwave. It is great place for close families, but i wouldnt recommend it for more than 7 couples. ( Max Bed sharing)</p>
+            <p>Reviewed December 1, 2016</p>
+          </div>
+          <div class="col-lg-12 review-hr">
+          </div>
+        </div>
       </div>
         <!-- Reviews -->
     </div>
