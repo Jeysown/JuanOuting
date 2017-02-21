@@ -5,6 +5,7 @@ $(document).ready(function(){
 
   $(function DatePicker(){
     $("#FromDate").datepicker({
+      minDate: 0,
       onSelect: function(dateText, inst) {
         $("#ToDate").val($.datepicker.formatDate('mm/dd/yy', new Date(new Date(dateText).getTime() + 1*24*60*60*1000)));
           $("#FromDate").val($.datepicker.formatDate('mm/dd/yy', new Date(new Date(dateText).getTime())));
@@ -13,6 +14,7 @@ $(document).ready(function(){
     });
 
     $("#ToDate").datepicker({
+      minDate:0,
       onSelect: function (dateText, inst) {
         $("#ToDate").val($.datepicker.formatDate('mm/dd/yy', new Date(new Date(dateText).getTime())));
       }

@@ -84,6 +84,7 @@ $( "#spinner2" ).spinner();
 <script type="text/javascript">
 if (screen && screen.width < 768) {
   document.write('<script type="text/javascript" src="assets/js/search1.js"><\/script>');
+
 }
 else {
   document.write('<script type="text/javascript" src="assets/js/search2.js"><\/script>');

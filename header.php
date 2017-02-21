@@ -8,14 +8,13 @@
     <link rel="stylesheet" href="assets/fonts/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="assets/css/style.css" media="screen" title="no title">
     <link rel="stylesheet" href="assets/css/jquery-ui.css" media="screen" title="no title">
-      <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   </head>
   <body id="page-top">
   <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
       <div class="header-container" >
           <div class="navbar-header page-scroll">
               <div class="navbar-toggle" id="navbar-toggle" data-toggle="collapse" onclick="openNav();">
-
                   <i class="fa fa-bars"></i>
               </div>
               <a class="navbar-brand page-scroll" href="#page-top">JuanOuting</a>

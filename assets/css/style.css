@@ -6,6 +6,7 @@ body{
   padding:0;margin:0;
   color: #696969;
     font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: white;
 }
 .header-container{
   padding-left: 10px;
@@ -66,7 +67,7 @@ body{
   color: white;
   background-color: #696969;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .navbar-custom {
     background-color: transparent;
     padding: 25px 0;
@@ -246,6 +247,8 @@ padding-left: 8px;
   width: 100%;
   padding: 40px 0px 10px;
   color: #fff;
+  z-index: 500;
+  position: absolute;
 }
 
 .footer2-title{
@@ -274,7 +277,7 @@ padding-left: 8px;
 .footer-container{
   margin: 0px auto;
 }
-@media(min-width:768px){
+@media(min-width:767px){
   .footer-content{
     width: 25%;
     float: left;
@@ -304,7 +307,7 @@ padding-left: 8px;
     font-weight: bold;
   }
 }
-@media(max-width:768px){
+@media(max-width:767px){
   .footer-content{
     display: none;
     height: 100%;
@@ -529,7 +532,7 @@ padding: 0px 8px;
     padding-left: 0px;
   }
 }
-@media(max-width:768px){
+@media(max-width:767px){
   .ui-autocomplete {
     width: 100px;
   }
@@ -585,7 +588,7 @@ padding: 0px 8px;
   }
   .overlay .closebtn {
       right: 45px;
-      font-size: 60px;
+      font-size: 40px;
       float: right;
       display: block;
   }
@@ -667,7 +670,7 @@ overflow:hidden;
   padding-left: 0px;
   padding-right: 0px;
 }
-@media(max-width:768px){
+@media(max-width:767px){
   .r-rating,.r-review{
     float:none;
     text-align: center;
@@ -709,4 +712,63 @@ border: 7px solid #fff;
   padding-top: 10px;
   margin-bottom: 10px;
   clear: both;
+}
+.doFixed{
+    position:fixed;
+    z-index:100;
+    padding-right: 105px;
+    top: 70px;
+}
+@media(max-width:1200px){
+  .doFixed{
+    padding-right: 40px;
+  }
+}
+@media(min-width:1500px){
+  .doFixed{
+    padding-right: 15%;
+  }
+}
+@media(min-width:2000px){
+  .doFixed{
+    padding-right: 22%;
+  }
+}
+.overlay-fixed{
+  z-index:500;
+  background-color:white;
+}
+@media(max-width:767px){
+  .doFixed{
+        padding-right: 25px;
+  }
+  .overlay-fixed{
+    z-index:0;
+  }
+}
+.clearFixed{
+  position: static;
+      padding-right: 0px;
+}
+
+.prices{
+  padding:0px;
+}
+.form-group{
+  margin-bottom:10px;
+}
+@media(max-width:600px){
+  .panel-default{
+    border-color: none;
+        border: none;
+        box-shadow: none;
+  }
+}
+.overlay-content-book{
+  padding: 0px 5px;
+}
+.sticky-button-book{
+  position: fixed;
+  bottom:10px;
+  left: 0px;
 }
