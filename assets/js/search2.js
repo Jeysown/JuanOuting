@@ -8,14 +8,14 @@ $(document).ready(function(){
 });
 $(window).scroll(function(e){
 
-if ($(this).scrollTop() > 500 && $(this).scrollTop() < 1500){
+if ($(this).scrollTop() > 600 && $(this).scrollTop() < 1600){
   $('.fixedElement').removeClass("clearFixed").addClass("doFixed");
 }
-if ($(this).scrollTop() < 500){
+if ($(this).scrollTop() < 600){
   $('.fixedElement').removeClass("doFixed").addClass("clearFixed");
 
 }
-if ($(this).scrollTop() > 1500){
+if ($(this).scrollTop() > 1600){
   $('.fixedElement').removeClass("doFixed").addClass("clearFixed");
 
 }

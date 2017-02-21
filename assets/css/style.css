@@ -172,6 +172,7 @@ collapse
       background:url('../images/header.jpg') no-repeat;
       background-position:center;
       background-size:cover;
+
       filter:brightness(.7);
       z-index: -1;
       height: 398px;
@@ -617,20 +618,28 @@ overflow:hidden;
 
 }
 .resort-img {
-    transition: all 1s ease;
     background:url('../images/balinese/1.png') no-repeat;
     background-position:center;
-    background-size:cover;
+    background-size:cover !important;
     z-index: -1;
-    height: 398px;
+    height: 520px;
     margin-bottom: 50px;
         overflow: hidden;
     width: 100%;
     cursor: pointer;
 }
-.parent-resort:hover > .resort-img {
-    transform: scale(1.05);
-
+@media(max-width:767px){
+  .resort-img {
+      background:url('../images/balinese/1.png') no-repeat;
+      background-position:center;
+      background-size:cover !important;
+      z-index: -1;
+      height: 400px;
+      margin-bottom: 50px;
+          overflow: hidden;
+      width: 100%;
+      cursor: pointer;
+  }
 }
 .resort-name{
     font-weight: 500;
