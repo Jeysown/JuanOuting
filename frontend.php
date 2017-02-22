@@ -69,7 +69,7 @@
           <p class="r-p"><span class="r-review">Based on 3 reviews</span></p>
         </div>
       </div>
-      <div class="col-sm-7 col-md-8 deck r-overall">
+      <div class="col-sm-7 col-md-9 deck r-overall">
         <!-- Overview of contents -->
         <div class="r-title-description">
           <p>About Us</p>
@@ -192,7 +192,7 @@
         <!-- Other Charges -->
 
       </div>
-  <div class="col-sm-5 col-md-4 deck r-overall " >
+  <div class="col-sm-5 col-md-3 deck r-overall " >
 
           <div class="fixedElement clearFixed" id="book-responsive">
                       <div>

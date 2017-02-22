@@ -67,15 +67,7 @@
 <script type="text/javascript" src="assets/js/functions.js"></script>
 <script src="assets/js/search.js"></script>
 <script>
-function openNav() {
-    document.getElementById("myNav").style.height = "100%";
-     document.getElementById( "navbar-toggle" ).setAttribute( "onClick", "javascript: closeNav();" );
-}
 
-function closeNav() {
-    document.getElementById("myNav").style.height = "0%";
-    document.getElementById( "navbar-toggle" ).setAttribute( "onClick", "javascript: openNav();" );
-}
 $( "#spinner" ).spinner();
 $( "#spinner1" ).spinner();
 $( "#spinner2" ).spinner();
@@ -88,5 +80,13 @@ if (screen && screen.width < 768) {
 }
 else {
   document.write('<script type="text/javascript" src="assets/js/search2.js"><\/script>');
+}
+function visibleSearch(){
+  $('.search-container-responsive').removeClass("search-bar-hide").addClass("search-bar-show");
+
+}
+function hideSearch(){
+  $('.search-container-responsive').removeClass("search-bar-show").addClass("search-bar-hide");
+
 }
 </script>
