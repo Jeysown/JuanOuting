@@ -21,6 +21,7 @@ $(document).ready(function(){
     });
   });
 
+
   $(function AutoComplete(){
     $( "#resort" ).autocomplete({
       source: 'search.php'

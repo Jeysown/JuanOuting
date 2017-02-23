@@ -61,16 +61,46 @@
 </html>
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/header.js"></script>
 <script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
-<script type="text/javascript" src="assets/js/ease.js"></script>
 <script type="text/javascript" src="assets/js/functions.js"></script>
+<script type="text/javascript" src="assets/js/ease.js"></script>
+<script type="text/javascript" src="assets/js/header.js"></script>
 <script src="assets/js/search.js"></script>
+<script src="assets/js/login.js"></script>
+
 <script>
 
 $( "#spinner" ).spinner();
 $( "#spinner1" ).spinner();
 $( "#spinner2" ).spinner();
+
+$("#FromDate1").val($.datepicker.formatDate('mm/dd/yy', new Date(new Date())));
+$("#ToDate1").val($.datepicker.formatDate('mm/dd/yy', new Date(new Date().getTime() + 1*24*60*60*1000)));
+
+$(function DatePicker(){
+$("#FromDate1").datepicker({
+  minDate: 0,
+  onSelect: function(dateText, inst) {
+    $("#ToDate1").val($.datepicker.formatDate('mm/dd/yy', new Date(new Date(dateText).getTime() + 1*24*60*60*1000)));
+      $("#FromDate1").val($.datepicker.formatDate('mm/dd/yy', new Date(new Date(dateText).getTime())));
+    $.datepicker.setDefaults({"defaultDate":dateText});
+  }
+});
+
+$("#ToDate1").datepicker({
+  minDate:0,
+  onSelect: function (dateText, inst) {
+    $("#ToDate1").val($.datepicker.formatDate('mm/dd/yy', new Date(new Date(dateText).getTime())));
+  }
+});
+});
+
+    $(function AutoComplete1(){
+      $( "#resort1" ).autocomplete({
+        source: 'search.php',
+        appendTo: '#yey'
+      });
+    });
 </script>
 
 <script type="text/javascript">
@@ -80,6 +110,9 @@ if (screen && screen.width < 768) {
 }
 else {
   document.write('<script type="text/javascript" src="assets/js/search2.js"><\/script>');
+  document.getElementById("myBooking").style.height = "100%";
+  $("#myBooking").removeAttr('class');
+  $("#content-booking").removeAttr('class');
 }
 function visibleSearch(){
   $('.search-container-responsive').removeClass("search-bar-hide").addClass("search-bar-show");
@@ -89,4 +122,49 @@ function hideSearch(){
   $('.search-container-responsive').removeClass("search-bar-show").addClass("search-bar-hide");
 
 }
+
+function signupButton(){
+  document.getElementById("login-form").style.display = "none";
+    document.getElementById("lost-form").style.display = "none";
+  document.getElementById("register-form").style.display = "block";
+  $('.modal-dialog').removeClass("modal-lg").addClass("modal-sm");
+}
+function signupButtonLogin(){
+
+    $('.modal-dialog').removeClass("modal-lg").addClass("modal-sm");
+  document.getElementById("login-form").style.display = "block";
+    document.getElementById("lost-form").style.display = "none";
+  document.getElementById("register-form").style.display = "none";
+}
+function loginButton(){
+  document.getElementById("login-form").style.display = "block";
+  document.getElementById("lost-form").style.display = "none";
+  document.getElementById("register-form").style.display = "none";
+  $('.modal-dialog').removeClass("modal-sm").addClass("modal-lg");
+
+}
+function loginButtonSignup(){
+    $('.modal-dialog').removeClass("modal-sm").addClass("modal-lg");
+  document.getElementById("login-form").style.display = "none";
+  document.getElementById("lost-form").style.display = "none";
+  document.getElementById("register-form").style.display = "block";
+}
+function signupButtonPassword(){
+
+    $('.modal-dialog').removeClass("modal-lg").addClass("modal-sm");
+
+}
+function closeButtonLogin(){
+    $('.modal-dialog').removeClass("modal-lg").removeClass("modal-sm");
+}
+function lostPassword(){
+  $('.modal-dialog').removeClass("modal-lg").addClass("modal-sm");
+}
+function loginButtonPassword(){
+
+    $('.modal-dialog').removeClass("modal-sm").addClass("modal-lg");
+
+
+}
+
 </script>

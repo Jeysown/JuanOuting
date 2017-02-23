@@ -16,16 +16,16 @@ function closeSearch() {
 }
 
 
-function openSearch1() {
-    document.getElementById("booking").style.height = "100%";
+function openbooking() {
+    document.getElementById("myBooking").style.height = "100%";
     Object.assign(document.getElementById("mainNav").style,{display:"none"});
     document.body.style.overflow = 'hidden';
 
 
 }
 
-function closeSearch1() {
-    document.getElementById("booking").style.height = "0%";
+function closebooking() {
+    document.getElementById("myBooking").style.height = "0%";
           Object.assign(document.getElementById("mainNav").style,{display:"block",animation:"fadeIn .71s"});
 	  document.body.style.overflow = 'visible';
 

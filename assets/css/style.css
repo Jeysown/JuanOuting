@@ -16,12 +16,13 @@ body{
   margin-right: 0px;
 }
 .navbar-default{
-  background-color: transparent;
-  border-color: transparent;
+  background-color: white;
+  border-color: white;
+  padding: 5px 0px;
 
 }
 .navbar-custom .navbar-brand {
-  color: white;
+  color: #696969;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
       font-size: 2em;
 }
@@ -29,15 +30,15 @@ body{
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: white;
+  color: #696969;
 }
 .navbar-custom .navbar-collapse {
-  border-color: rgba(255, 255, 255, 0.02);
+  border-color: rgba(255, 255, 255, 1);
 }
 .navbar-custom .navbar-toggle {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  color: white;
+  color: #696969;
   font-size: 12px;
   cursor: pointer;
 }
@@ -50,31 +51,34 @@ body{
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: white;
+  color: #696969;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #fff;
+  color: #696969;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
-  color: white;
+  color: #696969;
   background-color: #696969;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
-  color: white;
+  color: #696969;
   background-color: #696969;
 }
 @media (min-width: 767px) {
   .navbar-custom {
-    background-color: transparent;
-    padding: 25px 0;
+    background-color: white;
+    padding: 15px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
     border: none;
+  }
+  .nav-frontend{
+    padding: 5px 0px;
   }
   .navbar-custom .navbar-brand {
     font-size: 2em;
@@ -169,11 +173,11 @@ collapse
 
   .child-header {
       transition: all 2s ease;
-      background:url('../images/header.jpg') no-repeat;
+      background:white;
       background-position:center;
       background-size:cover;
-
-      filter:brightness(.7);
+/*
+      filter:brightness(.7);*/
       z-index: -1;
       height: 398px;
       margin-bottom: 50px;
@@ -418,7 +422,7 @@ padding-left: 8px;
   cursor: pointer;
 height: 38px;
 border: 1px solid #ccc;
-border-radius: 4px;
+border-radius: 0px;
 box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
 transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 color: #555;
@@ -459,12 +463,12 @@ padding: 0px 8px;
   position: absolute;
   top: 100%;
   left: 0;
-  height: 300px;
+  max-height: 300px;
   z-index: 1000;
   float: left;
   display: none;
-  min-width: 160px;
-  padding: 4px 0;
+  min-width: 168px;
+  padding: 0px 0;
   margin: 0 0 10px 25px;
   list-style: none;
   background-color: #ffffff;
@@ -523,6 +527,9 @@ padding: 0px 8px;
 }
 .dropdown-menu{
   width: 100%;
+}
+.dropdown-menu{
+max-height:200px;overflow-y:scroll;
 }
 .dropdown-menu>li>a{
   font-size:14px;
@@ -782,15 +789,38 @@ border: 7px solid #fff;
 .search-show{
   visibility: hidden;
 }
-
+.search-header{
+  visibility: visible;
+  height: 50px;
+padding: 16px 0px;
+font-size: 15px;
+line-height: 49px;
+float: left;
+width: 400px;
+border: 1px solid white;
+}
+.search-header-icon{
+  visibility: visible;
+  height: 50px;
+padding: 13px 5px;
+line-height: 20px;
+float: left;
+background: white;
+color: #676767;
+border: 1px solid white;
+}
+.search-bar-frontend{
+  display: none;
+}
 @media(max-width:767px){
   .search-show{
     visibility: visible;
     height: 50px;
-padding: 15px 15px;
+padding: 15px 10px;
 font-size: 18px;
 line-height: 20px;
 float: right;
+
   }
   .search-bar-show{
     display: block;
@@ -798,4 +828,128 @@ float: right;
   .search-bar-hide{
     display: none
   }
+  .search-header{
+        display: none;
+    height: 50px;
+  padding: 16px 0px;
+  font-size: 15px;
+  line-height: 49px;
+  float: left;
+  width: 400px;
+  border: 1px solid white;
+  }
+  .search-header-icon{
+    display: none;
+    height: 50px;
+  padding: 13px 5px;
+  font-size: 17px;
+  line-height: 20px;
+  float: left;
+  background: white;
+  color: #676767;
+  border: 1px solid white;
+  }
 }
+
+
+/*Log In*/
+.modal-spaces{
+  padding-left:2px;
+  padding-right: 2px;
+}
+.header-modal-row{
+  padding-bottom: 20px;
+}
+.login-button{
+  height:38px;
+  width: 40%;
+  border-radius: 0px;
+}
+.social-facebook,.social-facebook:hover,.social-facebook:active{
+  background-color: #3b5998;
+  border-color: #3b5998;
+  font-size: 1.1em;
+    width: 100%;
+    border-radius: 0px;
+
+}
+.social-twitter,.social-twitter:hover,.social-twitter:active{
+  background-color:  #00aced;
+  border-color: #00aced;
+  font-size: 1.1em;
+    width: 100%;
+    border-radius: 0px;
+
+}
+.social-google,.social-google:hover,.social-google:active{
+  background-color: #ff4343;
+  border-color: #ff4343;
+  font-size: 1.1em;
+  width: 100%;
+  border-radius: 0px;
+
+}
+
+.modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .8;
+}
+
+.modal-content {
+    background-color: white;
+    border: 1px solid #bdc3c7;
+    border-radius: 0px;
+    outline: 0;
+}
+
+.modal-header {
+    min-height: 16.43px;
+    padding: 15px 15px 15px 15px;
+    border-bottom: 0px;
+}
+
+.modal-body {
+    position: relative;
+    padding: 5px 5px 5px 5px;
+}
+
+.modal-footer {
+    padding: 50px;
+    text-align: left;
+    border-top: 0px;
+}
+
+.checkbox {
+    margin-bottom: 0px;
+}
+
+@media(min-width:992px){
+  .login-column{
+    width: 45%;
+  }
+  .modal-sm{
+    width:28%;
+  }
+}
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none; /* This makes sure that we can still click outside of the modal to close it */
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+}
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events: all;
+        box-shadow: 1px 1px 5px 3px rgba(0,0,0,.8);
+}
+/*Log In*/

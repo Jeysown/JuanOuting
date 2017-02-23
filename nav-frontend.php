@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   </head>
   <body id="page-top">
-  <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+  <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top nav-frontend">
       <div class="header-container">
           <div class="navbar-header page-scroll">
 
@@ -20,7 +20,7 @@
             </button>
               <a class="navbar-brand page-scroll" href="#page-top">JuanOuting</a>
               <i class="fa fa-search search-show" aria-hidden="true"  onClick="openSearch();visibleSearch();"></i>
-                <i class="fa fa-search search-header-icon" aria-hidden="true" id="yey"></i><input id="resort1" onkeyup="AutoComplete1()" class="ui-autocomplete-input search-header" placeholder="Search" autocomplete="off" >
+              <i class="fa fa-search search-header-icon" aria-hidden="true" id="yey"></i><input id="resort1" onkeyup="AutoComplete1()" class="ui-autocomplete-input search-header" placeholder="Search" autocomplete="off" >
           </div>
 
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -30,13 +30,14 @@
                       <a href="#page-top"></a>
                   </li>
                   <li>
-                      <a href="#Maps">Help</a>
+                      <a href="#">Help</a>
                   </li>
                   <li>
-                      <a href="#Maps">Sign Up</a>
+                      <a href="#" data-toggle="modal" data-target="#myModal" onclick="signupButton()">Sign Up</a>
                   </li>
                   <li>
-                      <a href="#Maps">Log In</a>
+                      <a href="#" data-toggle="modal" data-target="#myModal" onclick="loginButton()">Log In</a>
+
                   </li>
 
                       </ul>
