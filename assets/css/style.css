@@ -10,7 +10,7 @@ body{
     background-color: white;
 }
 body.modal-open {
-    overflow: auto;
+    overflow-x: hidden;
 }
 body.modal-open[style] {
     padding-right: 0px !important;
@@ -285,6 +285,23 @@ padding-left: 8px;
 .social-media>a>i{
   font-size: 40px;
   padding-left:10px;
+}
+.social-signup{
+  line-height: 35px;
+  font-size: 2em;
+}
+.social-button{
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.social-button:after{
+  content : "";
+  margin: auto;
+  left    : 0;
+  bottom  : 0;
+  height  : 1px;
+  width   : 85%;
+  border-bottom:1px solid #ccc;
 }
 .footer2{
   text-align: center;
@@ -932,7 +949,7 @@ float: right;
 }
 
 .modal-footer {
-    padding: 50px;
+    padding: 50px 0px;
     text-align: left;
     border-top: 0px;
 }
@@ -969,5 +986,61 @@ float: right;
     margin: 0 auto;
     pointer-events: all;
         box-shadow: 1px 1px 5px 3px rgba(0,0,0,.8);
+}
+
+.name-label {
+        padding: 0px 35px;
+}
+#input-account,#input-email,#input-password {
+    position: relative;
+}
+#input-account:before {
+    content:"\f007";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 1.4em;
+    padding-left: 7px;
+}
+#input-account1:before {
+    content:"\f007";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 1.4em;
+    padding-left: 7px;
+}
+#input-email:before {
+    content:"\f0e0";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 1.4em;
+    padding-left: 5px;
+
+}
+#input-password:before {
+    content:"\f023";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    font-size: 1.8em;
+    padding-left: 8px;
+
+}
+@media(max-width:767px){
+  #input-account1:before {
+      content:"\f007";
+      font-family: FontAwesome;
+      position: absolute;
+      top: 40px;
+      left: 5px;
+      font-size: 1.4em;
+      padding-left: 7px;
+  }
 }
 /*Log In*/
