@@ -122,33 +122,43 @@
                              <div class="row">
                                  <div class="col-xs-12">
                                      <div class="form-group">
-                                         <center><label class="header-modal-row">Forgot your account?</label></center>
-                                         <div class="has-feedback">
-                                           <input type="text" id="login_username" class="input-content" placeholder="Username" required/></input>
-                                         </div>
+                                         <center><label>Forgot your account?</label></center>
                                      </div>
                                  </div>
                              </div>
+                             <div class="col-xs-12">
                              <div class="row">
+                               <div class="col-xs-12">
+                                   <div class="form-group">
+                                       <div class="has-feedback">
+                                         <p style="text-align:justify;">Please enter the email address associated with your account, and we’ll email you a link to reset your password.</p>
+                                       </div>
+                                   </div>
+                               </div>
                                  <div class="col-xs-12">
                                      <div class="form-group">
                                          <div class="has-feedback">
-                                           <input type="text" id="login_password" class="input-content" placeholder="Password" required/></input>
+                                           <input type="email" id="login_email" class="input-content" placeholder="Email Address" required/></input>
                                          </div>
                                      </div>
+                                      <button class="btn btn-primary btn-lg btn-block login-button" type="button" style="padding:0px;width:100%;margin-bottom:20px;">Reset my Password</button>
                                  </div>
-                             </div>
-                             <div class="row">
-                                 <div class="col-xs-12">
-                                   <center><button data-dismiss="modal" data-toggle="modal" data-target="#loginModal" id="login_register_btn" type="button" class="btn-link header-modal-row" >Have an account already? Log in here</button></center>
-                                     <center><button data-dismiss="modal" data-toggle="modal" data-target="#registerModal" id="login_register_btn" type="button" class="btn-link header-modal-row" >Don't have an account yet? Register now</button></center>
 
-                                 </div>
+
                              </div>
+
+                           </div>
+
 
             		    	</div>
-    				        <div class="modal-footer">
+    				        <div class="modal-footer" style="padding-bottom: 20px;">
+                      <div class="row">
+                          <div class="col-xs-12">
+                            <center>Have an account already? <button data-dismiss="modal" data-toggle="modal" data-target="#loginModal" id="login_register_btn" type="button" class="btn-link" >Log in here</button></center>
+                              <center>Don't have an account yet? <button data-dismiss="modal" data-toggle="modal" data-target="#registerModal" id="login_register_btn" type="button" class="btn-link" >Register now</button></center>
 
+                          </div>
+                      </div>
     				        </div>
                         </form>
                         <!-- End # Login Form -->
