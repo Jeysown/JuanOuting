@@ -3,10 +3,22 @@ input:focus {
     outline:none !important;
 }
 body{
-  padding:0;margin:0;
+  padding:0 !important;
+  margin:0 !important;
   color: #696969;
     font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: white;
+}
+body.modal-open {
+    overflow: auto;
+}
+body.modal-open[style] {
+    padding-right: 0px !important;
+}
+
+.modal::-webkit-scrollbar {
+    width: 0 !important; /*removes the scrollbar but still scrollable*/
+    /* reference: http://stackoverflow.com/a/26500272/2259400 */
 }
 .header-container{
   padding-left: 10px;
@@ -173,7 +185,7 @@ collapse
 
   .child-header {
       transition: all 2s ease;
-      background:white;
+      background:#c9c9c9;
       background-position:center;
       background-size:cover;
 /*
@@ -787,34 +799,39 @@ border: 7px solid #fff;
   left: 0px;
 }
 .search-show{
-  visibility: hidden;
+  display: none;
 }
 .search-header{
-  visibility: visible;
   height: 50px;
 padding: 16px 0px;
 font-size: 15px;
 line-height: 49px;
-float: left;
 width: 400px;
 border: 1px solid white;
 }
+
 .search-header-icon{
-  visibility: visible;
   height: 50px;
 padding: 13px 5px;
 line-height: 20px;
-float: left;
 background: white;
 color: #676767;
 border: 1px solid white;
+}
+#searchOffset{
+  float: left;
+  visibility: hidden;
+}
+#searchOffset.affix{
+  visibility: visible;
+  margin-left: 180px;
 }
 .search-bar-frontend{
   display: none;
 }
 @media(max-width:767px){
   .search-show{
-    visibility: visible;
+    display: block;
     height: 50px;
 padding: 15px 10px;
 font-size: 18px;

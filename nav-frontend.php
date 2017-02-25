@@ -33,10 +33,10 @@
                       <a href="#">Help</a>
                   </li>
                   <li>
-                      <a href="#" data-toggle="modal" data-target="#myModal" onclick="signupButton()">Sign Up</a>
+                      <a href="#" data-toggle="modal" data-target="#registerModal">Sign Up</a>
                   </li>
                   <li>
-                      <a href="#" data-toggle="modal" data-target="#myModal" onclick="loginButton()">Log In</a>
+                      <a href="#" data-toggle="modal" data-target="#loginModal">Log In</a>
 
                   </li>
 

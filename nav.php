@@ -18,9 +18,11 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
             </button>
-              <a class="navbar-brand page-scroll" href="#page-top">JuanOuting</a>
+              <a class="navbar-brand page-scroll" href="index.php">JuanOuting</a>
               <i class="fa fa-search search-show" aria-hidden="true"  onClick="openSearch();visibleSearch();"></i>
-                <i class="fa fa-search search-header-icon" aria-hidden="true" id="yey"></i><input id="resort1" onkeyup="AutoComplete1()" class="ui-autocomplete-input search-header" placeholder="Search" autocomplete="off" >
+                <div id="searchOffset">
+                  <i class="fa fa-search search-header-icon" aria-hidden="true" id="yey"></i><input id="resort1" onkeyup="AutoComplete1()" class="ui-autocomplete-input search-header" placeholder="Search" autocomplete="off" >
+                </div>
           </div>
 
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -33,10 +35,11 @@
                       <a href="#Maps">Help</a>
                   </li>
                   <li>
-                      <a href="#Maps">Sign Up</a>
+                      <a href="#" data-toggle="modal" data-target="#registerModal">Sign Up</a>
                   </li>
                   <li>
-                      <a href="#Maps">Log In</a>
+                      <a href="#" data-toggle="modal" data-target="#loginModal">Log In</a>
+
                   </li>
 
                       </ul>

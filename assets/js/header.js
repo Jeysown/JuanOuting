@@ -28,8 +28,15 @@
     // Offset for Main Navigation
     $('#mainNav').affix({
         offset: {
-            top: 100
+            top: 450
         }
-    })
+    });
+
+    $('#searchOffset').affix({
+        offset: {
+            top: 450
+        }
+    });
+
 
 })(jQuery); // End of use strict

@@ -57,6 +57,7 @@
         </div>
     </div>
 </div>
+<?php include 'modal.php' ?>
 </body>
 </html>
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
@@ -123,48 +124,5 @@ function hideSearch(){
 
 }
 
-function signupButton(){
-  document.getElementById("login-form").style.display = "none";
-    document.getElementById("lost-form").style.display = "none";
-  document.getElementById("register-form").style.display = "block";
-  $('.modal-dialog').removeClass("modal-lg").addClass("modal-sm");
-}
-function signupButtonLogin(){
-
-    $('.modal-dialog').removeClass("modal-lg").addClass("modal-sm");
-  document.getElementById("login-form").style.display = "block";
-    document.getElementById("lost-form").style.display = "none";
-  document.getElementById("register-form").style.display = "none";
-}
-function loginButton(){
-  document.getElementById("login-form").style.display = "block";
-  document.getElementById("lost-form").style.display = "none";
-  document.getElementById("register-form").style.display = "none";
-  $('.modal-dialog').removeClass("modal-sm").addClass("modal-lg");
-
-}
-function loginButtonSignup(){
-    $('.modal-dialog').removeClass("modal-sm").addClass("modal-lg");
-  document.getElementById("login-form").style.display = "none";
-  document.getElementById("lost-form").style.display = "none";
-  document.getElementById("register-form").style.display = "block";
-}
-function signupButtonPassword(){
-
-    $('.modal-dialog').removeClass("modal-lg").addClass("modal-sm");
-
-}
-function closeButtonLogin(){
-    $('.modal-dialog').removeClass("modal-lg").removeClass("modal-sm");
-}
-function lostPassword(){
-  $('.modal-dialog').removeClass("modal-lg").addClass("modal-sm");
-}
-function loginButtonPassword(){
-
-    $('.modal-dialog').removeClass("modal-sm").addClass("modal-lg");
-
-
-}
 
 </script>
