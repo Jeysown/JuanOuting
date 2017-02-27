@@ -448,8 +448,11 @@
                                               </div>
                                         </div>
                                       </div>
-
-                                    <button class="btn btn-primary btn-lg btn-block login-button" type="button" style="padding:0px;width:100%;margin-bottom:20px;">Sign Up</button>
+                                      <span class="checkbox filter-facilities"style="text-align:justify;padding-bottom:10px;">
+                                          <input type="checkbox" id="terms" style="margin-left:0px;">
+                                          <label for="terms" class="filter-label" style="display:inline;">Check here to indicate that you have read and agree to the terms of the <a href="#">Juanouting Customer Agreement</a></label>
+                                        </span>
+                                      <button class="btn btn-primary btn-lg btn-block login-button" type="button" style="padding:0px;width:100%;margin-bottom:20px;">Sign Up</button>
 
                               </div>
                               <div>
