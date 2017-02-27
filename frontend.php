@@ -342,4 +342,4 @@
       </div>
 
     </div>
-<?php include 'footer.php' ?>
+<?php include 'footer-frontend.php' ?>
