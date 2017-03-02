@@ -645,6 +645,9 @@ max-height:200px;overflow-y:scroll;
 .spin{
   padding-bottom: 10px;
 }
+.spin>.dropdown>ul{
+  width:0px;
+}
 /*front end per resort*/
 .parent-resort {
   width: 100%;
@@ -1044,3 +1047,131 @@ float: right;
   }
 }
 /*Log In*/
+/*progress-container bar*/
+
+    .progress-container {
+      margin: auto;
+      padding: 0;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+    .progress-container a {
+      color: white;
+      text-decoration: none;
+    }
+    .progress-container em {
+      display: block;
+      font-size: 1.1em;
+      font-weight: bold;
+
+    }
+
+    .progress-container li {
+      float: left;
+      margin-left: 0;
+      width: 150px;
+      height: 70px;
+      list-style-type: none;
+      padding: 5px 5px 5px 30px;
+      border-right: 3px solid white;
+      position: relative;
+      cursor: pointer;
+    }
+
+
+    @media(min-width:1030px){
+          .progress-container li {
+            width:200px;
+          }
+    }
+    @media(min-width:1335px){
+          .progress-container li {
+            width:260px;
+          }
+    }
+    @media(max-width:783px){
+          .progress-container li {
+            width:145px;
+          }
+    }
+    @media(max-width:742px){
+          .progress-container li {
+            width:100px;
+          }
+    }
+    @media(max-width:516px){
+    .progress-container li {
+        width: 60px;
+      }
+      .progress-container em {
+        display: none;
+
+      }
+    }
+    @media(max-width:320px){
+    .progress-container li {
+        width: 55px;
+      }
+      .progress-container em {
+        display: none;
+
+      }
+    }
+    .progress-column{
+      padding-top:200px;padding-bottom:200px;    padding-left: 0px;
+          padding-right: 0px;
+    }
+    .progress-container li:first-child {
+      padding-left: 5px;
+    }
+
+    .progress-container li:nth-child(n+2)::before {
+      position: absolute;
+      top:0;
+      left:0;
+      display: block;
+      border-left: 25px solid white;
+      border-top: 40px solid transparent;
+      border-bottom: 40px solid transparent;
+      width: 0;
+      height: 0;
+      content: " ";
+    }
+
+    .progress-container li::after {
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      right: -25px;
+      display: block;
+      border-left: 25px solid #41A4F0;
+      border-top: 40px solid transparent;
+      border-bottom: 40px solid transparent;
+      width:0;
+      height:0;
+      content: " ";
+    }
+    .progress-container li:nth-child(5)::after{
+      border-top: 40px solid #b1b1b1;
+      border-bottom: 40px solid #b1b1b1;
+    }
+
+
+    .progress-container li { background-color: #41A4F0; }
+    .progress-container li::after { border-left-color: #41A4F0; }
+
+    .progress-container li.current { background-color: #1C91E9; }
+    .progress-container li.current::after {
+      border-left-color: #1C91E9;
+        }
+        .progress-container li:nth-child(5).current::after{
+          border-top-color:#1C91E9;
+            border-bottom-color: #1C91E9;
+        }
+    .progress-container li.current ~ li { background-color: #b1b1b1; }
+    .progress-container li.current ~ li::after { border-left-color: #b1b1b1; }
+
+    .progress-container li:hover {background-color: #01579B}
+    .progress-container li:hover::after {border-left-color: #01579B; }
+    .progress-container li.current:hover {background-color: #1C91E9;}
+    .progress-container li.current:hover::after {border-left-color: #1C91E9; }
