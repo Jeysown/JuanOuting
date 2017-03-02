@@ -184,10 +184,11 @@ collapse
   }
 
   .child-header {
+	  margin-top: 10px;
       transition: all 2s ease;
-      background:#c9c9c9;
-      background-position:center;
-      background-size:cover;
+      background:url('../images/juan_05.png') no-repeat;
+      background-position:left;
+      background-size:63% 300px;
 /*
       filter:brightness(.7);*/
       z-index: -1;
