@@ -1,4 +1,4 @@
-<?php include 'header.php' ?>
+<?php include 'header-filter.php' ?>
   <div class="container">
     <?php include 'filter-sidebar.php' ?>
     <div class="col-sm-9 filtered-resort">

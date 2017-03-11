@@ -68,16 +68,42 @@
                                         </div>
                                         <div class="filter-box-content">
                                           <span class="filter-facilities spin">
-                                              <input id="spinner" name="value" style="width:30px;height:20px;" min="0"  >
+                                            <div class="dropdown">
+                                              <button class="dropdown-toggle" type="button" data-toggle="dropdown">1
+                                              <span class="caret"></span></button>
+                                              <ul class="dropdown-menu">
+                                                <li><a href="#">1</a></li>
+                                                <li><a href="#">2</a></li>
+                                                <li><a href="#">3</a></li>
+                                              </ul>
+
                                               <label for="Bedrooms" class="filter-label">Bedrooms</label>
+                                              </div>
                                             </span>
                                           <span class="filter-facilities spin">
-                                              <input id="spinner1" name="value" style="width:30px;height:20px;" min="0">
-                                              <label for="Bathrooms" class="filter-label">Bathrooms</label>
+                                              <div class="dropdown">
+                                                <button class="dropdown-toggle" type="button" data-toggle="dropdown">1
+                                                <span class="caret"></span></button>
+                                                <ul class="dropdown-menu">
+                                                  <li><a href="#">1</a></li>
+                                                  <li><a href="#">2</a></li>
+                                                  <li><a href="#">3</a></li>
+                                                </ul>
+
+                                                <label for="Bedrooms" class="filter-label">Bathrooms</label>
+                                                </div>
                                           </span>
                                           <span class="filter-facilities spin">
-                                              <input id="spinner2" name="value" style="width:30px;height:20px;" min="0">
-                                              <label for="Beds" class="filter-label">Beds</label>
+                                              <div class="dropdown">
+                                                <button class="dropdown-toggle" type="button" data-toggle="dropdown">1
+                                                <span class="caret"></span></button>
+                                                <ul class="dropdown-menu">
+                                                  <li><a href="#">1</a></li>
+                                                  <li><a href="#">2</a></li>
+                                                  <li><a href="#">3</a></li>
+                                                </ul>
+                                                <label for="Bedrooms" class="filter-label">Beds</label>
+                                                </div>
                                           </span>
                                           </div>
                                         </div>

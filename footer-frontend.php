@@ -12,7 +12,7 @@
       </div>
       <div class="footer-content">
         <div class="footer-title">
-          JuanOuting
+          JuanderPool
         </div>
         <p><a href="#">About</a></p>
         <p><a href="#">Careers</a></p>
