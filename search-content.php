@@ -56,7 +56,7 @@
                 </div>
 
                 <div class="submit-btn search-content search-submit" ><p>&nbsp;</p>
-                  <button type="button" class="btn btn-default input-content search-button">Search</button>
+                <a href="filter.php">  <button type="button" class="btn btn-default input-content search-button">Search</button></a>
                 </div>
           </div>
       </div>

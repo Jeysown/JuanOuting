@@ -26,7 +26,7 @@
                                     <div class="filter-box-content">
                                       <span class="filter-facilities">
                                           <input type="checkbox"  id="friendly" name="kitchen" onclick="kitchen()" value="0">
-                                          <label for="friendly" class="filter-label"><img src="assets/images/icons/family.png" alt="" width="22px" class="icon-filter"> Family/kid friendly</label>
+                                          <label for="friendly" class="filter-label"><img src="assets/images/icons/family.png" alt=""  class="icon-filter"> Family/kid friendly</label>
                                         </span>
                                         <span class="filter-facilities">
                                             <input type="checkbox"  id="friendly" name="kitchen" onclick="kitchen()" value="0">
@@ -34,19 +34,19 @@
                                           </span>
                                           <span class="filter-facilities">
                                               <input type="checkbox"  id="friendly" name="kitchen" onclick="kitchen()" value="0">
-                                              <label for="friendly" class="filter-label"><img src="assets/images/icons/adult_pool.png" alt="" width="22px" class="icon-filter"> Adult Pool</label>
+                                              <label for="friendly" class="filter-label"><img src="assets/images/icons/adult_pool.png" alt=""  class="icon-filter"> Adult Pool</label>
                                             </span>
                                       <span class="filter-facilities">
                                           <input type="checkbox"  id="kitchen" name="kitchen" onclick="kitchen()" value="0">
-                                          <label for="kitchen" class="filter-label"><img src="assets/images/icons/kitchen.png" alt="" width="22px" class="icon-filter"> Kitchen</label>
+                                          <label for="kitchen" class="filter-label"><img src="assets/images/icons/kitchen.png" alt=""  class="icon-filter"> Kitchen</label>
                                         </span>
                                       <span class="filter-facilities">
                                           <input type="checkbox"  id="conditioning" name="kitchen" onclick="kitchen()" value="1">
-                                          <label for="conditioning" class="filter-label"><img src="assets/images/icons/aircon.png" alt="" width="22px" class="icon-filter"> Air conditioning</label>
+                                          <label for="conditioning" class="filter-label"><img src="assets/images/icons/aircon.png" alt=""  class="icon-filter"> Air conditioning</label>
                                       </span>
                                       <span class="filter-facilities">
                                           <input type="checkbox"  id="Internet" name="kitchen" onclick="kitchen()" value="2">
-                                          <label for="Internet" class="filter-label"><img src="assets/images/icons/wifi.png" alt="" width="22px" class="icon-filter"> Wireless Internet</label>
+                                          <label for="Internet" class="filter-label"><img src="assets/images/icons/wifi.png" alt=""  class="icon-filter"> Wireless Internet</label>
                                       </span>
                                       </div>
                                     </div>
@@ -57,27 +57,27 @@
                                     <div class="filter-box-content">
                                       <span class="filter-facilities">
                                           <input type="checkbox"  id="Parking" name="kitchen" onclick="kitchen()" value="0">
-                                          <label for="Parking" class="filter-label"><img src="assets/images/icons/parking.png" alt="" width="22px" class="icon-filter"> Parking</label>
+                                          <label for="Parking" class="filter-label"><img src="assets/images/icons/parking.png" alt=""  class="icon-filter"> Parking</label>
                                         </span>
                                         <span class="filter-facilities">
                                             <input type="checkbox"  id="jacuzzi" name="kitchen" onclick="kitchen()" value="2">
-                                            <label for="jacuzzi" class="filter-label"><img src="assets/images/icons/videoke.png" alt="" width="22px" class="icon-filter"> Videoke</label>
+                                            <label for="jacuzzi" class="filter-label"><img src="assets/images/icons/videoke.png" alt=""  class="icon-filter"> Videoke</label>
                                         </span>
                                       <span class="filter-facilities">
                                           <input type="checkbox"  id="billiard" name="kitchen" onclick="kitchen()" value="1">
-                                          <label for="billiard" class="filter-label"><img src="assets/images/icons/billiard.png" alt="" width="22px" class="icon-filter"> Billiard</label>
+                                          <label for="billiard" class="filter-label"><img src="assets/images/icons/billiard.png" alt=""  class="icon-filter"> Billiard</label>
                                       </span>
                                       <span class="filter-facilities">
                                           <input type="checkbox"  id="jacuzzi" name="kitchen" onclick="kitchen()" value="2">
-                                          <label for="jacuzzi" class="filter-label"><img src="assets/images/icons/water.png" alt="" width="22px" class="icon-filter"> Water Dispenser</label>
+                                          <label for="jacuzzi" class="filter-label"><img src="assets/images/icons/water.png" alt=""  class="icon-filter"> Water Dispenser</label>
                                       </span>
                                       <span class="filter-facilities">
                                           <input type="checkbox"  id="jacuzzi" name="kitchen" onclick="kitchen()" value="2">
-                                          <label for="jacuzzi" class="filter-label"><img src="assets/images/icons/griller2.png" alt="" width="22px" class="icon-filter"> Griller</label>
+                                          <label for="jacuzzi" class="filter-label"><img src="assets/images/icons/griller2.png" alt=""  class="icon-filter"> Griller</label>
                                       </span>
                                       <span class="filter-facilities">
                                           <input type="checkbox"  id="jacuzzi" name="kitchen" onclick="kitchen()" value="2">
-                                          <label for="jacuzzi" class="filter-label"><img src="assets/images/icons/gas.png" alt="" width="22px" class="icon-filter"> Gas/LPG</label>
+                                          <label for="jacuzzi" class="filter-label"><img src="assets/images/icons/gas.png" alt=""  class="icon-filter"> Gas/LPG</label>
                                       </span>
                                       <span class="filter-facilities">
                                           <input type="checkbox"  id="jacuzzi" name="kitchen" onclick="kitchen()" value="2">
@@ -85,7 +85,7 @@
                                       </span>
                                       <span class="filter-facilities">
                                           <input type="checkbox"  id="jacuzzi" name="kitchen" onclick="kitchen()" value="2">
-                                          <label for="jacuzzi" class="filter-label"><img src="assets/images/icons/jacuzzi.png" alt="" width="22px" class="icon-filter"> Jacuzzi</label>
+                                          <label for="jacuzzi" class="filter-label"><img src="assets/images/icons/jacuzzi.png" alt=""  class="icon-filter"> Jacuzzi</label>
                                       </span>
                                       </div>
                                     </div>
@@ -96,11 +96,11 @@
                                       <div class="filter-box-content">
                                         <span class="filter-facilities">
                                             <input type="checkbox"  id="Smoking" name="kitchen" onclick="kitchen()" value="0">
-                                            <label for="Smoking" class="filter-label"><img src="assets/images/icons/smoking-allowed.png" alt="" width="22px" class="icon-filter"> Smoking allowed</label>
+                                            <label for="Smoking" class="filter-label"><img src="assets/images/icons/smoking-allowed.png" alt=""  class="icon-filter"> Smoking allowed</label>
                                           </span>
                                         <span class="filter-facilities">
                                             <input type="checkbox"  id="events" name="kitchen" onclick="kitchen()" value="1">
-                                            <label for="events" class="filter-label"><img src="assets/images/icons/event.png" alt="" width="22px" class="icon-filter"> Suitable for events</label>
+                                            <label for="events" class="filter-label"><img src="assets/images/icons/event.png" alt=""  class="icon-filter"> Suitable for events</label>
                                         </span>
                                         </div>
                                       </div>
@@ -119,7 +119,7 @@
                                                 <li><a href="#">3</a></li>
                                               </ul>
 
-                                              <label for="Bedrooms" class="filter-label"><img src="assets/images/icons/bedroom.png" alt="" width="22px" class="icon-filter">Bedrooms</label>
+                                              <label for="Bedrooms" class="filter-label"><img src="assets/images/icons/bedroom.png" alt=""  class="icon-filter">Bedrooms</label>
                                               </div>
                                             </span>
                                           <span class="filter-facilities spin">
@@ -132,7 +132,7 @@
                                                   <li><a href="#">3</a></li>
                                                 </ul>
 
-                                                <label for="Bedrooms" class="filter-label"><img src="assets/images/icons/bathroom.png" alt="" width="22px" class="icon-filter">Bathrooms</label>
+                                                <label for="Bedrooms" class="filter-label"><img src="assets/images/icons/bathroom.png" alt=""  class="icon-filter">Bathrooms</label>
                                                 </div>
                                           </span>
                                           <span class="filter-facilities spin">
@@ -144,7 +144,7 @@
                                                   <li><a href="#">2</a></li>
                                                   <li><a href="#">3</a></li>
                                                 </ul>
-                                                <label for="Bedrooms" class="filter-label"><img src="assets/images/icons/bed.png" alt="" width="22px" class="icon-filter">Beds</label>
+                                                <label for="Bedrooms" class="filter-label"><img src="assets/images/icons/bed.png" alt=""  class="icon-filter">Beds</label>
                                                 </div>
                                           </span>
                                           </div>
@@ -158,11 +158,11 @@
                                     </div>
                                     <div class="rating">
                                       <div class="">
-                                      <span onclick="updateTable(5)" id="fiveStar"><img src="assets/images/duck2.png" alt="" width="22px" class="icon-filter"></span>
-                                      <span onclick="updateTable(4)" ><img src="assets/images/duck2.png" alt="" width="22px" class="icon-filter"></span>
-                                      <span onclick="updateTable(3)" ><img src="assets/images/duck2.png" alt="" width="22px" class="icon-filter"></span>
-                                      <span onclick="updateTable(2)" ><img src="assets/images/duck2.png" alt="" width="22px" class="icon-filter"></span>
-                                      <span onclick="updateTable(1)" ><img src="assets/images/duck2.png" alt="" width="22px" class="icon-filter"></span>
+                                      <span onclick="updateTable(5)" id="fiveStar"><img src="assets/images/duck2.png" alt=""  class="icon-filter"></span>
+                                      <span onclick="updateTable(4)" ><img src="assets/images/duck2.png" alt=""  class="icon-filter"></span>
+                                      <span onclick="updateTable(3)" ><img src="assets/images/duck2.png" alt=""  class="icon-filter"></span>
+                                      <span onclick="updateTable(2)" ><img src="assets/images/duck2.png" alt=""  class="icon-filter"></span>
+                                      <span onclick="updateTable(1)" ><img src="assets/images/duck2.png" alt=""  class="icon-filter"></span>
                                       </div>
                                     </div>
                                   </div>

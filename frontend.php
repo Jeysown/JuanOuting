@@ -20,7 +20,7 @@
           </div>
         </div>
         <div class="col-sm-6 deck" >
-          <p class="r-p"><span class="r-rating">★★★★</span></p>
+          <p class="r-p"><span class="r-rating">  <img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"></span></p>
           <p class="r-p"><span class="r-review">Based on 3 reviews</span></p>
         </div>
       </div>
@@ -66,13 +66,13 @@
               <p>Bathrooms, Bedrooms, and Beds</p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p>Bathrooms: <b>4</b></p>
+            <p><img src="assets/images/icons/bathroom.png" alt=""  class="icon-filter">Bathrooms: <b>4</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p>Bedrooms: <b>4</b></p>
+            <p><img src="assets/images/icons/bedroom.png" alt=""  class="icon-filter">Bedrooms: <b>4</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p>Beds: <b>4</b></p>
+            <p><img src="assets/images/icons/bed.png" alt=""  class="icon-filter">Beds: <b>4</b></p>
           </div>
         </div>
         <!-- Bathrooms, Bedrooms, and Beds -->
@@ -82,31 +82,31 @@
               <p>What we offer</p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><b>Kiddie Pool: 3ft</b></p>
+            <p><img src="assets/images/icons/kiddie.jpg" alt=""  class="icon-filter"><b>Kiddie Pool: 3ft</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><b>Adult Pool: 6ft</b></p>
+            <p><img src="assets/images/icons/adult_pool.png" alt="" class="icon-filter"><b>Adult Pool: 6ft</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><b>Jacuzzi</b></p>
+            <p><img src="assets/images/icons/jacuzzi.png" alt=""  class="icon-filter"><b>Jacuzzi</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><b>Billiards</b></p>
+            <p><img src="assets/images/icons/billiard.png" alt=""  class="icon-filter"><b>Billiards</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><b>Videoke</b></p>
+            <p><img src="assets/images/icons/videoke.png" alt=""  class="icon-filter"><b>Videoke</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><b>Kitchen</b></p>
+            <p><img src="assets/images/icons/kitchen.png" alt=""  class="icon-filter"><b>Kitchen</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><b>Griller</b></p>
+            <p><img src="assets/images/icons/griller2.png" alt=""  class="icon-filter"><b>Griller</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><b>Function Hall</b></p>
+            <p><img src="assets/images/icons/hall.png" alt=""  class="icon-filter"><b>Function Hall</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><b>Wifi</b></p>
+            <p><img src="assets/images/icons/wifi.png" alt=""  class="icon-filter"><b>Wifi</b></p>
           </div>
         </div>
         <!--What they have  -->
