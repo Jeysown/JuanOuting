@@ -4,9 +4,65 @@
 <!-- Log In -->
 
   <div class="parent-resort">
-      <div class="resort-img"></div>
+      <div class="resort-img">
+              </div>
+        <div class="header-text">
+        <center><p class="header-jumbotron">Balinese Villa</p>
+        <hr class="header-hr">
+          <a class="page-scroll header-result" href="#" onclick="openModal();currentSlide(1);">View Gallery</a>
+        </center>
+        </div>
+
     </div>
 
+
+    <div id="myModal" class="modal1 " style="z-index:5000;">
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <span class="close cursor" onclick="closeModal()" style="opacity:1">&times;</span>
+      <div class="modal-content1 yey">
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 4</div>
+          <img src="assets/images/frontend/1.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 4</div>
+          <img src="assets/images/frontend/2.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 4</div>
+          <img src="assets/images/frontend/3.png" style="width:100%">
+        </div>
+
+
+        <div class="thumbnail-wrapper">
+          <div class="thumbnail1">
+
+            <div class="column">
+              <img class="demo" src="assets/images/frontend/1.png" onclick="currentSlide(1)" alt="Nature">
+            </div>
+
+            <div class="column">
+              <img class="demo" src="assets/images/frontend/2.png" onclick="currentSlide(2)" alt="Trolltunga">
+            </div>
+
+            <div class="column">
+              <img class="demo" src="assets/images/frontend/3.png" onclick="currentSlide(3)" alt="Mountains">
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+      <a class="prev-thumbnail" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next-thumbnail" onclick="plusSlides(1)">&#10095;</a>
+    </div>
   <div class="container">
     <div class="row">
       <div class="r-title">

@@ -68,6 +68,7 @@
 <script type="text/javascript" src="assets/js/header.js"></script>
 <script src="assets/js/search.js"></script>
 <script src="assets/js/login.js"></script>
+<script type="text/javascript" src="assets/js/gallery.js"></script>
 
 <script>
 

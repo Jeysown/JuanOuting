@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="assets/css/style.css" media="screen" title="no title">
     <link rel="stylesheet" href="assets/css/jquery-ui.css" media="screen" title="no title">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/gallery.css">
+    
+
+
   </head>
   <body id="page-top">
   <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top nav-frontend">
