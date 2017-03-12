@@ -24,7 +24,7 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
             </button>
-              <a class="navbar-brand page-scroll" href="#page-top">JuanderPool</a>
+  <a class="navbar-brand page-scroll" href="index.php" style="color:#59e7e5;font-family:Aleo;font-weight:600;">JuanderP<img src="assets/images/logo.png" alt="" style="width:40px;display:inline;">L</a>
               <i class="fa fa-search search-show" aria-hidden="true"  onClick="openSearch();visibleSearch();"></i>
               <i class="fa fa-search search-header-icon" aria-hidden="true" id="yey"></i><input id="resort1" onkeyup="AutoComplete1()" class="ui-autocomplete-input search-header" placeholder="Search" autocomplete="off" >
           </div>

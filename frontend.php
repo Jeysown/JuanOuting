@@ -21,7 +21,7 @@
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-      <span class="close cursor" onclick="closeModal()" style="opacity:1">&times;</span>
+      <span class="close cursor close1" onclick="closeModal()" style="opacity:1;">&times;</span>
       <div class="modal-content1 yey">
 
         <div class="mySlides">

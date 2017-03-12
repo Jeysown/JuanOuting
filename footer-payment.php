@@ -57,6 +57,7 @@
         </div>
     </div>
 </div>
+<?php include 'modal.php' ?>
 </body>
 </html>
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
