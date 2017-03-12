@@ -314,8 +314,10 @@ padding-left: 8px;
   width: 100%;
   padding: 40px 0px 10px;
   color: #fff;
-  position: absolute;
   z-index: 501;
+  right: 0;
+bottom: 0;
+left: 0;
 }
 
 .footer2-title{

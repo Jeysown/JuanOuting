@@ -6,9 +6,8 @@
       <div class="r-title-description">
           <p>Payment Options</p>
       </div>
-      <ul class="tabs">
+      <ul class="tabs col-lg-12">
         <div class="col-sm-6 col-md-3">
-
         <li class="active">
           <a href="#money_remittance" >
             <img src="assets/images/cebuana.png" class="payment-icon">
@@ -45,8 +44,9 @@
         </li>
       </div>
       </ul>
+      <div class="col-md-12">
       <div class="tab-content">
-        <div class="col-md-12">
+
           <div id="credit-card" class="tab">
             <form>
               <div class="col-xs-6 ">
@@ -85,17 +85,15 @@
 
             </form>
           </div>
+      </div>
 
       </div>
-      <div class="col-lg-12">
-        <div class="col-lg-12">
-          <center><p style="margin:10px 0px 0px 0px;font-size:11px;">By booking using JuanderPool, you agree to it's <a href="#">privacy notice</a> and <a href="#">conditions of use</a></p>
-            <button type="button" name="button" class="btn btn-primary submit-btn">Submit</button></center>
-        </div>
-
-      </div>
+      <div>
+        <center><p style="margin:10px 0px 0px 0px;font-size:11px;clear:both;display:block;">By booking using JuanderPool, you agree to it's <a href="#">privacy notice</a> and <a href="#">conditions of use</a></p>
+          <button type="button" name="button" class="btn btn-primary submit-btn">Submit</button></center>
       </div>
     </div>
+
     <div class="col-sm-5 col-md-3 deck" >
 
             <div class="fixedElement clearFixed" id="book-responsive">

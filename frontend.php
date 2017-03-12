@@ -312,7 +312,7 @@
                                                   </div>
                                                 <div class="row" style="padding-top:20px;">
                                                     <div class="col-xs-12">
-                                                        <button class="subscribe btn btn-primary btn-lg btn-block" type="button">Book Now</button>
+                                                      <a href="payment.php">  <button class="subscribe btn btn-primary btn-lg btn-block" type="button">Book Now</button></a>
                                                     </div>
                                                 </div>
                                                 <div class="row" style="display:none;">
