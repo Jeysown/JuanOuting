@@ -5,7 +5,7 @@
 
     <div class="row deck-row">
       <div class="col-sm-6 filtered-card">
-        <a href="frontend.php">
+        <a href="frontend.php" class="link-style">
           <img src="assets/images/1.jpg" alt="" class="r-img">
           <p class="r-content"><b class="r-price">₱5000 </b><span class="indiv-rating">
             <img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px">
@@ -14,7 +14,7 @@
         </a>
       </div>
       <div class="col-sm-6 filtered-card">
-        <a href="frontend.php">
+        <a href="frontend.php" class="link-style">
           <img src="assets/images/2.jpg" alt="" class="r-img">
           <p class="r-content"><b class="r-price">₱5000 </b><span class="indiv-rating">
             <img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px">
@@ -23,7 +23,7 @@
         </a>
       </div>
       <div class="col-sm-6 filtered-card">
-        <a href="frontend.php">
+        <a href="frontend.php" class="link-style">
           <img src="assets/images/3.jpg" alt="" class="r-img">
           <p class="r-content"><b class="r-price">₱5000 </b><span class="indiv-rating">
             <img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px">

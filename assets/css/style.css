@@ -7,7 +7,7 @@ body{
   padding:0 !important;
   margin:0 !important;
   color: #696969;
-    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Poppins;
     background-color: white;
 }
 body.modal-open {
@@ -211,7 +211,7 @@ collapse
     font-style: normal;
     font-variant: normal;
     line-height: 35px;
-    color: #5abff1;
+    color: #696969;
   }
   .juan{
     width: 350px;
@@ -273,18 +273,22 @@ padding-left: 8px;
 .r-name,.r-p{
   font-size: 1em;
   margin: 0px;
-  font-weight: lighter;
+  color: #424242;
 }
 .r-content{
   font-size: 1em;
   margin:0px;
 }
 .r-price{
-  font-size: 1.2em;
+  font-size: 1em;
+  color: #B71C1C;
 }
 .off-r-price{
   font-size: 1em;
   text-decoration: line-through;
+}
+.r-discount{
+  color: #B71C1C;
 }
 .deck-rating > .stars-filter {
   unicode-bidi: bidi-override;
@@ -306,7 +310,7 @@ padding-left: 8px;
 
 /*footer*/
 .footer{
-  background-color: #2f566b;
+  background-color: #0D47A1;
   width: 100%;
   padding: 40px 0px 10px;
   color: #fff;
@@ -511,12 +515,12 @@ padding: 0px 8px;
 .search-dropdown{
   padding-left: 10px;
   font-size: 1.1em;
-  color: #2f566b;
+  color: #2196F3;
 }
 .search-date-icon{
   padding-top:8px;
   font-size: 1.3em;
-  color: #2f566b;
+  color: #2196F3;
 }
 .search-container{
   box-shadow: 1px 1px 5px 3px rgba(0,0,0,0.1);
@@ -524,7 +528,7 @@ padding: 0px 8px;
   padding: 20px 30px;
 }
 .search-button{
-  background-color: #2f566b;
+  background-color: #2196F3;
   color:#fff;
 }
 .search-title{
@@ -1377,4 +1381,7 @@ float: right;
         animation-fill-mode: both;
     	-webkit-animation-name: yey;
     	animation-name: yey;
+    }
+    .link-style:hover,link-style:focus{
+      text-decoration: none;
     }

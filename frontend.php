@@ -60,8 +60,7 @@
 
 
       </div>
-      <a class="prev-thumbnail" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next-thumbnail" onclick="plusSlides(1)">&#10095;</a>
+
     </div>
   <div class="container">
     <div class="row">
