@@ -1,9 +1,9 @@
 
 ul.tabs li a, ul.tabs li p{
   text-decoration: none;
-  margin-top: 10px;
-  color: #333;
-  font-weigh t: bold;
+  margin-top: 5px;
+  color: #696969;
+  font-weight: bold;
 }
 
 .bank-button img{
@@ -38,6 +38,8 @@ ul.tabs>.col-md-3>li,ul.tabs>.col-sm-6>li{
 }
 .payment-icon{
   height:69px;
+  color: #0463a8;
+  font-size: 70px;
 }
 @media(min-width:960px){
   .payment-icon{
@@ -53,7 +55,9 @@ ul.tabs li.active{
 .tab-content.active{
   display: inherit;
 }
-
+.tab-content>.col-md-12{
+  margin-top:40px;
+}
 .tab-content .tab:not(.active){
   display: none;
 }
@@ -65,5 +69,9 @@ ul.tabs li.active{
     -webkit-padding-start: 0px;
 }
 .submit-btn{
-  margin: 20px 10px;
+      margin: 0px 20px 10px 10px;
+      width:250px;
+}
+.panel-body{
+  padding-top:0px;
 }

@@ -3,7 +3,9 @@
 
   <div class="container" style="padding-top:100px;">
     <div class="payment-methods col-sm-7 col-md-9 payment-container">
-
+      <div class="r-title-description">
+          <p>Payment Options</p>
+      </div>
       <ul class="tabs">
         <div class="col-sm-6 col-md-3">
 
@@ -28,7 +30,7 @@
         <li class="">
           <a href="#credit-card">
             <i class="fa fa-credit-card fa-4x payment-icon" aria-hidden="true"></i>
-            <p>Credit/debit Card</p>
+            <p>Credit/Debit Card</p>
           </a>
         </li>
       </div>
@@ -42,91 +44,55 @@
           </a>
         </li>
       </div>
-
-
       </ul>
       <div class="tab-content">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
+        <div class="col-md-12">
           <div id="credit-card" class="tab">
             <form>
-              <div class="form-row">
-                <div class="col-xs-4 form-group">
+              <div class="col-xs-6 ">
+                <div class="credit">
                   <label for="name">Type of Card</label>
                   <select class="form-control">
                     <option value="">Credit Card</option>
                     <option value="">Debit Card</option>
+                  </select>
                 </div>
               </div>
-              <div class="form-row">
-                <div class="col-xs-4 form-group">
-                  <label for="name">Name on Card</label>
+              <div class="col-xs-6 ">
+                <div class="credit">
+                  <label for="name">Card No. :</label>
                   <input type="text" id="name" class="form-control" name="" value="">
                 </div>
               </div>
-              <div class="form-row">
-                <div class="col-xs-4 form-group">
-                  <label for="card_no">Card number</label>
-                  <input type="text" id="card_no" class="form-control" name="" value="">
+              <div class="col-xs-6 ">
+                <div class="credit">
+                  <label for="name">Name on Card:</label>
+                  <input type="text" id="name" class="form-control" name="" value="">
                 </div>
               </div>
-              <div class="form-row">
-                <div class="col-xs-4 form-group">
-                  <label for="cvc">CVC</label>
-                  <input type="text" id="cvc" class="form-control" name="" value="ex. 311">
-                </div>
-                <div class="col-xs-4 form-group" >
-                  <label for="expiration">Expiration</label>
-                  <input type="text" id="exp_month" class="form-control" name="" value="MM">
-                </div>
-                <div class="col-xs-4 form-group">
-                  <input type="text" id="exp_year" class="form-control" name="" value="YYYY">
+              <div class="col-xs-6 ">
+                <div class="credit">
+                  <label for="name">Valid Thru:</label>
+                  <input type="text" id="name" class="form-control" name="" value="">
                 </div>
               </div>
+              <div class="col-xs-6 ">
+                <div class="credit">
+                  <label for="name">Bank Name:</label>
+                  <input type="text" id="name" class="form-control" name="" value="">
+                </div>
+              </div>
+
             </form>
           </div>
 
-        <div id="bank" class="tab">
-          <h3>Bank</h3><br>
-          <h4>Options:</h4>
-          <div class="form-row">
-            <button type="button" class="bank-button btn btn-default" name="button"><img src="assets/images/bdo.jpg" alt=""></button>
-            <button type="button" class="bank-button btn btn-default" name="button"><img src="assets/images/bpi.jpg" alt=""></button>
-            <button type="button" class="bank-button btn btn-default" name="button"><img src="assets/images/metrobank.png" alt=""></button>
-
-          </div>
-          <div class="form-row">
-            <form>
-              <input type="text" name="" value="">
-              <input type="text" name="" value="">
-              <input type="text" name="" value="">
-              <input type="text" name="" value="">
-            </form>
-          </div>
-        </div>
-        <div id="paypal" class="tab">
-          <h3>PayPal</h3>
-          <button type="button" class="btn btn-default" name="button">PayPal</button>
-        </div>
-        <div id="money_remittance" class="tab active">
-          <div class="col-md-6">
-            <h3>Over-the-Counter</h3>
-            <div class="form-group">
-              <input type="text" class="form-control" name="" value="">
-              <input type="text" class="form-control" name="" value="">
-            </div>
-          </div>
-          <div class="col-md-6">
-            <h3 >e-Money</h3>
-            <div class="form-group">
-              <input type="text" class="form-control" name="" value="">
-              <input type="text" class="form-control" name="" value="">
-            </div>
-          </div>
-        </div>
       </div>
       <div class="col-lg-12">
-        <center><button type="button" name="button" class="btn btn-primary submit-btn">Submit</button></center>
+        <div class="col-lg-12">
+          <center><p style="margin:10px 0px 0px 0px;font-size:11px;">By booking using JuanderPool, you agree to it's <a href="#">privacy notice</a> and <a href="#">conditions of use</a></p>
+            <button type="button" name="button" class="btn btn-primary submit-btn">Submit</button></center>
+        </div>
+
       </div>
       </div>
     </div>
@@ -146,11 +112,14 @@
                                     <a href="javascript:void(0)" class="closebtn" onclick="closebooking()">&times;</a>
                                     <div>
                                       <div class="panel panel-default" style="margin-left:10px;">
+                                        <div class="r-title-description" style="margin-left:10px;">
+                                            <p>Booking Summary</p>
+                                        </div>
                                           <div class="panel-body">
                                               <form role="form" id="payment-form" method="POST" action="javascript:void(0);">
                                                   <div class="row">
                                                       <div class="col-xs-12">
-                                                          <div class="form-group">
+                                                          <div class="">
                                                               <label>Day</label>
                                                               <div class="input-group" style="width:100%;text-align:center;">
                                                                 Half Day - Morning
@@ -160,7 +129,7 @@
                                                   </div>
                                                   <div class="row">
                                                       <div class="col-sm-6">
-                                                          <div class="form-group">
+                                                          <div class="">
                                                             <label>Check In</label>
                                                             <div class="has-feedback">
                                                                 <center>03/12/2017</center>
@@ -168,7 +137,7 @@
                                                           </div>
                                                       </div>
                                                       <div class="col-sm-6">
-                                                          <div class="form-group">
+                                                          <div class="">
                                                             <label>Check Out</label>
                                                             <div class="has-feedback">
                                                                 <center>03/15/2017</center>
@@ -178,7 +147,7 @@
                                                   </div>
                                                   <div class="row">
                                                       <div class="col-xs-12">
-                                                          <div class="form-group">
+                                                          <div class="">
                                                               <label for="couponCode">Promo Code</label>
                                                               <div class="has-feedback">
                                                                   <center>0FBTW32daA</center>
@@ -189,7 +158,7 @@
                                                   <div class="row">
                                                     <div class="col-xs-12">
                                                       <div class="input-group" style="width:100%;">
-                                                        <div class="form-group">
+                                                        <div class="">
                                                           <label for="couponCode">Guests</label>
                                                             <center>1-15 Persons</center>
                                                           </div>
@@ -240,6 +209,8 @@
                       </div>
                     </div>
         </div>
+
       </div>
+
   </div>
 <?php include 'footer-payment.php' ?>
