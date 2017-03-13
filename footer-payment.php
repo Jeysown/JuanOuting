@@ -1,4 +1,4 @@
-﻿<div class="footer">
+<div class="footer">
   <div class="container" >
     <div class="row footer-container footer-hr">
       <div class="footer-content">
@@ -68,7 +68,7 @@
 <script type="text/javascript" src="assets/js/header.js"></script>
 <script src="assets/js/search.js"></script>
 <script src="assets/js/login.js"></script>
-<script type="text/javascript" src="assets/js/gallery.js"></script>
+<script type="text/javascript" src="assets/js/payment.js"></script>
 
 <script>
 

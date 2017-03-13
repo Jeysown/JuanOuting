@@ -4,9 +4,64 @@
 <!-- Log In -->
 
   <div class="parent-resort">
-      <div class="resort-img"></div>
+      <div class="resort-img">
+              </div>
+        <div class="header-text">
+        <center><p class="header-jumbotron">Balinese Villa</p>
+        <hr class="header-hr">
+          <a class="page-scroll header-result" href="#" onclick="openModal();currentSlide(1);">View Gallery</a>
+        </center>
+        </div>
+
     </div>
 
+
+    <div id="myModal" class="modal1 " style="z-index:5000;">
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <span class="close cursor close1" onclick="closeModal()" style="opacity:1;">&times;</span>
+      <div class="modal-content1 yey">
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 4</div>
+          <img src="assets/images/frontend/1.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 4</div>
+          <img src="assets/images/frontend/2.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 4</div>
+          <img src="assets/images/frontend/3.png" style="width:100%">
+        </div>
+
+
+        <div class="thumbnail-wrapper">
+          <div class="thumbnail1">
+
+            <div class="column">
+              <img class="demo" src="assets/images/frontend/1.png" onclick="currentSlide(1)" alt="Nature">
+            </div>
+
+            <div class="column">
+              <img class="demo" src="assets/images/frontend/2.png" onclick="currentSlide(2)" alt="Trolltunga">
+            </div>
+
+            <div class="column">
+              <img class="demo" src="assets/images/frontend/3.png" onclick="currentSlide(3)" alt="Mountains">
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
   <div class="container">
     <div class="row">
       <div class="r-title">
@@ -20,7 +75,7 @@
           </div>
         </div>
         <div class="col-sm-6 deck" >
-          <p class="r-p"><span class="r-rating">★★★★</span></p>
+          <p class="r-p"><span class="r-rating">  <img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"></span></p>
           <p class="r-p"><span class="r-review">Based on 3 reviews</span></p>
         </div>
       </div>
@@ -66,13 +121,13 @@
               <p>Bathrooms, Bedrooms, and Beds</p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p>Bathrooms: <b>4</b></p>
+            <p><img src="assets/images/icons/bathroom.png" alt=""  class="icon-filter">Bathrooms: <b>4</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p>Bedrooms: <b>4</b></p>
+            <p><img src="assets/images/icons/bedroom.png" alt=""  class="icon-filter">Bedrooms: <b>4</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p>Beds: <b>4</b></p>
+            <p><img src="assets/images/icons/bed.png" alt=""  class="icon-filter">Beds: <b>4</b></p>
           </div>
         </div>
         <!-- Bathrooms, Bedrooms, and Beds -->
@@ -82,31 +137,31 @@
               <p>What we offer</p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><b>Kiddie Pool: 3ft</b></p>
+            <p><img src="assets/images/icons/kiddie.jpg" alt=""  class="icon-filter"><b>Kiddie Pool: 3ft</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><b>Adult Pool: 6ft</b></p>
+            <p><img src="assets/images/icons/adult_pool.png" alt="" class="icon-filter"><b>Adult Pool: 6ft</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><b>Jacuzzi</b></p>
+            <p><img src="assets/images/icons/jacuzzi.png" alt=""  class="icon-filter"><b>Jacuzzi</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><b>Billiards</b></p>
+            <p><img src="assets/images/icons/billiard.png" alt=""  class="icon-filter"><b>Billiards</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><b>Videoke</b></p>
+            <p><img src="assets/images/icons/videoke.png" alt=""  class="icon-filter"><b>Videoke</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><b>Kitchen</b></p>
+            <p><img src="assets/images/icons/kitchen.png" alt=""  class="icon-filter"><b>Kitchen</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><b>Griller</b></p>
+            <p><img src="assets/images/icons/griller2.png" alt=""  class="icon-filter"><b>Griller</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><b>Function Hall</b></p>
+            <p><img src="assets/images/icons/hall.png" alt=""  class="icon-filter"><b>Function Hall</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><b>Wifi</b></p>
+            <p><img src="assets/images/icons/wifi.png" alt=""  class="icon-filter"><b>Wifi</b></p>
           </div>
         </div>
         <!--What they have  -->
@@ -257,7 +312,7 @@
                                                   </div>
                                                 <div class="row" style="padding-top:20px;">
                                                     <div class="col-xs-12">
-                                                        <button class="subscribe btn btn-primary btn-lg btn-block" type="button">Book Now</button>
+                                                      <a href="payment.php">  <button class="subscribe btn btn-primary btn-lg btn-block" type="button">Book Now</button></a>
                                                     </div>
                                                 </div>
                                                 <div class="row" style="display:none;">
