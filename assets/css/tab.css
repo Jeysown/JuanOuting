@@ -1,0 +1,21 @@
+.mod-tabs{
+text-align: center;
+vertical-align: middle;
+}
+.mod-tab{
+border: 1px solid #333;
+padding: 2px;
+
+}
+
+.mod-tab i, p{
+display: inline-block;
+text-decoration: none !important;
+}
+
+
+
+
+.mod-tabs-content .mod-tab-content:not(.active){
+  display: none;
+}

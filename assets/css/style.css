@@ -513,6 +513,7 @@ padding: 0px 8px;
 }
 .input-content:focus,.inputcontent:active{
   outline: none;
+
 }
 .search-dropdown{
   padding-left: 10px;
@@ -529,7 +530,7 @@ padding: 0px 8px;
   background-color: white;
   padding: 20px 30px;
 }
-.search-button{
+.search-button, .subscribe{
   background-color: #2196F3;
   color:#fff;
 }

@@ -149,23 +149,6 @@
                                           </span>
                                           </div>
                                         </div>
-
-                                  <div class="filter-box">
-                                    <input type="hidden" name="stars" value="" id="filterByStars">
-                                    <input type="hidden" name="stars" value="1,50000" id="priceRange">
-                                    <div class="filtered-subtitle">
-                                      Ducky rating
-                                    </div>
-                                    <div class="rating">
-                                      <div class="">
-                                      <span onclick="updateTable(5)" id="fiveStar"><img src="assets/images/duck2.png" alt=""  class="icon-filter"></span>
-                                      <span onclick="updateTable(4)" ><img src="assets/images/duck2.png" alt=""  class="icon-filter"></span>
-                                      <span onclick="updateTable(3)" ><img src="assets/images/duck2.png" alt=""  class="icon-filter"></span>
-                                      <span onclick="updateTable(2)" ><img src="assets/images/duck2.png" alt=""  class="icon-filter"></span>
-                                      <span onclick="updateTable(1)" ><img src="assets/images/duck2.png" alt=""  class="icon-filter"></span>
-                                      </div>
-                                    </div>
-                                  </div>
                                   <div class="filter-box">
                                     <div class="filtered-subtitle">
                                       Price
@@ -177,6 +160,22 @@
                                       <input type="text" id="amount" class="filter-price" disabled=""/>
                                     </p>
                                     </div>
+                                    </div>
+                                    <div class="filter-box">
+                                      <input type="hidden" name="stars" value="" id="filterByStars">
+                                      <input type="hidden" name="stars" value="1,50000" id="priceRange">
+                                      <div class="filtered-subtitle">
+                                        Ducky rating
+                                      </div>
+                                      <div class="rating">
+                                        <div class="">
+                                        <span onclick="updateTable(5)" id="fiveStar"><img src="assets/images/duck2.png" alt=""  class="icon-filter"></span>
+                                        <span onclick="updateTable(4)" ><img src="assets/images/duck2.png" alt=""  class="icon-filter"></span>
+                                        <span onclick="updateTable(3)" ><img src="assets/images/duck2.png" alt=""  class="icon-filter"></span>
+                                        <span onclick="updateTable(2)" ><img src="assets/images/duck2.png" alt=""  class="icon-filter"></span>
+                                        <span onclick="updateTable(1)" ><img src="assets/images/duck2.png" alt=""  class="icon-filter"></span>
+                                        </div>
+                                      </div>
                                     </div>
                                     <div class="filter-box">
                                       <div class="filtered-subtitle">

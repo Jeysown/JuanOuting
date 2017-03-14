@@ -1,9 +1,10 @@
 
-ul.tabs li a, ul.tabs li p{
+.tabs, .method a{
   text-decoration: none;
   margin-top: 5px;
   color: #696969;
   font-weight: bold;
+  text-align: center;
 }
 
 .bank-button img{
@@ -17,19 +18,13 @@ ul.tabs li a, ul.tabs li p{
   display: inline;
 }
 
-ul.tabs{
-  list-style: none;
-  text-align: center;
-}
-
-ul.tabs>.col-md-3>li,ul.tabs>.col-sm-6>li{
+.tabs>.col-md-3>.method,.tabs>.col-sm-6>.method{
   background: none;
   color: #222;
   padding: 10px 10px;
   cursor: pointer;
   border: 1px solid #c9c9c9;
-      border-radius: 4px;
-
+  border-radius: 4px;
 }
 .payment-container{
     border-radius: 4px;
@@ -46,10 +41,15 @@ ul.tabs>.col-md-3>li,ul.tabs>.col-sm-6>li{
     height:70px;
   }
 }
-ul.tabs li.active{
+.tabs .method.active{
   background: #ededed;
   color: #222;
 }
+.tabs .method:hover{
+  background: #ededed;
+
+}
+
 
 
 .tab-content.active{

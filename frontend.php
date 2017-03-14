@@ -75,7 +75,7 @@
           </div>
         </div>
         <div class="col-sm-6 deck" >
-          <p class="r-p"><span class="r-rating">  <img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"></span></p>
+          <p class="r-p"><span class="r-rating"> <img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"></span></p>
           <p class="r-p"><span class="r-review">Based on 3 reviews</span></p>
         </div>
       </div>
@@ -137,31 +137,31 @@
               <p>What we offer</p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><img src="assets/images/icons/kiddie.jpg" alt=""  class="icon-filter"><b>Kiddie Pool: 3ft</b></p>
+            <p><img src="assets/images/icons/kiddie.jpg" alt=""  class="icon-filter">Kiddie Pool:<b> 3ft</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><img src="assets/images/icons/adult_pool.png" alt="" class="icon-filter"><b>Adult Pool: 6ft</b></p>
+            <p><img src="assets/images/icons/adult_pool.png" alt="" class="icon-filter">Adult Pool:<b> 6ft</b></p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><img src="assets/images/icons/jacuzzi.png" alt=""  class="icon-filter"><b>Jacuzzi</b></p>
+            <p><img src="assets/images/icons/jacuzzi.png" alt=""  class="icon-filter">Jacuzzi</p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><img src="assets/images/icons/billiard.png" alt=""  class="icon-filter"><b>Billiards</b></p>
+            <p><img src="assets/images/icons/billiard.png" alt=""  class="icon-filter">Billiards</p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><img src="assets/images/icons/videoke.png" alt=""  class="icon-filter"><b>Videoke</b></p>
+            <p><img src="assets/images/icons/videoke.png" alt=""  class="icon-filter">Videoke</p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><img src="assets/images/icons/kitchen.png" alt=""  class="icon-filter"><b>Kitchen</b></p>
+            <p><img src="assets/images/icons/kitchen.png" alt=""  class="icon-filter">Kitchen</p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><img src="assets/images/icons/griller2.png" alt=""  class="icon-filter"><b>Griller</b></p>
+            <p><img src="assets/images/icons/griller2.png" alt=""  class="icon-filter">Griller</p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><img src="assets/images/icons/hall.png" alt=""  class="icon-filter"><b>Function Hall</b></p>
+            <p><img src="assets/images/icons/hall.png" alt=""  class="icon-filter">Function Hall</p>
           </div>
           <div class="col-xs-6 col-sm-4 r-content-description">
-            <p><img src="assets/images/icons/wifi.png" alt=""  class="icon-filter"><b>Wifi</b></p>
+            <p><img src="assets/images/icons/wifi.png" alt=""  class="icon-filter">Wifi</p>
           </div>
         </div>
         <!--What they have  -->
@@ -210,7 +210,7 @@
                           <div class="row">
                           <div class="search-bar">
                             <div class="search-content search-location-responsive sticky-button-book" >
-                                <button class="subscribe btn btn-primary btn-lg btn-block" type="button" onClick="openbooking()">Book Now</button>
+                                <button class="subscribe input-content btn btn-lg" type="button" onClick="openbooking()">Book Now</button>
                             </div>
                             <div class="overlay overlay-search" id="myBooking">
                               <div class="overlay-content overlay-content-book" id="content-booking">
@@ -312,7 +312,7 @@
                                                   </div>
                                                 <div class="row" style="padding-top:20px;">
                                                     <div class="col-xs-12">
-                                                      <a href="payment.php">  <button class="subscribe btn btn-primary btn-lg btn-block" type="button">Book Now</button></a>
+                                                      <a href="payment.php">  <button class="subscribe input-content btn btn-lg " type="button">Book Now</button></a>
                                                     </div>
                                                 </div>
                                                 <div class="row" style="display:none;">
@@ -347,7 +347,7 @@
                   </center>
                 </div>
                 <div class="col-sm-9 r-content-description r-review-comment" style="">
-                  <p class="r-comment-header"><b>Best Resort Ever</b> <span class="r-review-rating">★★★★</span></p>
+                  <p class="r-comment-header"><b>Best Resort Ever</b> <span class="r-review-rating"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"></span></p>
                   <p>Vonn was an excellent host in all aspects, especially in terms of communication. He really is a Superhost. I enjoyed my week-long stay at Vonn's place in Manila. Everything was exactly as advertised. The place was very clean, comfortable and cozy. Arrival and departure was a breeze. This condo is close to everything, from malls, tourist spots, and restaurants. It is very much accessible to public transit, LRT train station is just a stone-throw away. and Overall, I had a great and wonderful experience.</p>
                   <p>Reviewed February 26, 2017</p>
                 </div>
@@ -362,7 +362,7 @@
                 </center>
               </div>
               <div class="col-sm-9 r-content-description r-review-comment" style="">
-                <p class="r-comment-header"><b>Not very satisfied</b> <span class="r-review-rating">★★★</span></p>
+                <p class="r-comment-header"><b>Not very satisfied</b> <span class="r-review-rating"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"></span></p>
                 <p>The flat is cozy and clean. Although the bedroom can be a bit tight-spaced when using all of the three beds. Nevertheless, the beds are quite comfortable! There are some restaurants in walking distance and two convenience stores next door. The place is quite convenience and easy to find by (online) taxi. Overall we had an amazing stays here and definitely would like to go back if we happen to visit Manila again in the future.</p>
                 <p>Reviewed January 2, 2017</p>
               </div>
@@ -377,7 +377,7 @@
                 </center>
               </div>
               <div class="col-sm-9 r-content-description r-review-comment" style="">
-                <p class="r-comment-header"><b>Great Place</b> <span class="r-review-rating">★★★★</span></p>
+                <p class="r-comment-header"><b>Great Place</b> <span class="r-review-rating"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"></span></p>
                 <p>Place is beautifully designed and practical. Just make sure to bring blankets, toilet paper and prepare for cold showers. Only a single electric stove available and no microwave. It is great place for close families, but i wouldnt recommend it for more than 7 couples. ( Max Bed sharing)</p>
                 <p>Reviewed December 1, 2016</p>
               </div>

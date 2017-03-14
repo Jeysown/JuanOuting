@@ -22,7 +22,7 @@
                 <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
             </button>
 
-              <a class="navbar-brand page-scroll" href="index.php" style="color:#59e7e5;font-family:Aleo;font-weight:600;">JuanderP<img src="assets/images/logo.png" alt="" style="width:40px;display:inline;">L</a>
+              <a class="navbar-brand page-scroll" href="index.php" style="color:#2196F3;font-family:Lobster;font-weight:600;">JuanderPool</a>
 
               <i class="fa fa-search search-show" aria-hidden="true"  onClick="openSearch();visibleSearch();"></i>
                 <div id="searchOffset">
