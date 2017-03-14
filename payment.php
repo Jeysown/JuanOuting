@@ -117,7 +117,89 @@
 
           </div>
 
+<<<<<<< HEAD
           <div class="col-sm-5 col-md-3 deck" >
+=======
+      <div class="fixedElement clearFixed" id="book-responsive">
+        <div>
+          <div class="container" id="book">
+            <div class="row">
+              <div class="search-bar">
+                <div class="search-content search-location-responsive sticky-button-book" >
+                  <button class="subscribe btn btn-primary btn-lg btn-block" type="button" onClick="openbooking()">Payment Overview</button>
+                </div>
+                <div class="overlay overlay-search" id="myBooking">
+                  <div class="overlay-content overlay-content-book" id="content-booking">
+                    <div class=" search-bar">
+                      <a href="javascript:void(0)" class="closebtn" onclick="closebooking()">&times;</a>
+                      <div>
+                        <div class="panel panel-default" style="margin-left:10px;">
+                          <div class="r-title-description" style="margin-left:10px;">
+                            <p>Booking Summary</p>
+                          </div>
+                          <div class="panel-body">
+                            <form role="form" id="payment-form" method="POST" action="javascript:void(0);">
+                              <div class="row">
+                                <div class="col-xs-12" >
+                                  <div class="">
+                                    <label style="display:inline-block;">Day:  </label>
+                                     <p style="float:right;"> Half Day - Morning</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-12">
+                                  <div class="">
+                                    <label style="display:inline-block">Check In: </label>
+                                      <p  style="float:right;">03/12/2017</p>
+                                  </div>
+                                </div>
+                                <div class="col-sm-12">
+                                  <div class="">
+                                    <label style="display:inline-block;">Check Out:</label>
+                                      <p style="float:right">03/15/2017</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-xs-12">
+                                  <div class="">
+                                    <label for="couponCode" style="display:inline-block;">Promo Code: </label>
+                                    <p style="float:right">0FBTW32daA</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="">
+                                      <label for="couponCode" style="display:inline-block;">Guests: </label>
+                                      <p style="float:right;">1-15 Persons</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-xs-12">
+                                  <table class="table" style="margin-bottom:0px;">
+                                    <tbody class="table-content">
+                                      <tr style="border-top:none;">
+                                        <td style="border-top:none;">₱5,512 x 1 night </h4></td>
+                                        <td style="border-top:none;"></td>
+                                        <td style="border-top:none;"></td>
+                                        <td class="col-md-1 text-center" style="border-top:none;" >₱5,512</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Tax and Service Fee</h4></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="col-md-1 text-center">₱1,003</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Total</h4></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="col-md-1 text-center">₱6,515</td>
+                                      </tr>
+>>>>>>> 36b8d3c8e9e6d424d8d4c1ca7f34f396a86234a2
 
             <div class="fixedElement clearFixed" id="book-responsive">
               <div>
