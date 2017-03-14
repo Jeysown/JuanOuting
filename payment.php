@@ -116,40 +116,40 @@
                           <div class="panel-body">
                             <form role="form" id="payment-form" method="POST" action="javascript:void(0);">
                               <div class="row">
-                                <div class="col-xs-12">
-                                  <div class="" style="display:inline-block">
-                                    <label>Day: </label>
-                                    <p style="float:right"> Half Day - Morning</p>
+                                <div class="col-xs-12" >
+                                  <div class="">
+                                    <label style="display:inline-block;">Day:  </label>
+                                     <p style="float:right;"> Half Day - Morning</p>
                                   </div>
                                 </div>
                               </div>
                               <div class="row">
                                 <div class="col-sm-12">
                                   <div class="">
-                                    <label>Check In: </label>
-                                      <p  style="display:inline-block">03/12/2017</p>
+                                    <label style="display:inline-block">Check In: </label>
+                                      <p  style="float:right;">03/12/2017</p>
                                   </div>
                                 </div>
                                 <div class="col-sm-12">
                                   <div class="">
-                                    <label>Check Out:</label>
-                                      <p style="display:inline-block">03/15/2017</p>
+                                    <label style="display:inline-block;">Check Out:</label>
+                                      <p style="float:right">03/15/2017</p>
                                   </div>
                                 </div>
                               </div>
                               <div class="row">
                                 <div class="col-xs-12">
                                   <div class="">
-                                    <label for="couponCode">Promo Code: </label>
-                                    <p style="display:inline-block">0FBTW32daA</p>
+                                    <label for="couponCode" style="display:inline-block;">Promo Code: </label>
+                                    <p style="float:right">0FBTW32daA</p>
                                   </div>
                                 </div>
                               </div>
                               <div class="row">
                                 <div class="col-xs-12">
                                     <div class="">
-                                      <label for="couponCode">Guests: </label>
-                                      <p style="display:inline-block">1-15 Persons</p>
+                                      <label for="couponCode" style="display:inline-block;">Guests: </label>
+                                      <p style="float:right;">1-15 Persons</p>
                                   </div>
                                 </div>
                               </div>
