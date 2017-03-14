@@ -117,9 +117,8 @@
 
           </div>
 
-<<<<<<< HEAD
+
           <div class="col-sm-5 col-md-3 deck" >
-=======
       <div class="fixedElement clearFixed" id="book-responsive">
         <div>
           <div class="container" id="book">
@@ -199,7 +198,7 @@
                                         <td></td>
                                         <td class="col-md-1 text-center">₱6,515</td>
                                       </tr>
->>>>>>> 36b8d3c8e9e6d424d8d4c1ca7f34f396a86234a2
+
 
             <div class="fixedElement clearFixed" id="book-responsive">
               <div>
