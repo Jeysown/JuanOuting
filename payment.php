@@ -48,6 +48,7 @@
       <div class="tab-content">
         <div id="credit-card" class="tab">
           <form>
+          <h5 class="col-lg-12">To pay by credit/debit card please fill out below</h5>
             <div class="col-xs-6 ">
               <div class="credit">
                 <label for="name">Type of Card</label>
@@ -88,8 +89,8 @@
 
     </div>
     <div>
-      <center><p style="margin:10px 0px 0px 0px;font-size:11px;clear:both;display:block;">By booking using JuanderPool, you agree to it's <a href="#">privacy notice</a> and <a href="#">conditions of use</a></p>
-        <button type="button" name="button" class="btn btn-primary submit-btn">Submit</button></center>
+      <center><p style="margin:10px 0px 10px 0px;font-size:11px;clear:both;display:block;">By booking using JuanderPool, you agree to it's <a href="#">privacy notice</a> and <a href="#">conditions of use</a></p>
+        <button type="button" name="button" class="btn pay-btn submit-btn">Pay</button></center>
       </div>
     </div>
 
@@ -116,49 +117,39 @@
                             <form role="form" id="payment-form" method="POST" action="javascript:void(0);">
                               <div class="row">
                                 <div class="col-xs-12">
-                                  <div class="">
-                                    <label>Day</label>
-                                    <div class="input-group" style="width:100%;text-align:center;">
-                                      Half Day - Morning
-                                    </div>
+                                  <div class="" style="display:inline-block">
+                                    <label>Day: </label>
+                                    <p style="float:right"> Half Day - Morning</p>
                                   </div>
                                 </div>
                               </div>
                               <div class="row">
-                                <div class="col-sm-6">
+                                <div class="col-sm-12">
                                   <div class="">
-                                    <label>Check In</label>
-                                    <div class="has-feedback">
-                                      <center>03/12/2017</center>
-                                    </div>
+                                    <label>Check In: </label>
+                                      <p  style="display:inline-block">03/12/2017</p>
                                   </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-12">
                                   <div class="">
-                                    <label>Check Out</label>
-                                    <div class="has-feedback">
-                                      <center>03/15/2017</center>
-                                    </div>
+                                    <label>Check Out:</label>
+                                      <p style="display:inline-block">03/15/2017</p>
                                   </div>
                                 </div>
                               </div>
                               <div class="row">
                                 <div class="col-xs-12">
                                   <div class="">
-                                    <label for="couponCode">Promo Code</label>
-                                    <div class="has-feedback">
-                                      <center>0FBTW32daA</center>
-                                    </div>
+                                    <label for="couponCode">Promo Code: </label>
+                                    <p style="display:inline-block">0FBTW32daA</p>
                                   </div>
                                 </div>
                               </div>
                               <div class="row">
                                 <div class="col-xs-12">
-                                  <div class="input-group" style="width:100%;">
                                     <div class="">
-                                      <label for="couponCode">Guests</label>
-                                      <center>1-15 Persons</center>
-                                    </div>
+                                      <label for="couponCode">Guests: </label>
+                                      <p style="display:inline-block">1-15 Persons</p>
                                   </div>
                                 </div>
                               </div>

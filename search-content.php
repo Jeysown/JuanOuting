@@ -55,7 +55,7 @@
                   </ul>
                 </div>
 
-                <div class="submit-btn search-content search-submit" ><p>&nbsp;</p>
+                <div class="submit-btn search-content search-submit" ><p style="margin-top:4px;">&nbsp;</p>
                 <a href="filter.php">  <button type="button" class="btn btn-default input-content search-button">Search</button></a>
                 </div>
           </div>

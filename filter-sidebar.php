@@ -30,7 +30,7 @@
                                         </span>
                                         <span class="filter-facilities">
                                             <input type="checkbox"  id="friendly" name="kitchen" onclick="kitchen()" value="0">
-                                            <label for="friendly" class="filter-label"><img src="assets/images/icons/kiddie.jpg" alt="" width="26px" class="icon-filter">Kiddie Pool</label>
+                                            <label for="friendly" class="filter-label"><img src="assets/images/icons/kiddie.jpg" alt="" width="26px" class="icon-filter"> Kiddie Pool</label>
                                           </span>
                                           <span class="filter-facilities">
                                               <input type="checkbox"  id="friendly" name="kitchen" onclick="kitchen()" value="0">

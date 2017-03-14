@@ -10,7 +10,7 @@
           <p class="r-content"><b class="r-price">₱5000 </b><span class="indiv-rating">
             <img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px">
           </span></p>
-          <p class="r-name"> 88 Forest and Hotspring abcd asdsa Resort </p>
+          <p class="r-name"> 88 Forest and Hotspring Resort </p>
         </a>
       </div>
       <div class="col-sm-6 filtered-card">
@@ -19,7 +19,7 @@
           <p class="r-content"><b class="r-price">₱5000 </b><span class="indiv-rating">
             <img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px">
           </span></p>
-          <p class="r-name"> Pogi akoasdsa Resort </p>
+          <p class="r-name"> Kolossi Hotspring Resort </p>
         </a>
       </div>
       <div class="col-sm-6 filtered-card">
@@ -28,7 +28,7 @@
           <p class="r-content"><b class="r-price">₱5000 </b><span class="indiv-rating">
             <img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px">
           </span></p>
-          <p class="r-name"> Jason Patrick S Lopez Resort </p>
+          <p class="r-name"> Amore Mio Resort  </p>
         </a>
       </div>
 

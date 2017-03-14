@@ -6,7 +6,7 @@ input:focus {
 body{
   padding:0 !important;
   margin:0 !important;
-  color: #696969;
+  color: #333;
     font-family: Poppins;
     background-color: white;
 }
@@ -243,7 +243,7 @@ collapse
 
 /*Featured titles*/
 .featured-title{
-  color:#696969;
+  color:#333;
   font-size: 1.5em;
   padding-bottom: 10px;
   position: relative;
@@ -530,7 +530,7 @@ padding: 0px 8px;
   background-color: white;
   padding: 20px 30px;
 }
-.search-button, .subscribe{
+.search-button, .subscribe, .pay-btn{
   background-color: #2196F3;
   color:#fff;
 }
@@ -783,7 +783,7 @@ padding-bottom: 30px;
   }
 }
 .resort-name{
-    font-weight: 500;
+    font-weight: 600;
     line-height: 26px;
     font-size: 24px;
 }
@@ -807,7 +807,7 @@ padding-bottom: 30px;
   padding-top: 30px;
 }
 .r-title-description{
-  color:#696969;
+  color:#333;
   font-size: 1.4em;
   position: relative;
   min-height: 1px;
@@ -815,6 +815,9 @@ padding-bottom: 30px;
   padding-top: 10px;
   clear: both;
   margin-bottom: 10px;
+}
+.r-map-button{
+font-weight: 600;
 }
 .r-content-description{
   padding-left: 0px;

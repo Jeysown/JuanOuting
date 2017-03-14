@@ -71,7 +71,7 @@
           </div>
           <div class="resort-address">
             <p class="r-p"> Calamba, Calabarzon, Philippines</p>
-            <a href="#">View on Map</a>
+            <a class="r-map-button" href="#">View on Map</a>
           </div>
         </div>
         <div class="col-sm-6 deck" >
