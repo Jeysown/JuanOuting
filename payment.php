@@ -48,7 +48,11 @@
       <div class="tab-content">
         <div id="credit-card" class="tab">
           <form>
-          <h5 class="col-lg-12">To pay by credit/debit card please fill out below</h5>
+            <div class="col-lg-12">
+              <img style="float:left;" src="assets/images/credit-logo.png" width="180px" height="30px" alt=""/>
+              <i class="fa fa-lock fa-2x"  style="color: #BDBDBD;line-height:40px;" aria-hidden="true"></i>
+              <h5 >To pay by credit/debit card, please fill out the fields below.</h5>
+            </div>
             <div class="col-xs-6 ">
               <div class="credit">
                 <label for="name">Type of Card</label>
@@ -84,108 +88,130 @@
             </div>
 
           </form>
-        </div>
-      </div>
-
-    </div>
-    <div>
-      <center><p style="margin:10px 0px 10px 0px;font-size:11px;clear:both;display:block;">By booking using JuanderPool, you agree to it's <a href="#">privacy notice</a> and <a href="#">conditions of use</a></p>
-        <button type="button" name="button" class="btn pay-btn submit-btn">Pay</button></center>
-      </div>
-    </div>
-
-    <div class="col-sm-5 col-md-3 deck" >
-
-      <div class="fixedElement clearFixed" id="book-responsive">
-        <div>
-          <div class="container" id="book">
-            <div class="row">
-              <div class="search-bar">
-                <div class="search-content search-location-responsive sticky-button-book" >
-                  <button class="subscribe btn btn-primary btn-lg btn-block" type="button" onClick="openbooking()">Payment Overview</button>
+          <div>
+            <center><p style="margin:10px 0px 10px 0px;font-size:11px;clear:both;display:block;">By booking using JuanderPool, you agree to it's <a href="#">privacy notice</a> and <a href="#">conditions of use</a></p>
+              <button type="button" name="button" class="btn pay-btn submit-btn">Pay</button></center>
+            </div>
+          </div>
+          <div id="money_remittance" class="tab active">
+            <div>
+              <center><p style="margin:10px 0px 10px 0px;font-size:11px;clear:both;display:block;">By booking using JuanderPool, you agree to it's <a href="#">privacy notice</a> and <a href="#">conditions of use</a></p>
+                <button type="button" name="button" class="btn pay-btn submit-btn">Pay via Cebuana</button></center>
+              </div>
+            </div>
+            <div id="bank" class="tab">
+              <div>
+                <center><p style="margin:10px 0px 10px 0px;font-size:11px;clear:both;display:block;">By booking using JuanderPool, you agree to it's <a href="#">privacy notice</a> and <a href="#">conditions of use</a></p>
+                  <button type="button" name="button" class="btn pay-btn submit-btn">Pay in bank</button></center>
                 </div>
-                <div class="overlay overlay-search" id="myBooking">
-                  <div class="overlay-content overlay-content-book" id="content-booking">
-                    <div class=" search-bar">
-                      <a href="javascript:void(0)" class="closebtn" onclick="closebooking()">&times;</a>
-                      <div>
-                        <div class="panel panel-default" style="margin-left:10px;">
-                          <div class="r-title-description" style="margin-left:10px;">
-                            <p>Booking Summary</p>
-                          </div>
-                          <div class="panel-body">
-                            <form role="form" id="payment-form" method="POST" action="javascript:void(0);">
-                              <div class="row">
-                                <div class="col-xs-12">
-                                  <div class="" style="display:inline-block">
-                                    <label>Day: </label>
-                                    <p style="float:right"> Half Day - Morning</p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col-sm-12">
-                                  <div class="">
-                                    <label>Check In: </label>
-                                      <p  style="display:inline-block">03/12/2017</p>
-                                  </div>
-                                </div>
-                                <div class="col-sm-12">
-                                  <div class="">
-                                    <label>Check Out:</label>
-                                      <p style="display:inline-block">03/15/2017</p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col-xs-12">
-                                  <div class="">
-                                    <label for="couponCode">Promo Code: </label>
-                                    <p style="display:inline-block">0FBTW32daA</p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="">
-                                      <label for="couponCode">Guests: </label>
-                                      <p style="display:inline-block">1-15 Persons</p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col-xs-12">
-                                  <table class="table" style="margin-bottom:0px;">
-                                    <tbody class="table-content">
-                                      <tr style="border-top:none;">
-                                        <td style="border-top:none;">₱5,512 x 1 night </h4></td>
-                                        <td style="border-top:none;"></td>
-                                        <td style="border-top:none;"></td>
-                                        <td class="col-md-1 text-center" style="border-top:none;" >₱5,512</td>
-                                      </tr>
-                                      <tr>
-                                        <td>Tax and Service Fee</h4></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td class="col-md-1 text-center">₱1,003</td>
-                                      </tr>
-                                      <tr>
-                                        <td>Total</h4></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td class="col-md-1 text-center">₱6,515</td>
-                                      </tr>
+              </div>
+              <div id="paypal" class="tab">
+                <div>
+                  <center><p style="margin:10px 0px 10px 0px;font-size:11px;clear:both;display:block;">By booking using JuanderPool, you agree to it's <a href="#">privacy notice</a> and <a href="#">conditions of use</a></p>
+                    <button type="button" name="button" class="btn pay-btn submit-btn">Pay via PayPal</button></center>
+                  </div>
+                </div>
+              </div>
 
-                                    </tbody>
-                                  </table>
+            </div>
+
+          </div>
+
+          <div class="col-sm-5 col-md-3 deck" >
+
+            <div class="fixedElement clearFixed" id="book-responsive">
+              <div>
+                <div class="container" id="book">
+                  <div class="row">
+                    <div class="search-bar">
+                      <div class="search-content search-location-responsive sticky-button-book" >
+                        <button class="subscribe btn btn-primary btn-lg btn-block" type="button" onClick="openbooking()">Payment Overview</button>
+                      </div>
+                      <div class="overlay overlay-search" id="myBooking">
+                        <div class="overlay-content overlay-content-book" id="content-booking">
+                          <div class=" search-bar">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closebooking()">&times;</a>
+                            <div>
+                              <div class="panel panel-default" style="margin-left:10px;">
+                                <div class="r-title-description" style="margin-left:10px;">
+                                  <p>Booking Summary</p>
+                                </div>
+                                <div class="panel-body">
+                                  <form role="form" id="payment-form" method="POST" action="javascript:void(0);">
+                                    <div class="row">
+                                      <div class="col-xs-12">
+                                        <div class="" style="display:inline-block">
+                                          <label>Day: </label>
+                                          <p style="float:right"> Half Day - Morning</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-sm-12">
+                                        <div class="">
+                                          <label>Check In: </label>
+                                          <p  style="display:inline-block">03/12/2017</p>
+                                        </div>
+                                      </div>
+                                      <div class="col-sm-12">
+                                        <div class="">
+                                          <label>Check Out:</label>
+                                          <p style="display:inline-block">03/15/2017</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-xs-12">
+                                        <div class="">
+                                          <label for="couponCode">Promo Code: </label>
+                                          <p style="display:inline-block">0FBTW32daA</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-xs-12">
+                                        <div class="">
+                                          <label for="couponCode">Guests: </label>
+                                          <p style="display:inline-block">1-15 Persons</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-xs-12">
+                                        <table class="table" style="margin-bottom:0px;">
+                                          <tbody class="table-content">
+                                            <tr style="border-top:none;">
+                                              <td style="border-top:none;">₱5,512 x 1 night </h4></td>
+                                              <td style="border-top:none;"></td>
+                                              <td style="border-top:none;"></td>
+                                              <td class="col-md-1 text-center" style="border-top:none;" >₱5,512</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Tax and Service Fee</h4></td>
+                                              <td></td>
+                                              <td></td>
+                                              <td class="col-md-1 text-center">₱1,003</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Total</h4></td>
+                                              <td></td>
+                                              <td></td>
+                                              <td class="col-md-1 text-center">₱6,515</td>
+                                            </tr>
+
+                                          </tbody>
+                                        </table>
+                                      </div>
+                                    </div>
+                                    <div class="row" style="display:none;">
+                                      <div class="col-xs-12">
+                                        <p class="payment-errors"></p>
+                                      </div>
+                                    </div>
+                                  </form>
                                 </div>
                               </div>
-                              <div class="row" style="display:none;">
-                                <div class="col-xs-12">
-                                  <p class="payment-errors"></p>
-                                </div>
-                              </div>
-                            </form>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -194,11 +220,8 @@
                 </div>
               </div>
             </div>
+
           </div>
+
         </div>
-      </div>
-
-    </div>
-
-  </div>
-  <?php include 'footer-payment.php' ?>
+        <?php include 'footer-payment.php' ?>
