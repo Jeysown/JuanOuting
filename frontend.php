@@ -288,22 +288,22 @@
                                                     <table class="table" style="margin-bottom:0px;">
                                                       <tbody class="table-content">
                                                           <tr style="border-top:none;">
-                                                              <td style="border-top:none;">₱5,512 x 1 night </h4></td>
+                                                              <td style="border-top:none;">₱4,000 x 1 night </h4></td>
                                                               <td style="border-top:none;"></td>
                                                               <td style="border-top:none;"></td>
-                                                              <td class="col-md-1 text-center" style="border-top:none;" >₱5,512</td>
+                                                              <td class="col-md-1 text-center" style="border-top:none;" >₱4,000</td>
                                                           </tr>
                                                           <tr>
                                                             <td>Tax and Service Fee</h4></td>
                                                             <td></td>
                                                             <td></td>
-                                                            <td class="col-md-1 text-center">₱1,003</td>
+                                                            <td class="col-md-1 text-center">₱1,000</td>
                                                           </tr>
                                                           <tr>
                                                             <td>Total</h4></td>
                                                             <td></td>
                                                             <td></td>
-                                                            <td class="col-md-1 text-center">₱6,515</td>
+                                                            <td class="col-md-1 text-center">₱5,000</td>
                                                           </tr>
 
                                                       </tbody>

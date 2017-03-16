@@ -207,11 +207,12 @@ collapse
   }
   .title-subheader{
     font-family: Poppins;
-    font-size: 30px;
+    font-size: 40px;
     font-style: normal;
     font-variant: normal;
-    line-height: 35px;
+    line-height: 45px;
     color: #696969;
+    width: 80%;
   }
   .juan{
     width: 350px;
@@ -233,8 +234,9 @@ collapse
       margin-top:0px;
     }
     .title-subheader{
-      font-size: 20px;
+      font-size: 30px;
       text-align: center;
+      width: 100%;
     }
     .juan{
       width: 200px;
@@ -310,7 +312,7 @@ padding-left: 8px;
 
 /*footer*/
 .footer{
-  background-color: #0D47A1;
+  background-color: #1256bf;
   width: 100%;
   padding: 40px 0px 10px;
   color: #fff;
