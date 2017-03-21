@@ -17,7 +17,7 @@
 
   </head>
   <body id="page-top">
-  <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top nav-frontend">
+  <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top nav-frontend" style="    box-shadow: 1px 1px 5px 3px rgba(0,0,0,0.1);">
       <div class="header-container">
           <div class="navbar-header page-scroll">
 

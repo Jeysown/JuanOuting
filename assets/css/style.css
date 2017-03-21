@@ -1400,3 +1400,41 @@ float: right;
     .credit{
       padding-bottom: 15px;
     }
+/*details*/
+.details-container{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.booking-overview{
+
+    line-height: 20px;
+    padding: 0;
+    font-size: 14px;
+    display: inline;
+    float: right;
+    clear: both;
+}
+.booking-primary{
+    border-bottom:1px solid #ccc;
+}
+.booking-primary>p{
+  float: right;
+  clear: both;
+}
+.booking-primary-header{
+  margin-top: 20px;
+}
+@media(max-width:1200px){
+  .booking-overview{
+      line-height: 20px;
+      padding: 0;
+      font-size: 14px;
+      display: inline;
+      clear: both;
+      float: none;
+  }
+  .details-container> p{
+    margin: 0 0 0px;
+  }
+
+}
