@@ -382,6 +382,7 @@
                 <p>Reviewed December 1, 2016</p>
               </div>
               <div class="col-lg-12 review-hr">
+                <a href="#" data-toggle="modal" data-target="#revieweModal">Reviews</a>
               </div>
             </div>
           </div>
@@ -397,4 +398,65 @@
       </div>
 
     </div>
+
+    <!-- BEGIN # MODAL Review  -->
+    <div class="modal fade" id="revieweModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="vertical-alignment-helper" style="padding-left: 17px;">
+
+          <div class="modal-dialog vertical-align-center" style="width:72%;">
+          <div class="modal-content border-modal">
+            <button type="button" class="close close-review" data-dismiss="modal" aria-label="Close" >
+              <span class="glyphicon glyphicon-remove" aria-hidden="true" style="z-index:1;"></span>
+            </button>
+            <div class="col-sm-5 container-review-sidebar">
+                    <label class="label-review-modal hidden-xs"><b class="review-thank">THANK YOU</b> <b class="review-for">FOR</b> <b class="review-booking">BOOKING</b> <b class="review-with">WITH</b><b class="review-us"> US.</b> </label>
+                    <div class="col-lg-12 review-hr hidden-xs" style="border-bottom:2px solid white ;">
+                    </div>
+                    <p class="review-subtitle">Rate and Review Your Experience in the Resort</p>
+                    <div class="col-lg-12 review-hr hidden-xs" style="padding-bottom:40px;border-top:2px solid white ;border-bottom:none;">
+                    </div>
+            </div>
+
+                    <div id="div-forms">
+                        <form id="login-form">
+                        <div class="modal-body">
+                             <div class="col-sm-7">
+                               <div class="review-content">
+                                 <div class="col-sm-12 r-review-comment">
+                                   <div class="col-sm-12 deck deck-review" style="text-align:center;" >
+                                     <div class="resort-name">
+                                       Balinese Villa
+                                     </div>
+                                     <div class="resort-address">
+                                       <p class="r-p"> Calamba, Calabarzon, Philippines</p>
+                                     </div>
+                                   </div>
+                                   <div class="col-sm-12 deck deck-review">
+                                     <p><span> <img src="assets/images/duck2.png" alt="" width="22px"><img src="assets/images/duck2.png" alt="" width="22px"><img src="assets/images/duck2.png" alt="" width="22px"><img src="assets/images/duck2.png" alt="" width="22px"><img src="assets/images/duck2.png" alt="" width="22px"></span></p>
+                                   </div>
+                                   <textarea class="form-control" rows="1" placeholder="Title" style="resize:none;  margin: 0 0 10px;"></textarea>
+                                   <textarea class="form-control" rows="5" placeholder="Write your review" style="resize:vertical;"></textarea>
+                                 </div>
+                                 <div class="col-xs-12">
+                                   <a href="payment.php">  <button class="subscribe input-content btn btn-lg " type="button">Add Review</button></a>
+                                 </div>
+                               </div>
+                           </div>
+
+
+                      </div>
+                    <div class="modal-footer" style="padding-bottom: 0px;">
+
+                    </div>
+                        </form>
+                        <!-- End # Review Form -->
+
+                    </div>
+                    <!-- End # DIV Form -->
+
+                  </div>
+          </div>
+        </div>
+      </div>
+        <!-- END # MODAL Review -->
 <?php include 'footer-frontend.php' ?>
