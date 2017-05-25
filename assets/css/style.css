@@ -1457,6 +1457,15 @@ float: right;
   padding-left: 0px;
   padding-right: 0px;
 }
+.header-review{
+  padding-bottom:  50px;
+}
+.review-intro{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 2px 0px;
+}
 @media(min-width:1261px){
   .review-thank{
     font-size:50px;color:#fff08c;
@@ -1510,5 +1519,8 @@ float: right;
   .review-subtitle{
     text-align: center;
     font-size: 20px;
+  }
+  .header-review{
+    padding-bottom:  0px;
   }
 }

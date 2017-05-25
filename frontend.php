@@ -423,22 +423,26 @@
                              <div class="col-sm-7">
                                <div class="review-content">
                                  <div class="col-sm-12 r-review-comment">
-                                   <div class="col-sm-12 deck deck-review" style="text-align:center;" >
-                                     <div class="resort-name">
-                                       Balinese Villa
+                                   <div class="header-review">
+                                     <div class="col-sm-12 deck deck-review" >
+                                       <div class="resort-name">
+                                         Balinese Villa
+                                       </div>
+                                       <div class="resort-address">
+                                         <p class="r-p"> Calamba, Calabarzon, Philippines</p>
+                                       </div>
                                      </div>
-                                     <div class="resort-address">
-                                       <p class="r-p"> Calamba, Calabarzon, Philippines</p>
-                                     </div>
+
                                    </div>
                                    <div class="col-sm-12 deck deck-review">
-                                     <p><span> <img src="assets/images/duck2.png" alt="" width="22px"><img src="assets/images/duck2.png" alt="" width="22px"><img src="assets/images/duck2.png" alt="" width="22px"><img src="assets/images/duck2.png" alt="" width="22px"><img src="assets/images/duck2.png" alt="" width="22px"></span></p>
+                                     <p class="review-intro hidden-xs">How was your stay in the resort?</p>
+                                     <p style="font-weight:bold">Rate: <span> <img src="assets/images/duck2.png" alt="" width="22px"><img src="assets/images/duck2.png" alt="" width="22px"><img src="assets/images/duck2.png" alt="" width="22px"><img src="assets/images/duck2.png" alt="" width="22px"><img src="assets/images/duck2.png" alt="" width="22px"></span></p>
                                    </div>
                                    <textarea class="form-control" rows="1" placeholder="Title" style="resize:none;  margin: 0 0 10px;"></textarea>
                                    <textarea class="form-control" rows="5" placeholder="Write your review" style="resize:vertical;"></textarea>
                                  </div>
                                  <div class="col-xs-12">
-                                   <a href="payment.php">  <button class="subscribe input-content btn btn-lg " type="button">Add Review</button></a>
+                                   <a href="payment.php">  <button class="subscribe input-content btn btn-lg " type="button" style="width:150px;float:right;">Add Review</button></a>
                                  </div>
                                </div>
                            </div>
