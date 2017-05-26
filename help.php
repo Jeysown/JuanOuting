@@ -13,7 +13,7 @@
     <div class="r-title">
       <div class="col-sm-6 deck" >
         <div class="resort-name">
-          Balinese Villa
+          Help
         </div>
         <div class="resort-address">
           <p class="r-p"> Calamba, Calabarzon, Philippines</p>
