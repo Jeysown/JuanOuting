@@ -1,5 +1,6 @@
 ﻿<div class="footer">
   <div class="container" >
+
     <div class="row footer-container footer-hr">
       <div class="footer-content">
         <div class="footer-title">

@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
+  <style type="text/css">
+
+.ui-datepicker-calendar .highlight {
+  background-color: #b0d7ed !important;
+}
+
+
+  </style>
+<script type='text/javascript'>//<![CDATA[
+$(window).load(function(){
+    $("#FromDate, #ToDate").datepicker({
+      rangeSelect: true,
+      beforeShow: customRange,
+      onSelect: customRange,
+    });
+
+    function customRange(input) {
+      if (input.id == "FromDate") {
+
+        $("#ui-datepicker-div td").off();
+
+        if (selectedDate != null) {
+          $('#ToDate').datepicker('option', 'minDate', selectedDate).datepicker('refresh');
+        }
+      }
+      if (input.id == "ToDate") {
+
+        $("#ui-datepicker-div td").on({
+          mouseenter: function() {
+            $(this).parent().addClass("finalRow");
+            $(".finalRow").prevAll().find("td:not(.ui-datepicker-unselectable)").addClass("highlight");
+            $(this).prevAll("td:not(.ui-datepicker-unselectable)").addClass("highlight");
+          },
+          mouseleave: function() {
+            $(this).parent().removeClass("finalRow");
+            $("#ui-datepicker-div td").removeClass("highlight");
+          }
+        });
+
+        var selectedDate = $("#FromDate").datepicker("getDate");
+        if (selectedDate != null) {
+          $('#ToDate').datepicker('option', 'minDate', selectedDate).datepicker('refresh');
+        }
+      }
+    }
+
+});
+</script>
+
+</head>
+
+<body>
+    <input type="text" name="FromDate" id="FromDate"/>
+    <input type="text" name="ToDate" id="ToDate"/>
+
+
+</body>
+
+</html>
