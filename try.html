@@ -2,9 +2,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.js"></script>
+      <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js"></script>
   <style type="text/css">
 
 .ui-datepicker-calendar .highlight {
@@ -24,7 +23,7 @@ $(window).load(function(){
     function customRange(input) {
       if (input.id == "FromDate") {
 
-        $("#ui-datepicker-div td").off();
+        $("#ui-datepicker-div td").die();
 
         if (selectedDate != null) {
           $('#ToDate').datepicker('option', 'minDate', selectedDate).datepicker('refresh');
@@ -32,7 +31,7 @@ $(window).load(function(){
       }
       if (input.id == "ToDate") {
 
-        $("#ui-datepicker-div td").on({
+        $("#ui-datepicker-div td").live({
           mouseenter: function() {
             $(this).parent().addClass("finalRow");
             $(".finalRow").prevAll().find("td:not(.ui-datepicker-unselectable)").addClass("highlight");

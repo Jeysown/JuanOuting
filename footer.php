@@ -1,4 +1,5 @@
-﻿<div class="footer">
+
+<div class="footer">
   <div class="container" >
 
     <div class="row footer-container footer-hr">
@@ -61,6 +62,7 @@
 <?php include 'modal.php' ?>
 </body>
 </html>
+
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
@@ -69,6 +71,8 @@
 <script type="text/javascript" src="assets/js/header.js"></script>
 <script src="assets/js/search.js"></script>
 <script src="assets/js/login.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.7.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js"></script>
 
 <script>
 
@@ -127,5 +131,13 @@ function hideSearch(){
 
 }
 
+
+</script>
+<script type="text/javascript">
+$(function AutoComplete(){
+  $( "#resort" ).autocomplete({
+    source: 'search.php'
+  });
+});
 
 </script>
