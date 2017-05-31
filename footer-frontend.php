@@ -66,36 +66,16 @@
 <script type="text/javascript" src="assets/js/functions.js"></script>
 <script type="text/javascript" src="assets/js/ease.js"></script>
 <script type="text/javascript" src="assets/js/header.js"></script>
-<script src="assets/js/search.js"></script>
+<script src="assets/js/search-frontend.js"></script>
 <script src="assets/js/login.js"></script>
 <script type="text/javascript" src="assets/js/gallery.js"></script>
-
+<script type="text/javascript" src="//code.jquery.com/jquery-1.7.js"></script>
+<script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
 <script>
 
 $( "#spinner" ).spinner();
 $( "#spinner1" ).spinner();
 $( "#spinner2" ).spinner();
-
-$("#FromDate1").val($.datepicker.formatDate('mm/dd/yy', new Date(new Date())));
-$("#ToDate1").val($.datepicker.formatDate('mm/dd/yy', new Date(new Date().getTime() + 1*24*60*60*1000)));
-
-$(function DatePicker(){
-$("#FromDate1").datepicker({
-  minDate: 0,
-  onSelect: function(dateText, inst) {
-    $("#ToDate1").val($.datepicker.formatDate('mm/dd/yy', new Date(new Date(dateText).getTime() + 1*24*60*60*1000)));
-      $("#FromDate1").val($.datepicker.formatDate('mm/dd/yy', new Date(new Date(dateText).getTime())));
-    $.datepicker.setDefaults({"defaultDate":dateText});
-  }
-});
-
-$("#ToDate1").datepicker({
-  minDate:0,
-  onSelect: function (dateText, inst) {
-    $("#ToDate1").val($.datepicker.formatDate('mm/dd/yy', new Date(new Date(dateText).getTime())));
-  }
-});
-});
 
     $(function AutoComplete1(){
       $( "#resort1" ).autocomplete({

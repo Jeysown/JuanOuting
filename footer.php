@@ -1,7 +1,5 @@
-
 <div class="footer">
   <div class="container" >
-
     <div class="row footer-container footer-hr">
       <div class="footer-content">
         <div class="footer-title">
@@ -62,7 +60,6 @@
 <?php include 'modal.php' ?>
 </body>
 </html>
-
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
@@ -71,35 +68,15 @@
 <script type="text/javascript" src="assets/js/header.js"></script>
 <script src="assets/js/search.js"></script>
 <script src="assets/js/login.js"></script>
+<script type="text/javascript" src="assets/js/gallery.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.7.js"></script>
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js"></script>
-
+<script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
 <script>
 
 $( "#spinner" ).spinner();
 $( "#spinner1" ).spinner();
 $( "#spinner2" ).spinner();
 
-$("#FromDate1").val($.datepicker.formatDate('mm/dd/yy', new Date(new Date())));
-$("#ToDate1").val($.datepicker.formatDate('mm/dd/yy', new Date(new Date().getTime() + 1*24*60*60*1000)));
-
-$(function DatePicker(){
-$("#FromDate1").datepicker({
-  minDate: 0,
-  onSelect: function(dateText, inst) {
-    $("#ToDate1").val($.datepicker.formatDate('mm/dd/yy', new Date(new Date(dateText).getTime() + 1*24*60*60*1000)));
-      $("#FromDate1").val($.datepicker.formatDate('mm/dd/yy', new Date(new Date(dateText).getTime())));
-    $.datepicker.setDefaults({"defaultDate":dateText});
-  }
-});
-
-$("#ToDate1").datepicker({
-  minDate:0,
-  onSelect: function (dateText, inst) {
-    $("#ToDate1").val($.datepicker.formatDate('mm/dd/yy', new Date(new Date(dateText).getTime())));
-  }
-});
-});
 
     $(function AutoComplete1(){
       $( "#resort1" ).autocomplete({
@@ -116,10 +93,9 @@ if (screen && screen.width < 768) {
 }
 else {
   document.write('<script type="text/javascript" src="assets/js/search2.js"><\/script>');
-
-    document.getElementById("myFilter").style.height = "100%";
-    $("#myFilter").removeAttr('class');
-    $("#content-filter").removeAttr('class');
+  document.getElementById("myBooking").style.height = "100%";
+  $("#myBooking").removeAttr('class');
+  $("#content-booking").removeAttr('class');
 
 }
 function visibleSearch(){
@@ -131,13 +107,5 @@ function hideSearch(){
 
 }
 
-
-</script>
-<script type="text/javascript">
-$(function AutoComplete(){
-  $( "#resort" ).autocomplete({
-    source: 'search.php'
-  });
-});
 
 </script>
