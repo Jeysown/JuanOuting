@@ -78,7 +78,7 @@
               </div>
               <div class="slider responsive">
                 <div>
-                  <div class="col-lg-12 card">
+                  <div class="col-lg-12 card card-responsive">
                     <img src="assets/images/1.jpg" alt="" class="r-img">
                     <p class="r-content"><b class="off-r-price">₱15000</b> <b class="r-price">₱12000 </b> <small class="r-discount">24% off</small><span class="indiv-rating"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"></span></p>
                     <p class="r-content"></p>
@@ -87,21 +87,21 @@
 
                 </div>
                 <div class="">
-                  <div class="col-lg-12 card">
+                  <div class="col-lg-12 card card-responsive">
                     <img src="assets/images/balinese/1.png" alt="" class="r-img">
                     <p class="r-content"><b class="r-price">₱5000 </b><span class="indiv-rating"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"></span></p>
                     <p class="r-name"> Balinese Resort </p>
                   </div>
                 </div>
                 <div class="">
-                  <div class="col-lg-12 card">
+                  <div class="col-lg-12 card card-responsive">
                     <img src="assets/images/3.jpg" alt="" class="r-img">
                     <p class="r-content"><b class="r-price">₱7000 </b><span class="indiv-rating"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"></span></p>
                     <p class="r-name"> Amore Mio Resort </p>
                   </div>
                 </div>
                 <div class="">
-                  <div class="col-lg-12 card">
+                  <div class="col-lg-12 card card-responsive">
                     <img src="assets/images/4.jpg" alt="" class="r-img">
                     <p class="r-content"><b class="r-price">₱7000 </b><span class="indiv-rating"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"></span></p>
                     <p class="r-name"> Amore Mio Resort </p>
@@ -136,15 +136,6 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 
   <script type="text/javascript">
-
-//   $('.responsive').slick({
-//   infinite: true,
-//   speed: 300,
-//   slidesToShow: 1,
-//   centerMode: true,
-//   variableWidth: true
-// });
-
 $('.responsive').slick({
   infinite: true,
   speed: 300,

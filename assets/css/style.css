@@ -1609,3 +1609,17 @@ float: right;
   .slick-slide img {
   display: inline;
   }
+@media(max-width:1024px){
+  .card-responsive{
+    padding-left: 2px;
+    padding-right: 3px;
+  }
+  .card-responsive > .r-img{
+        height: 170px;
+  }
+}
+@media(max-width:420px){
+  .card-responsive > .r-img{
+        height: 157px;
+  }
+}
