@@ -1,5 +1,7 @@
+
 <div class="footer">
   <div class="container" >
+
     <div class="row footer-container footer-hr">
       <div class="footer-content">
         <div class="footer-title">
@@ -60,17 +62,16 @@
 <?php include 'modal.php' ?>
 </body>
 </html>
+
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="assets/js/functions.js"></script>
 <script type="text/javascript" src="assets/js/ease.js"></script>
 <script type="text/javascript" src="assets/js/header.js"></script>
-<script src="assets/js/search.js"></script>
 <script src="assets/js/login.js"></script>
-<script type="text/javascript" src="assets/js/gallery.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.7.js"></script>
 <script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
+<script src="assets/js/search.js"></script>
 <script>
 
 $( "#spinner" ).spinner();
@@ -78,12 +79,6 @@ $( "#spinner1" ).spinner();
 $( "#spinner2" ).spinner();
 
 
-    $(function AutoComplete1(){
-      $( "#resort1" ).autocomplete({
-        source: 'search.php',
-        appendTo: '#yey'
-      });
-    });
 </script>
 
 <script type="text/javascript">
@@ -93,9 +88,10 @@ if (screen && screen.width < 768) {
 }
 else {
   document.write('<script type="text/javascript" src="assets/js/search2.js"><\/script>');
-  document.getElementById("myBooking").style.height = "100%";
-  $("#myBooking").removeAttr('class');
-  $("#content-booking").removeAttr('class');
+
+    document.getElementById("myFilter").style.height = "100%";
+    $("#myFilter").removeAttr('class');
+    $("#content-filter").removeAttr('class');
 
 }
 function visibleSearch(){
@@ -107,5 +103,13 @@ function hideSearch(){
 
 }
 
+
+</script>
+<script type="text/javascript">
+$(function AutoComplete(){
+  $( "#resort" ).autocomplete({
+    source: 'search.php'
+  });
+});
 
 </script>
