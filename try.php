@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JuanderPool | Helping You Book a Private Resort</title>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="assets/fonts/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="assets/css/style.css" media="screen" title="no title">
@@ -69,9 +68,9 @@
   </div>
 
   <div class="container">
-
+    <!-- Featured Destinations -->
     <div>
-        <div>
+        <div class="row deck-row">
 
               <div class="featured-title">
                 Featured Destinations
@@ -110,33 +109,62 @@
               </div>
             </div>
     </div>
-    <div class="row deck-row">
-      <div class="featured-title">
-        Calamba, Laguna
-      </div>
-      <div class="col-sm-4 card">
-        <img src="assets/images/2.jpg" alt="" class="r-img">
-        <p class="r-content"><b class="r-price">₱27000</b><span class="indiv-rating"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"></span></p>
-        <p class="r-name"> La Reprezza Resort </p>
-      </div>
-      <div class="col-sm-4 card">
-        <img src="assets/images/4.jpg" alt="" class="r-img">
-        <p class="r-content"><b class="r-price">₱8500 </b><span class="indiv-rating"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"></span></p>
-        <p class="r-name"> Joremi Private Resort </p>
-      </div>
-      <div class="col-sm-4 card">
-        <img src="assets/images/5.jpg" alt="" class="r-img">
-        <p class="r-content"><b class="r-price">₱36000 </b><span class="indiv-rating"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"></span></p>
-        <p class="r-name"> CJC Resort </p>
-      </div>
+    <!-- Featured Destinations -->
+    <!-- Locations -->
+    <div>
+        <div class="row deck-row">
+              <div class="featured-title">
+                Calamba, Laguna
+              </div>
+              <div class="slider responsive">
+                <div>
+                  <div class="col-lg-12 card card-responsive">
+                    <img src="assets/images/2.jpg" alt="" class="r-img">
+                    <p class="r-content"><b class="r-price">₱27000</b><span class="indiv-rating"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"></span></p>
+                    <p class="r-name"> La Reprezza Resort </p>
+                  </div>
+
+                </div>
+                <div class="">
+                  <div class="col-lg-12 card card-responsive">
+                    <img src="assets/images/4.jpg" alt="" class="r-img">
+                    <p class="r-content"><b class="r-price">₱8500 </b><span class="indiv-rating"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"></span></p>
+                    <p class="r-name"> Joremi Private Resort </p>
+                  </div>
+                </div>
+                <div class="">
+                  <div class="col-lg-12 card card-responsive">
+                    <img src="assets/images/3.jpg" alt="" class="r-img">
+                    <p class="r-content"><b class="r-price">₱7000 </b><span class="indiv-rating"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"></span></p>
+                    <p class="r-name"> Amore Mio Resort </p>
+                  </div>
+                </div>
+                <div class="">
+                  <div class="col-lg-12 card card-responsive">
+                    <img src="assets/images/5.jpg" alt="" class="r-img">
+                    <p class="r-content"><b class="r-price">₱36000 </b><span class="indiv-rating"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"></span></p>
+                    <p class="r-name"> CJC Resort </p>
+                  </div>
+                </div>
+              </div>
+        </div>
     </div>
+        <!-- Locations -->
+        <div id="posts">
+
+        </div>
+
+        <p id="loading">
+            <img src="assets/images/loading.gif" alt="Loading…" />
+        </p>
   </div>
+
 
 <?php include 'footer.php' ?>
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 
   <script type="text/javascript">
-$('.responsive').slick({
+$('.responsive, .responsive1').slick({
   infinite: true,
   speed: 300,
   slidesToShow: 3,
@@ -169,9 +197,35 @@ $('.responsive').slick({
         arrows:false
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
+
   ]
 });
+  </script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+      var win = $(window);
+
+      // Infinite scrolling
+      win.scroll(function() {
+          if($(window).scrollTop() + $(window).height() > $(document).height() - 300) {
+              $('#loading').show();
+
+
+              $.ajax({
+                  url: 'yeyy.php',
+                  dataType: 'html',
+                  success: function(html) {
+                      $('#posts').append(html);
+                      $('#loading').hide();
+
+                  }
+              });
+
+
+              // $('#posts').append($(randomPost()).hide().fadeIn(2000));
+              // $('#loading').hide();
+          }
+      });
+  });
+
   </script>
