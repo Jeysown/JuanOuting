@@ -154,7 +154,7 @@
 
         </div>
 
-        <p id="loading">
+        <p id="loading" style="padding:100px 0px;">
             <img src="assets/images/loading.gif" alt="Loading…" />
         </p>
   </div>
@@ -162,70 +162,81 @@
 
 <?php include 'footer.php' ?>
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script type="text/javascript">
 
-  <script type="text/javascript">
-$('.responsive, .responsive1').slick({
-  infinite: true,
-  speed: 300,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1025,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        centerMode: true,
-        arrows:false
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        centerMode: true,
-        arrows:false,
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerMode: true,
-        arrows:false
-      }
+
+function createSlick1(){
+
+$(".responsive").not('.slick-initialized').slick({
+infinite: true,
+speed: 300,
+slidesToShow: 3,
+slidesToScroll: 1,
+responsive: [
+  {
+    breakpoint: 1025,
+    settings: {
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      centerMode: true,
+      arrows:false
     }
+  },
+  {
+    breakpoint: 600,
+    settings: {
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      centerMode: true,
+      arrows:false,
+    }
+  },
+  {
+    breakpoint: 480,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      centerMode: true,
+      arrows:false
+    }
+  }
 
-  ]
+]
 });
-  </script>
+
+}
+
+createSlick1();
+
+//Now it will not throw error, even if called multiple times.
+$(window).on( 'resize', createSlick1 );
+
+</script>
+
   <script type="text/javascript">
   $(document).ready(function() {
       var win = $(window);
-
       // Infinite scrolling
       win.scroll(function() {
-          if($(window).scrollTop() + $(window).height() > $(document).height() - 300) {
-              $('#loading').show();
 
-
+          if($(window).scrollTop() + $(window).height() > $(document).height() - 400 & $(document).height() < 2600  ) {
+            $('#loading').show();
               $.ajax({
-                  url: 'yeyy.php',
+                  url: 'try-database.php',
                   dataType: 'html',
                   success: function(html) {
-                      $('#posts').append(html);
+                      $('#posts').append($(html).hide().fadeIn(2000));
                       $('#loading').hide();
 
                   }
+
               });
-
-
               // $('#posts').append($(randomPost()).hide().fadeIn(2000));
               // $('#loading').hide();
+
           }
       });
+
   });
 
   </script>

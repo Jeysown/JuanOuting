@@ -1,6 +1,6 @@
 
-<!-- Locations -->
-<div>
+<!-- Database -->
+<div class="loaded-slide">
     <div class="row deck-row">
           <div class="featured-title">
             Antipolo
@@ -8,7 +8,7 @@
           <div class="slider responsive1">
             <div>
               <div class="col-lg-12 card card-responsive">
-                <img src="assets/images/2.jpg" alt="" class="r-img">
+                <img src="http://www.planwallpaper.com/static/images/Beautiful-Scenery-HD-Wallpapers-Pictures-11.jpg" alt="" class="r-img">
                 <p class="r-content"><b class="r-price">₱27000</b><span class="indiv-rating"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"></span></p>
                 <p class="r-name"> La Reprezza Resort </p>
               </div>
@@ -16,21 +16,21 @@
             </div>
             <div class="">
               <div class="col-lg-12 card card-responsive">
-                <img src="assets/images/4.jpg" alt="" class="r-img">
+                <img src="http://wallpapercave.com/wp/JAA5qgn.jpg" alt="" class="r-img">
                 <p class="r-content"><b class="r-price">₱8500 </b><span class="indiv-rating"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"></span></p>
                 <p class="r-name"> Joremi Private Resort </p>
               </div>
             </div>
             <div class="">
               <div class="col-lg-12 card card-responsive">
-                <img src="assets/images/3.jpg" alt="" class="r-img">
+                <img src="https://www.planwallpaper.com/static/images/alone-wolf-111810-2048x1536.jpg" alt="" class="r-img">
                 <p class="r-content"><b class="r-price">₱7000 </b><span class="indiv-rating"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"></span></p>
                 <p class="r-name"> Amore Mio Resort </p>
               </div>
             </div>
             <div class="">
               <div class="col-lg-12 card card-responsive">
-                <img src="assets/images/5.jpg" alt="" class="r-img">
+                <img src="https://www.planwallpaper.com/static/images/Hd-superman-free-wallpaper_jk4XZN4.jpg" alt="" class="r-img">
                 <p class="r-content"><b class="r-price">₱36000 </b><span class="indiv-rating"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"> <img src="assets/images/duck.png" alt="" width="22px"></span></p>
                 <p class="r-name"> CJC Resort </p>
               </div>
@@ -40,7 +40,11 @@
 </div>
 
   <script type="text/javascript">
-$('.responsive1').slick({
+
+
+function createSlick(){
+
+	$(".responsive1").not('.slick-initialized').slick({
   infinite: true,
   speed: 300,
   slidesToShow: 3,
@@ -76,4 +80,12 @@ $('.responsive1').slick({
 
   ]
 });
+
+}
+
+createSlick();
+
+//Now it will not throw error, even if called multiple times.
+$(window).on( 'resize', createSlick );
+
   </script>
