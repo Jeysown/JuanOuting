@@ -26,17 +26,17 @@
 
         <div class="mySlides">
           <div class="numbertext">1 / 4</div>
-          <img src="assets/images/frontend/1.png" style="width:100%">
+          <img src="assets/images/frontend/1.png" >
         </div>
 
         <div class="mySlides">
           <div class="numbertext">2 / 4</div>
-          <img src="assets/images/frontend/2.png" style="width:100%">
+          <img src="assets/images/frontend/2.png" >
         </div>
 
         <div class="mySlides">
           <div class="numbertext">3 / 4</div>
-          <img src="assets/images/frontend/3.png" style="width:100%">
+          <img src="assets/images/frontend/3.png" >
         </div>
 
 

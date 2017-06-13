@@ -11,142 +11,141 @@
   <div class="container" style="padding-top:50px;">
 
     <div class="r-title">
-      <div class="col-sm-6 deck" >
+      <div class="col-lg-12">
         <div class="resort-name">
           Help
         </div>
+        <hr class="hr-help" >
+      </div>
+      <div class="col-md-3 hidden-sm hidden-xs deck" style="padding-top:25px;padding-bottom:50px;">
         <div class="resort-address">
-          <p class="r-p"> Calamba, Calabarzon, Philippines</p>
-          <a class="r-map-button" href="#">View on Map</a>
-        </div>
-      </div>
-      <div class="col-sm-6 deck" >
-        <p class="r-p"><span class="r-rating"> <img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"><img src="assets/images/duck.png" alt="" width="22px"></span></p>
-        <p class="r-p"><span class="r-review">Based on 3 reviews</span></p>
-      </div>
-    </div>
-    <div class="col-xs-12 deck r-overall">
-      <!-- Overview of contents -->
-      <div class="r-title-description">
-        <p>About Us</p>
-      </div>
-      <p>Our Cozy four bed room private villa and social hall has a true filipino feeling.
-          We can only accommodate around 16 persons, 24 can be manageable to sleep and less than 100 to party
-          at the social hall Or swimming and stargazing on a late evening.</p>
-          <!-- Prices -->
-          <div>
-            <div class="r-title-description">
-                <p>Prices</p>
-            </div>
-            <div class="col-xs-6 r-content-description">
-              <p>Half Day - Morning: <b>₱5,000</b></p>
-            </div>
-            <div class="col-xs-6 r-content-description">
-              <p>Half Day - Evening: <b>₱5,000</b></p>
-            </div>
-            <div class="col-xs-6 r-content-description">
-              <p>Whole Day: <b>₱10,000</b></p>
-            </div>
-          </div>
-          <!-- Check in Check out -->
-      <div>
-        <div class="r-title-description">
-            <p>Check In / Check Out</p>
-        </div>
-        <div class="col-xs-6 r-content-description">
-          <p>Check In: <b>8AM</b></p>
-        </div>
-        <div class="col-xs-6 r-content-description">
-          <p>Check Out: <b>6AM</b></p>
-        </div>
-      </div>
-      <!-- Check in Check out -->
-      <!-- Bathrooms, Bedrooms, and Beds -->
-      <div>
-        <div class="r-title-description">
-            <p>Bathrooms, Bedrooms, and Beds</p>
-        </div>
-        <div class="col-xs-6 col-sm-4 r-content-description">
-          <p><img src="assets/images/icons/bathroom.png" alt=""  class="icon-filter">Bathrooms: <b>4</b></p>
-        </div>
-        <div class="col-xs-6 col-sm-4 r-content-description">
-          <p><img src="assets/images/icons/bedroom.png" alt=""  class="icon-filter">Bedrooms: <b>4</b></p>
-        </div>
-        <div class="col-xs-6 col-sm-4 r-content-description">
-          <p><img src="assets/images/icons/bed.png" alt=""  class="icon-filter">Beds: <b>4</b></p>
-        </div>
-      </div>
-      <!-- Bathrooms, Bedrooms, and Beds -->
-      <!--What they have  -->
-    <div>
-        <div class="r-title-description">
-            <p>What we offer</p>
-        </div>
-        <div class="col-xs-6 col-sm-4 r-content-description">
-          <p><img src="assets/images/icons/kiddie.jpg" alt=""  class="icon-filter">Kiddie Pool:<b> 3ft</b></p>
-        </div>
-        <div class="col-xs-6 col-sm-4 r-content-description">
-          <p><img src="assets/images/icons/adult_pool.png" alt="" class="icon-filter">Adult Pool:<b> 6ft</b></p>
-        </div>
-        <div class="col-xs-6 col-sm-4 r-content-description">
-          <p><img src="assets/images/icons/jacuzzi.png" alt=""  class="icon-filter">Jacuzzi</p>
-        </div>
-        <div class="col-xs-6 col-sm-4 r-content-description">
-          <p><img src="assets/images/icons/billiard.png" alt=""  class="icon-filter">Billiards</p>
-        </div>
-        <div class="col-xs-6 col-sm-4 r-content-description">
-          <p><img src="assets/images/icons/videoke.png" alt=""  class="icon-filter">Videoke</p>
-        </div>
-        <div class="col-xs-6 col-sm-4 r-content-description">
-          <p><img src="assets/images/icons/kitchen.png" alt=""  class="icon-filter">Kitchen</p>
-        </div>
-        <div class="col-xs-6 col-sm-4 r-content-description">
-          <p><img src="assets/images/icons/griller2.png" alt=""  class="icon-filter">Griller</p>
-        </div>
-        <div class="col-xs-6 col-sm-4 r-content-description">
-          <p><img src="assets/images/icons/hall.png" alt=""  class="icon-filter">Function Hall</p>
-        </div>
-        <div class="col-xs-6 col-sm-4 r-content-description">
-          <p><img src="assets/images/icons/wifi.png" alt=""  class="icon-filter">Wifi</p>
-        </div>
-      </div>
-      <!--What they have  -->
-      <!-- Description -->
-      <div>
-        <div class="r-title-description" >
-            <p>Know more about us</p>
-        </div>
-        <div class="col-xs-12 r-content-description">
-          <p>Clean and open space good for party, wedding reception, baptismal, debut, team building or just plain family gathering or friends get together. As listed 16 pax to comfortably sleep on the listed price in the excess of 16 pax shall be subject to additional fee, we can also accommodate less 100 people to party at the social hall but subject to confirmation and additional fee. The spacious pavillion with good air circulation will give you a relaxing feeling.</p>
-        </div>
-      </div>
-      <!-- Description -->
-      <!-- House Rules -->
-      <div>
-        <div class="r-title-description" >
-            <p>House Rules</p>
-        </div>
-        <div class="col-xs-12 r-content-description">
-          <p>We request a non smoking on the bedroom and toilet and bathrooms. As much as possible please keep our place clean so others can also enjoy our place.
-            Smoking is allowed only at the social hall provided that the cigarette buts will only end up at the ash tray.</p>
-          <p>No drinking or eating inside the swimming pool.</p>
-          <p>We have provide beautiful ceramic vases to contemplate the resort and tropical feel in our rest house please do take good care of them any damage will be charge accordingly, we do not provide towels,blankets and toiletries please do bring your own.</p>
-          <p>A care taker will always be present to assist you but please do respect that he is there to check if everthing is in good condition nothing more nothing less</p>
-          <p>Please keep in mind that the karaoke machine is provided free of charge but if the microphone is damage by you or your group you will be charge to the security deposit</p>
-        </div>
-      </div>
-      <!-- House Rules -->
-      <!-- Other Charges -->
-      <div>
-        <div class="r-title-description" >
-            <p>Other Charges</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 r-content-description">
-          <p>LPG: <b>Php300.00/22hr ; Php150.00/day or night </b></p>
-        </div>
-      </div>
-      <!-- Other Charges -->
+          <p> <a href="#">Getting Started</a></p>
+          <p> <a href="#">Account & Profile</a></p>
+          <p> <a href="#">Private Pool Owners</a></p>
+          <p> <a href="#">Customers</a></p>
+          <p> <a href="#">Payments</a></p>
+          <p> <a href="#">Reviews</a></p>
+          <p> <a href="#">Taxes</a></p>
+          <p> <a href="#">Policies</a></p>
+          <p> <a href="#">Contact Us</a></p>
 
+
+        </div>
+      </div>
+      <div class="col-md-9 deck" >
+        <h1 style="padding-bottom:15px;">Frequently Asked Questions</h1>
+        <div class="">
+            <ul class="ul-help">
+            <li><h4><div id="flip"> <i class="fa fa-chevron-circle-down" aria-hidden="true"></i> How to Log In?</div></h4></li>
+              <div id="panel">
+              <br><b>1. Go to the Main Page</b>
+              <br>You can see there the Log In form.<p>
+              <br><img src="images/help/login.jpg" style="width:600px;height:300px;"><p>
+              <br><b>2. Sign In on a computer</b>
+              <br>Filled up the correct username and password, it is required. Click stay sign in if you want to remember your account then click "Log In" button to successfully login.<p>
+              <br><img src="images/help/loginexample.jpg" style="width:600px;height:300px;"><p>
+              </div>
+
+
+
+            <li><h4><div id="flip1"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i> How to Log Out?</div></h4></li>
+              <div id="panel1">When using public computers like in a library or cybercafe, remember that you may still be signed in to any services you’ve been using even after you close the browser. So when using a public computer, be sure to sign out.
+              <br><br><b>Sign out on a computer</b>
+              <br>In the upper right of the navigation bar, you can see there your name. Just click it then you will see the "Log Out" link to sign out. <p>
+              <br><img src="images/help/logout.jpg" style="width:600px;height:300px;">
+              </div>
+
+              <li><h4><div id="flip3"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i> How to Register?</div></h4></li>
+              <div id="panel3">
+              <br><b>1. Go to the Main Page</b>
+              <br>In the lower part of the Log In form, you can see there the "Register" link. Click it it to go to the registration page. <p>
+              <br><img src="images/help/login.jpg" style="width:600px;height:300px;"><p>
+              <br><b>2. Registration Form</b>
+              <br>Fill up the registration form according to the requirements. <p>
+              <br><img src="images/help/register.jpg" style="width:600px;height:300px;">
+              </div>
+
+            <li><h4><div id="flip2"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i> How to view a Report?</div></h4></li>
+              <div id="panel2">
+              <br><b>*For the librarian</b>
+              <br>1. In the navigation bar, find "Transaction" then look for "Borrow", click it.
+              <br><img src="help/borrow.png" style="width:220px;height:150px;"><p>
+              <br>2. Record the transaction, select the name of the borrower from the members.
+              <br><img src="help/b_name.png" style="width:200px;height:80px;">
+              <br><b>Note: Be sure they are member to borrow books</b><p>
+              <br>3. Select the name of the book to be check.
+              <br><img src="help/add_books.png" style="width:500px;height:300px;"><p>
+              <br>3. Select the due date to return the book. Then click "Borrow".
+              <br><img src="help/date.png" style="width:500px;height:300px;"><p>
+              </div>
+
+            <li><h4><div id="flip4"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i> How to Dowload the Mobile Application?</div></h4></li>
+              <div id="panel4">
+              <br><b>*For the librarian</b>
+              <br>1. In the navigation bar, find "Transaction" then look for "Borrow", click it.<p>
+              <br><img src="help/view_borrowed.png" style="width:220px;height:150px;"><p>
+              <br>2. Select the borrower's name and click return, it will display an option<p>
+              <br><img src="help/add_returned.png" style="width:400px;height:200px;"><p>
+              <br>*It will redirect you to all records with the date and time of the returned books.
+              <br><img src="help/status.png" style="width:600px;height:75px;"><p>
+              </div>
+
+              <li><h4><div id="flip5"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i> How to Convert Points?</div></h4></li>
+                <div id="panel5">
+                <br><b>*For the librarian</b>
+                <br>1. In the navigation bar, find "Transaction" then look for "Borrow", click it.
+                <br><img src="help/borrow.png" style="width:220px;height:150px;"><p>
+                <br>2. Record the transaction, select the name of the borrower from the members.
+                <br><img src="help/b_name.png" style="width:200px;height:80px;">
+                <br><b>Note: Be sure they are member to borrow books</b><p>
+                <br>3. Select the name of the book to be check.
+                <br><img src="help/add_books.png" style="width:500px;height:300px;"><p>
+                <br>3. Select the due date to return the book. Then click "Borrow".
+                <br><img src="help/date.png" style="width:500px;height:300px;"><p>
+                </div>
+</ul>
+
+        </div>
+      </div>
     </div>
+
   </div>
         <?php include 'footer-payment.php' ?>
+        <script>
+        $(document).ready(function(){
+            $("#flip").click(function(){
+                $("#panel").slideToggle("slow");
+
+            });
+        });
+        $(document).ready(function(){
+            $("#flip1").click(function(){
+                $("#panel1").slideToggle("slow");
+
+            });
+        });
+        $(document).ready(function(){
+            $("#flip2").click(function(){
+                $("#panel2").slideToggle("slow");
+
+            });
+        });
+        $(document).ready(function(){
+            $("#flip3").click(function(){
+                $("#panel3").slideToggle("slow");
+
+            });
+        });
+        $(document).ready(function(){
+            $("#flip4").click(function(){
+                $("#panel4").slideToggle("slow");
+
+            });
+        });
+        $(document).ready(function(){
+            $("#flip5").click(function(){
+                $("#panel5").slideToggle("slow");
+
+            });
+        });
+        </script>

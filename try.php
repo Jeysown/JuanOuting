@@ -236,7 +236,7 @@ $(window).on( 'resize', createSlick1 );
 
           }
       });
-
+      $('body').hide().fadeIn(2000);
   });
 
   </script>

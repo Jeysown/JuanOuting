@@ -89,7 +89,9 @@ padding-top: 200px;
 .mySlides {
   display: none;
 }
-
+.mySlides>img {
+  width: 100%;
+}
 .cursor {
   cursor: pointer
 }
