@@ -1612,6 +1612,15 @@ ul{
   padding: 0;
   padding-bottom: 50px;
 }
+.help-sidebar>p>a{
+  color:#333;
+}
+.help-sidebar>p{
+  padding-bottom: 8px;
+}
+.help-sidebar>p>a:hover{
+  color:#333;
+}
 #flip, #flip1,#flip2,#flip3, #flip4, #flip5,#flip6 {
     padding: 5px;
     text-align: left;

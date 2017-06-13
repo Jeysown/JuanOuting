@@ -18,7 +18,7 @@
         <hr class="hr-help" >
       </div>
       <div class="col-md-3 hidden-sm hidden-xs deck" style="padding-top:25px;padding-bottom:50px;">
-        <div class="resort-address">
+        <div class="help-sidebar">
           <p> <a href="#">Getting Started</a></p>
           <p> <a href="#">Account & Profile</a></p>
           <p> <a href="#">Private Pool Owners</a></p>
@@ -28,12 +28,10 @@
           <p> <a href="#">Taxes</a></p>
           <p> <a href="#">Policies</a></p>
           <p> <a href="#">Contact Us</a></p>
-
-
         </div>
       </div>
       <div class="col-md-9 deck" >
-        <h1 style="padding-bottom:15px;">Frequently Asked Questions</h1>
+        <h2 style="padding-bottom:15px;font-weight:bold">Frequently Asked Questions</h2>
         <div class="">
             <ul class="ul-help">
             <li><h4><div id="flip"> <i class="fa fa-chevron-circle-down" aria-hidden="true"></i> How to Log In?</div></h4></li>
