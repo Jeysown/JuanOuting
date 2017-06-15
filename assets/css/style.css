@@ -21,6 +21,8 @@ body.modal-open[style] {
     width: 0 !important; /*removes the scrollbar but still scrollable*/
     /* reference: http://stackoverflow.com/a/26500272/2259400 */
 }
+
+/*Navigation*/
 .header-container{
   padding-left: 10px;
   padding-right: 10px;
@@ -216,6 +218,7 @@ collapse
   }
   .juan{
     width: 350px;
+    pointer-events: none;
   }
   .filter-header1{
     margin-top: 100px;
@@ -725,6 +728,7 @@ overflow:hidden;
           filter:brightness(.7);
 
 }
+/*header*/
 .header-text{
   color: white;
   padding: 0.5em;
@@ -770,7 +774,7 @@ padding-bottom: 30px;
     font-family:Lobster;
   }
 }
-
+/*Resort*/
 @media(max-width:767px){
   .resort-img {
       background:url('../images/balinese/1.png') no-repeat;
@@ -927,6 +931,7 @@ border: 7px solid #fff;
   bottom:10px;
   left: 0px;
 }
+/*search*/
 .search-show{
   display: none;
 }
@@ -1174,8 +1179,12 @@ float: right;
     .progress-container em {
       display: block;
       font-size: 1.1em;
-      font-weight: bold;
+      padding-top: 10px;
 
+    }
+    .progress-container span{
+      font-weight: bold;
+      font-size: 1em;
     }
 
     .progress-container li {
@@ -1230,8 +1239,10 @@ float: right;
       }
     }
     .progress-column{
-      padding-top:200px;padding-bottom:200px;    padding-left: 0px;
-          padding-right: 0px;
+      padding-top:80px;
+      padding-bottom:20px;
+      padding-left: 0px;
+      padding-right: 0px;
     }
     .progress-container li:first-child {
       padding-left: 5px;
@@ -1272,21 +1283,21 @@ float: right;
     .progress-container li { background-color: #41A4F0; }
     .progress-container li::after { border-left-color: #41A4F0; }
 
-    .progress-container li.current { background-color: #1C91E9; }
+    .progress-container li.current { background-color: #01579B; }
     .progress-container li.current::after {
-      border-left-color: #1C91E9;
+      border-left-color: #01579B;
         }
         .progress-container li:nth-child(5).current::after{
-          border-top-color:#1C91E9;
-            border-bottom-color: #1C91E9;
+          border-top-color:#01579B;
+            border-bottom-color: #01579B;
         }
     .progress-container li.current ~ li { background-color: #b1b1b1; }
     .progress-container li.current ~ li::after { border-left-color: #b1b1b1; }
 
     .progress-container li:hover {background-color: #01579B}
     .progress-container li:hover::after {border-left-color: #01579B; }
-    .progress-container li.current:hover {background-color: #1C91E9;}
-    .progress-container li.current:hover::after {border-left-color: #1C91E9; }
+    .progress-container li.current:hover {background-color: #01579B;}
+    .progress-container li.current:hover::after {border-left-color: #01579B; }
     /* Base for label styling */
     [type="checkbox"]:not(:checked),
     [type="checkbox"]:checked {
@@ -1444,6 +1455,8 @@ float: right;
 .label-review-modal{
   color:white;font-size:3.3em;font-weight:semi-bold;line-height: .86;padding-top:40px;padding-left:0px;padding-right:0px;
 }
+
+/*Review*/
 .review-subtitle{
   color:white;font-size:2.2em;text-align:justify;margin:0px;font-weight:bold;
 }
@@ -1614,6 +1627,7 @@ ul{
 }
 .help-sidebar>p>a{
   color:#333;
+  font-weight: bold;
 }
 .help-sidebar>p{
   padding-bottom: 8px;
