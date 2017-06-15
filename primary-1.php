@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row" style="padding-top:20px;">
     <div class="col-xs-6">
         <div class="form-group">
             <label for="couponCode">Resort Name</label>

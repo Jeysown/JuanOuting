@@ -1823,3 +1823,15 @@ margin: 12px 0px 0px 0px;
   display: none;
   text-align: center;
 }
+/*Add facilities*/
+.add-facilities{
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.icon-add-resorts{
+  margin: 0px 4px;
+  width: 32px;
+  height: 30px;
+}
