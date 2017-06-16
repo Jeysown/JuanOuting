@@ -15,3 +15,4 @@
       <a href="add-resort.php">  <button class="subscribe input-content btn btn-lg" type="button">Continue</button></a>
     </div>
 </div>
+<center>dsadsa</center>

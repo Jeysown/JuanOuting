@@ -109,31 +109,31 @@
                 <label for="select-all" class="filter-label">All</label>
               </span>
             <span class="filter-facilities col-md-6 add-facilities">
-                <input type="checkbox"  id="Sunday" name="Sunday" onclick="unchecked_all()" value="0">
+                <input type="checkbox"  id="Sunday" name="Sunday" onclick="selectDay();unchecked_all()"  class="workout_days_option" value="0">
                 <label for="Sunday" class="filter-label">Sunday</label>
             </span>
             <span class="filter-facilities col-md-6 add-facilities">
-              <input type="checkbox" name="Monday" id="Monday" onclick="unchecked_all()" value="1"/>
+              <input type="checkbox" name="Monday" id="Monday" onclick="selectDay();unchecked_all()"  class="workout_days_option" value="1"/>
               <label for="Monday" class="filter-label">Monday</label>
               </span>
               <span class="filter-facilities col-md-6 add-facilities">
-                  <input type="checkbox"  id="Tuesday" name="Tuesday" onclick="unchecked_all()" value="2">
+                  <input type="checkbox"  id="Tuesday" name="Tuesday" onclick="selectDay();unchecked_all()"  class="workout_days_option" value="2">
                   <label for="Tuesday" class="filter-label">Tuesday</label>
                 </span>
                 <span class="filter-facilities col-md-6 add-facilities">
-                    <input type="checkbox"  id="Wednesday" name="Wednesday" onclick="unchecked_all()" value="3">
+                    <input type="checkbox"  id="Wednesday" name="Wednesday" onclick="selectDay();unchecked_all()"  class="workout_days_option" value="3">
                     <label for="Wednesday" class="filter-label">Wednesday</label>
                   </span>
             <span class="filter-facilities col-md-6 add-facilities">
-                <input type="checkbox"  id="Thursday" name="Thursday" onclick="unchecked_all()" value="4">
+                <input type="checkbox"  id="Thursday" name="Thursday" onclick="selectDay();unchecked_all()"  class="workout_days_option" value="4">
                 <label for="Thursday" class="filter-label">Thursday</label>
               </span>
             <span class="filter-facilities col-md-6 add-facilities">
-                <input type="checkbox"  id="Friday" name="Friday" onclick="unchecked_all()" value="5">
+                <input type="checkbox"  id="Friday" name="Friday" onclick="selectDay();unchecked_all()"  class="workout_days_option" value="5">
                 <label for="Friday" class="filter-label">Friday</label>
             </span>
             <span class="filter-facilities col-md-6 add-facilities">
-                <input type="checkbox"  id="Saturday" name="Saturday" onclick="unchecked_all()" value="6">
+                <input type="checkbox"  id="Saturday" name="Saturday" onclick="selectDay();unchecked_all()"  class="workout_days_option" value="6">
                 <label for="Saturday" class="filter-label">Saturday</label>
             </span>
             </div>
@@ -144,20 +144,18 @@
     <div class="col-lg-8">
       <center>
         <div id="content_calendar">
-        <div class="calendar-yey"></div>
+          <div class="datepicker">
+
+          </div>
         </div>
       </center>
     </div>
+
 </div>
 
 
 <?php include 'footer.php' ?>
 <script type="text/javascript">
-
-$('.calendar-yey').datepicker({
-  minDate: 0,
-  rangeSelect: true
-});
 // Listen for click on toggle checkbox
 $('#select-all').click(function(event) {
     if(this.checked) {
@@ -172,43 +170,59 @@ function unchecked_all(){
 }
 
 </script>
+
 <script type='text/javascript'>//<![CDATA[
-
-var _selectedDays = new Array();
-$(function() {
-    $("#datepicker").datepicker({
-        showOn: "button",
-        buttonImage: "http://www.insead.edu/events/leadershipsummitasia2010/images/calendar_icon.jpg",
-        buttonImageOnly: true,
-        dateFormat: 'DD, MM d, yy',
-        minDate: 0,
-        beforeShowDay: nonWorkingDates
-    });
-    $("#selectdays input:checkbox").change(function(){
-        var v=$(this).attr("value")*1;
-        var f=$.inArray(v,_selectedDays);
-        if($(this).is(":checked")){
-            if(f<0){
-                _selectedDays.push(v);
-            }
-        }else{
-            if(f>=0){
-                _selectedDays.splice(f,1);
-            }
-        }
-    });
-});
-
-function nonWorkingDates(date){
+  $("#select-all").change(function(){
+    if(this.checked){
+      $(".workout_days_option").each(function(){
+        this.checked=true;
+      })
+    }else{
+      $(".workout_days_option").each(function(){
+        this.checked=false;
+      })
+    }
+    callThis();
+  });
+  $(".datepicker").datepicker({
+      dateFormat: 'DD, MM d, yy',
+      minDate: null,
+      beforeShowDay : availableDays
+  });
+  function temporaryNotAvailable(date){
     var day = date.getDay();
-    for(var i=0;i<_selectedDays.length;i++){
-       if(day==_selectedDays[i]){
-           return [false];
-       }
+    var temporary = [0,1,2,3,4,5,6];
+    for(var i=0;i<temporary.length;i++){
+      if(day == temporary[i]){
+        return [false];
+      }
     }
     return [true];
-}
+  }
+  function availableDays(date){
+    var day = date.getDay();
+    var available = [];
+    $("input:checkbox[class=workout_days_option]").each(function(){
+      if($(this).is(':checked'))
+        available.push($(this).val());
+    });
+    for(var i=0;i<available.length;i++){
+      if(day == available[i]){
+        return [true];
+      }
+    }
+    return [false];
+  }
 
-//]]>
+function selectDay(){
+  callThis();
+}
+function callThis(){
+  $(".datepicker").datepicker("refresh",{
+      dateFormat: 'DD, MM d, yy',
+      minDate: null,
+      beforeShowDay : availableDays
+  });
+}
 
 </script>
