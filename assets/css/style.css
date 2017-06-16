@@ -1200,29 +1200,30 @@ float: right;
     }
 
 
-    @media(min-width:1030px){
+    @media(min-width:1000px){
           .progress-container li {
-            width:200px;
+            width:300px;
           }
     }
     @media(min-width:1335px){
           .progress-container li {
-            width:260px;
+            width:370px;
           }
     }
     @media(max-width:783px){
           .progress-container li {
-            width:145px;
+            width:220px;
           }
     }
     @media(max-width:742px){
           .progress-container li {
-            width:100px;
+            width:200px;
           }
     }
     @media(max-width:516px){
     .progress-container li {
-        width: 60px;
+        width: 115px;
+        padding-top: 5%;
       }
       .progress-container em {
         display: none;
@@ -1829,6 +1830,11 @@ margin: 12px 0px 0px 0px;
   padding-right: 0px;
   font-size: 20px;
   padding-bottom: 10px;
+}
+@media(max-width:600px){
+  .add-facilities{
+    font-size: 17px;
+  }
 }
 .icon-add-resorts{
   margin: 0px 4px;

@@ -24,8 +24,8 @@
 
 
     </div>
-    <div class="col-md-8" style="padding-bottom:50px;">
-      <?php include 'descriptions.php' ?>
+    <div class="col-md-7" style="padding-bottom:50px;">
+      <?php include 'primary-1.php' ?>
     </div>
   </div>
 

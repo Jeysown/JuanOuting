@@ -86,7 +86,7 @@
     </div>
     </div>
 </div>
-<div class="container" style="padding-top:80px;padding-bottom:50px;">
+<div class="container" style="padding-bottom:50px;">
   <div class="r-title">
     <div class="col-lg-12">
       <div class="resort-name">
