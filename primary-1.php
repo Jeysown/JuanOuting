@@ -1,11 +1,12 @@
-<div class="row" style="padding-top:20px;">
+
+  <div class="row" style="padding-top:20px;">
     <div class="col-xs-6">
-        <div class="form-group">
-            <label for="couponCode">Resort Name</label>
-            <div class="has-feedback">
-              <input type="text" class="input-content" placeholder="Resort Name"/></input>
-            </div>
+      <div class="form-group">
+        <label for="couponCode">Resort Name</label>
+        <div class="has-feedback">
+          <input type="text" class="input-content" placeholder="Resort Name"/></input>
         </div>
+      </div>
     </div>
     <div class="col-xs-6">
       <div class="input-group" style="width:100%;">
@@ -22,22 +23,22 @@
               <li><a href="#">1-50 persons</a></li>
             </ul>
           </div>
+        </div>
       </div>
     </div>
-</div>
 
-<div class="row">
-    <div class="col-xs-12">
+    <div class="row">
+      <div class="col-xs-12">
         <div class="form-group">
-            <label for="couponCode">Address</label>
-            <div class="has-feedback">
-              <input type="text" class="input-content" placeholder="Address"/></input>
-            </div>
+          <label for="couponCode">Address</label>
+          <div class="has-feedback">
+            <input type="text" class="input-content" placeholder="Address"/></input>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<div class="row">
-    <div class="col-xs-4" style="float:right;">
-      <a href="add-resort.php">  <button class="subscribe input-content btn btn-lg" type="button">Continue</button></a>
+    <div class="row">
+      <div class="col-xs-4" style="float:right;">
+        <button class="subscribe input-content btn btn-lg" type="button">Continue</button>
+      </div>
     </div>
-</div>

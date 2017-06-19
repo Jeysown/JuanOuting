@@ -1,3 +1,4 @@
+
 <div class="col-lg-10">
 <center><h3 style="padding:0px 30px;">Check your awesome facilities!</h3></center>
 </div>
@@ -37,6 +38,6 @@
   </div>
 <div class="row">
     <div class="col-sm-4 col-xs-5" style="float:right;">
-      <a href="add-resort.php">  <button class="subscribe input-content btn btn-lg" type="button">Continue to Step 2</button></a>
+      <button class="subscribe input-content btn btn-lg" type="button">Continue to Step 2</button>
     </div>
 </div>
