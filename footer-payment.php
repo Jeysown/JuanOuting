@@ -66,9 +66,6 @@
 <script type="text/javascript" src="assets/js/functions.js"></script>
 <script type="text/javascript" src="assets/js/ease.js"></script>
 <script type="text/javascript" src="assets/js/header.js"></script>
-<script src="assets/js/search.js"></script>
-<script src="assets/js/login.js"></script>
-<script type="text/javascript" src="assets/js/payment.js"></script>
 
 <script>
 
