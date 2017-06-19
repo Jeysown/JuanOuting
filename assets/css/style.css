@@ -1284,21 +1284,21 @@ float: right;
     .progress-container li { background-color: #41A4F0; }
     .progress-container li::after { border-left-color: #41A4F0; }
 
-    .progress-container li.current { background-color: #01579B; }
+    .progress-container li.current { background-color: #3ca4f3; }
     .progress-container li.current::after {
-      border-left-color: #01579B;
+      border-left-color: #3ca4f3;
         }
         .progress-container li:nth-child(5).current::after{
-          border-top-color:#01579B;
-            border-bottom-color: #01579B;
+          border-top-color:#3ca4f3;
+            border-bottom-color: #3ca4f3;
         }
     .progress-container li.current ~ li { background-color: #b1b1b1; }
     .progress-container li.current ~ li::after { border-left-color: #b1b1b1; }
 
-    .progress-container li:hover {background-color: #01579B}
-    .progress-container li:hover::after {border-left-color: #01579B; }
-    .progress-container li.current:hover {background-color: #01579B;}
-    .progress-container li.current:hover::after {border-left-color: #01579B; }
+    .progress-container li:hover {background-color: #3ca4f3}
+    .progress-container li:hover::after {border-left-color: #3ca4f3; }
+    .progress-container li.current:hover {background-color: #3ca4f3;}
+    .progress-container li.current:hover::after {border-left-color: #3ca4f3; }
     /* Base for label styling */
     [type="checkbox"]:not(:checked),
     [type="checkbox"]:checked {
@@ -1840,4 +1840,7 @@ margin: 12px 0px 0px 0px;
   margin: 0px 4px;
   width: 32px;
   height: 30px;
+}
+.add-first-step{
+      background: linear-gradient(to right, #01579B 0%, #41a4f0 100%);
 }

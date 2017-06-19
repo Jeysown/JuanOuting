@@ -4,8 +4,8 @@
   <div style="text-align: center">
   <div style="display: inline-block;">
       <ul class="progress-container">
-        <li ><a href="#" title=""><em>Step 1: </em><span>Primary Information</span></a></li>
-        <li class="current"><a href="#" title=""><em>Step 2: </em><span>Photos & Descriptions</span></a></li>
+        <li class="current add-first-step"><a href="#" title=""><em>Step 1: </em><span>Primary Information</span></a></li>
+        <li><a href="#" title=""><em>Step 2: </em><span>Photos & Descriptions</span></a></li>
         <li><a href="#" title=""><em>Step 3: </em><span>Rules & Prices</span></a></li>
       </ul>
     </div>
