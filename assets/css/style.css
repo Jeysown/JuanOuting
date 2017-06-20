@@ -1281,24 +1281,24 @@ float: right;
     }
 
 
-    .progress-container li { background-color: #41A4F0; }
-    .progress-container li::after { border-left-color: #41A4F0; }
+    .progress-container li { background-color: #062a48; }
+    .progress-container li::after { border-left-color: #062a48; }
 
-    .progress-container li.current { background-color: #3ca4f3; }
+    .progress-container li.current { background-color: #2196f3; }
     .progress-container li.current::after {
-      border-left-color: #3ca4f3;
+      border-left-color: #2196f3;
         }
         .progress-container li:nth-child(5).current::after{
-          border-top-color:#3ca4f3;
-            border-bottom-color: #3ca4f3;
+          border-top-color:#2196f3;
+            border-bottom-color: #2196f3;
         }
-    .progress-container li.current ~ li { background-color: #b1b1b1; }
-    .progress-container li.current ~ li::after { border-left-color: #b1b1b1; }
+    .progress-container li.current ~ li { background-color: #2196f3; }
+    .progress-container li.current ~ li::after { border-left-color: #2196f3; }
 
-    .progress-container li:hover {background-color: #3ca4f3}
-    .progress-container li:hover::after {border-left-color: #3ca4f3; }
-    .progress-container li.current:hover {background-color: #3ca4f3;}
-    .progress-container li.current:hover::after {border-left-color: #3ca4f3; }
+    .progress-container li:hover {background-color: #062a48}
+    .progress-container li:hover::after {border-left-color: #062a48; }
+    .progress-container li.current:hover {background-color: #2196f3;}
+    .progress-container li.current:hover::after {border-left-color: #2196f3; }
     /* Base for label styling */
     [type="checkbox"]:not(:checked),
     [type="checkbox"]:checked {
@@ -1842,5 +1842,14 @@ margin: 12px 0px 0px 0px;
   height: 30px;
 }
 .add-first-step{
-      background: linear-gradient(to right, #01579B 0%, #41a4f0 100%);
+      background: linear-gradient(to right, #062a48 25%, #2196f3 0%);
+}
+.add-second-step{
+      background: linear-gradient(to right, #062a48 50%, #2196f3 0%);
+}
+.add-third-step{
+      background: linear-gradient(to right, #062a48 75%, #2196f3 0%);
+}
+.add-fourth-step{
+      background: linear-gradient(to right, #062a48 90%, #2196f3 0%);
 }

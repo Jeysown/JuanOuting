@@ -27,8 +27,32 @@
       table#selectdays th{width:50px;}
     }
   </style>
+  <div class="col-lg-12 progress-column">
+    <div style="text-align: center">
+      <div style="display: inline-block;">
+        <ul class="progress-container">
+          <li><a href="#" title=""><em>Step 1: </em><span>Primary Information</span></a></li>
+          <li><a href="#" title=""><em>Step 2: </em><span>Photos & Descriptions</span></a></li>
+          <li class="current add-first-step"><a href="#" title=""><em>Step 3: </em><span>Rules & Prices</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-<div class="container" style="padding-bottom:50px;padding-top:20px;">
+  <div class="container">
+
+    <div class="r-title">
+      <div class="col-lg-12">
+        <div class="resort-name">
+          Rules & Prices
+        </div>
+        <hr class="hr-help" >
+      </div>
+
+
+    </div>
+    <div class="col-md-7"style="padding-bottom:50px;">
+<div class="container" style="padding-top:20px;">
   <div class="col-lg-4">
 
     <div class="row">
@@ -83,11 +107,89 @@
           </div>
         </div>
       </center>
-      <div class="row">
-          <div class="col-sm-4 col-xs-5" style="float:right;padding-top:20px;">
-            <a href="add-resort.php">  <button class="subscribe input-content btn btn-lg" type="button">Continue</button></a>
-          </div>
+      <div class="row" style="padding-top:20px;">
+        <div class="col-sm-4 col-xs-5">
+        <button class="back input-content btn btn-lg" type="button">Back</button>
+        </div>
+        <div class="col-sm-4 col-xs-5" style="float:right;">
+        <button class="subscribe input-content btn btn-lg" type="button">Continue</button>
+        </div>
       </div>
     </div>
 
 </div>
+
+<script type="text/javascript">
+
+function unchecked_all(){
+  $("#select-all").prop("checked", false);
+}
+
+  $("#select-all").change(function(){
+    if(this.checked){
+      $(".workout_days_option").each(function(){
+        this.checked=true;
+      })
+    }else{
+      $(".workout_days_option").each(function(){
+        this.checked=false;
+      })
+    }
+    callThis();
+  });
+  $(".datepicker").datepicker({
+      dateFormat: 'DD, MM d, yy',
+      beforeShowDay : availableDays
+  });
+  function temporaryNotAvailable(date){
+    var day = date.getDay();
+    var temporary = [0,1,2,3,4,5,6];
+    for(var i=0;i<temporary.length;i++){
+      if(day == temporary[i]){
+        return [false];
+      }
+    }
+    return [true];
+  }
+  function availableDays(date){
+    var day = date.getDay();
+    var available = [];
+    $("input:checkbox[class=workout_days_option]").each(function(){
+      if($(this).is(':checked'))
+        available.push($(this).val());
+    });
+    for(var i=0;i<available.length;i++){
+      if(day == available[i]){
+        return [true];
+      }
+    }
+    return [false];
+  }
+
+function selectDay(){
+  callThis();
+}
+function callThis(){
+  $(".datepicker").datepicker("refresh",{
+      dateFormat: 'DD, MM d, yy',
+      beforeShowDay : availableDays
+  });
+}
+// $(".datepicker").datepicker({
+//   minDate: 0,
+//   rangeSelect: true,
+//   beforeShow: customRange,
+//   onSelect: customRange
+//
+// });
+//
+// function customRange(input) {
+//   if (input.class == "datepicker") {
+//     $("#ui-datepicker-div td").die();
+//     if (selectedDate != null) {
+//       $('.datepicker').datepicker('option', 'minDate', selectedDate).datepicker('refresh');
+//     }
+//
+//   }
+// }
+</script>

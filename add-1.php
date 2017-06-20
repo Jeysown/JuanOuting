@@ -1,4 +1,28 @@
+<div class="col-lg-12 progress-column">
+  <div style="text-align: center">
+    <div style="display: inline-block;">
+      <ul class="progress-container">
+        <li class="current add-first-step"><a href="#" title=""><em>Step 1: </em><span>Primary Information</span></a></li>
+        <li><a href="#" title=""><em>Step 2: </em><span>Photos & Descriptions</span></a></li>
+        <li><a href="#" title=""><em>Step 3: </em><span>Rules & Prices</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
 
+<div class="container">
+
+  <div class="r-title">
+    <div class="col-lg-12">
+      <div class="resort-name">
+        Primary Information
+      </div>
+      <hr class="hr-help" >
+    </div>
+
+
+  </div>
+  <div class="col-md-7"style="padding-bottom:50px;">
   <div class="row" style="padding-top:20px;">
     <div class="col-xs-6">
       <div class="form-group">
