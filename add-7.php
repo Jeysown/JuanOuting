@@ -5,7 +5,7 @@
         <ul class="progress-container">
           <li><a href="#" title=""><em>Step 1: </em><span>Primary Information</span></a></li>
           <li><a href="#" title=""><em>Step 2: </em><span>Photos & Descriptions</span></a></li>
-          <li class="current add-first-step"><a href="#" title=""><em>Step 3: </em><span>Rules & Prices</span></a></li>
+          <li class="current add-second-step"><a href="#" title=""><em>Step 3: </em><span>Rules & Prices</span></a></li>
         </ul>
       </div>
     </div>
@@ -75,6 +75,6 @@
           <button class="back input-content btn btn-lg" type="button">Back</button>
           </div>
           <div class="col-sm-4 col-xs-5" style="float:right;">
-          <button class="subscribe input-content btn btn-lg" type="button">Finish</button>
+          <button class="subscribe input-content btn btn-lg" type="button">Continue</button>
           </div>
         </div>
