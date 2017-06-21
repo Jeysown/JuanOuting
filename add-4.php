@@ -35,6 +35,23 @@
         <li><a href="#">1</a></li>
         <li><a href="#">2</a></li>
         <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">6</a></li>
+        <li><a href="#">7</a></li>
+        <li><a href="#">8</a></li>
+        <li><a href="#">9</a></li>
+        <li><a href="#">10</a></li>
+        <li><a href="#">11</a></li>
+        <li><a href="#">12</a></li>
+        <li><a href="#">13</a></li>
+        <li><a href="#">14</a></li>
+        <li><a href="#">15</a></li>
+        <li><a href="#">16</a></li>
+        <li><a href="#">17</a></li>
+        <li><a href="#">18</a></li>
+        <li><a href="#">19</a></li>
+        <li><a href="#">20</a></li>
       </ul>
 
       <label for="Bedrooms" class="filter-label"><img src="assets/images/icons/bedroom.png" alt=""  class="icon-filter">Bedrooms</label>
@@ -48,6 +65,23 @@
           <li><a href="#">1</a></li>
           <li><a href="#">2</a></li>
           <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">6</a></li>
+          <li><a href="#">7</a></li>
+          <li><a href="#">8</a></li>
+          <li><a href="#">9</a></li>
+          <li><a href="#">10</a></li>
+          <li><a href="#">11</a></li>
+          <li><a href="#">12</a></li>
+          <li><a href="#">13</a></li>
+          <li><a href="#">14</a></li>
+          <li><a href="#">15</a></li>
+          <li><a href="#">16</a></li>
+          <li><a href="#">17</a></li>
+          <li><a href="#">18</a></li>
+          <li><a href="#">19</a></li>
+          <li><a href="#">20</a></li>
         </ul>
 
         <label for="Bedrooms" class="filter-label"><img src="assets/images/icons/bathroom.png" alt=""  class="icon-filter">Bathrooms</label>
@@ -62,6 +96,23 @@
           <li><a href="#">1</a></li>
           <li><a href="#">2</a></li>
           <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">6</a></li>
+          <li><a href="#">7</a></li>
+          <li><a href="#">8</a></li>
+          <li><a href="#">9</a></li>
+          <li><a href="#">10</a></li>
+          <li><a href="#">11</a></li>
+          <li><a href="#">12</a></li>
+          <li><a href="#">13</a></li>
+          <li><a href="#">14</a></li>
+          <li><a href="#">15</a></li>
+          <li><a href="#">16</a></li>
+          <li><a href="#">17</a></li>
+          <li><a href="#">18</a></li>
+          <li><a href="#">19</a></li>
+          <li><a href="#">20</a></li>
         </ul>
         <label for="Bedrooms" class="filter-label"><img src="assets/images/icons/bed.png" alt=""  class="icon-filter">Beds</label>
         </div>
@@ -77,3 +128,5 @@
       <button class="subscribe input-content btn btn-lg" type="button">Go to Step 2</button>
     </div>
 </div>
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
