@@ -1,6 +1,6 @@
-<?php include 'nav-payment.php' ?>
-<?php include 'search-content-frontend.php' ?>
-<div class="parent-header-help" style="padding-top: 60px;">
+<?php include 'nav-not-fixed.php' ?>
+
+<div class="parent-header-help">
     <div class="child-header-help"></div>
   <div class="header-text-help">
   <center><p class="header-jumbotron-help ">We are here to help you.</p>
@@ -106,7 +106,7 @@
     </div>
 
   </div>
-        <?php include 'footer-payment.php' ?>
+        <?php include 'footer-not-fixed.php' ?>
         <script>
         $(document).ready(function(){
             $("#flip").click(function(){
