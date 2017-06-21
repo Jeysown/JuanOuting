@@ -72,14 +72,11 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-1.7.js"></script>
 <script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
 <script src="assets/js/search.js"></script>
-<script>
-
+<!-- <script>
 $( "#spinner" ).spinner();
 $( "#spinner1" ).spinner();
 $( "#spinner2" ).spinner();
-
-
-</script>
+</script> -->
 
 <script type="text/javascript">
 if (screen && screen.width < 768) {

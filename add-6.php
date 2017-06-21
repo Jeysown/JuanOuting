@@ -1,7 +1,4 @@
-
-    <link rel="stylesheet" href="assets/css/jquery-ui.css" media="screen" title="no title">
-
-
+  <link rel="stylesheet" href="assets/css/jquery-ui.css" media="screen" title="no title">
   <style media="screen">
   .ui-widget.ui-widget-content{
     width: 100%;
@@ -118,7 +115,6 @@
     </div>
 
 </div>
-
 <script type="text/javascript">
 
 function unchecked_all(){
