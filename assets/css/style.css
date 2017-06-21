@@ -1,4 +1,3 @@
-
 html,body,#page, header { height:100%;outline: none;}
 input:focus {
     outline:none !important;
@@ -1200,29 +1199,30 @@ float: right;
     }
 
 
-    @media(min-width:1030px){
+    @media(min-width:1000px){
           .progress-container li {
-            width:200px;
+            width:300px;
           }
     }
     @media(min-width:1335px){
           .progress-container li {
-            width:260px;
+            width:370px;
           }
     }
     @media(max-width:783px){
           .progress-container li {
-            width:145px;
+            width:220px;
           }
     }
     @media(max-width:742px){
           .progress-container li {
-            width:100px;
+            width:200px;
           }
     }
     @media(max-width:516px){
     .progress-container li {
-        width: 60px;
+        width: 115px;
+        padding-top: 5%;
       }
       .progress-container em {
         display: none;
@@ -1280,24 +1280,24 @@ float: right;
     }
 
 
-    .progress-container li { background-color: #41A4F0; }
-    .progress-container li::after { border-left-color: #41A4F0; }
+    .progress-container li { background-color: #062a48; }
+    .progress-container li::after { border-left-color: #062a48; }
 
-    .progress-container li.current { background-color: #01579B; }
+    .progress-container li.current { background-color: #2196f3; }
     .progress-container li.current::after {
-      border-left-color: #01579B;
+      border-left-color: #2196f3;
         }
         .progress-container li:nth-child(5).current::after{
-          border-top-color:#01579B;
-            border-bottom-color: #01579B;
+          border-top-color:#2196f3;
+            border-bottom-color: #2196f3;
         }
-    .progress-container li.current ~ li { background-color: #b1b1b1; }
-    .progress-container li.current ~ li::after { border-left-color: #b1b1b1; }
+    .progress-container li.current ~ li { background-color: #2196f3; }
+    .progress-container li.current ~ li::after { border-left-color: #2196f3; }
 
-    .progress-container li:hover {background-color: #01579B}
-    .progress-container li:hover::after {border-left-color: #01579B; }
-    .progress-container li.current:hover {background-color: #01579B;}
-    .progress-container li.current:hover::after {border-left-color: #01579B; }
+    .progress-container li:hover {background-color: #062a48}
+    .progress-container li:hover::after {border-left-color: #062a48; }
+    .progress-container li.current:hover {background-color: #2196f3;}
+    .progress-container li.current:hover::after {border-left-color: #2196f3; }
     /* Base for label styling */
     [type="checkbox"]:not(:checked),
     [type="checkbox"]:checked {
@@ -1592,7 +1592,7 @@ float: right;
  .search-header-icon-help{
    height: 70px;
  padding: 21px 15px;
- line-height: 20px;
+ line-height: 21px;
  background: white;
  font-size: 20px;
  color: #676767;
@@ -1822,4 +1822,60 @@ margin: 12px 0px 0px 0px;
 #loading {
   display: none;
   text-align: center;
+}
+/*Add facilities*/
+.add-facilities{
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+@media(max-width:600px){
+  .add-facilities{
+    font-size: 17px;
+  }
+}
+.icon-add-resorts{
+  margin: 0px 4px;
+  width: 32px;
+  height: 30px;
+}
+.add-first-step{
+      background: linear-gradient(to right, #062a48 20%, #2196f3 0%);
+}
+.add-second-step{
+      background: linear-gradient(to right, #062a48 40%, #2196f3 0%);
+}
+.add-third-step{
+      background: linear-gradient(to right, #062a48 50%, #2196f3 0%);
+}
+.add-fourth-step{
+      background: linear-gradient(to right, #062a48 60%, #2196f3 0%);
+}
+.add-fifth-step{
+      background: linear-gradient(to right, #062a48 75%, #2196f3 0%);
+}
+.add-sixth-step{
+      background: linear-gradient(to right, #062a48 90%, #2196f3 0%);
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.add-prices{
+  padding-top: 8px;
+  font-size: 1.5em;
+  right:none;
+  left:0;
+}
+.dropdown-add{
+  top: 85%;
+  width: 96%;
+  left: inherit;
+}
+.no-padding{
+  padding-left: 0px;
+  padding-right: 0px;
 }

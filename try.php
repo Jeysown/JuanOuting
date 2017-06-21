@@ -161,6 +161,13 @@
 
 
 <?php include 'footer.php' ?>
+<script type="text/javascript">
+
+  $(window).load(function() {
+    // Animate loader off screen
+    $(".se-pre-con").fadeOut("slow");;
+  });
+</script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 <script type="text/javascript">
 
