@@ -128,5 +128,3 @@
       <button class="subscribe input-content btn btn-lg" type="button">Go to Step 2</button>
     </div>
 </div>
-<script type="text/javascript" src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>

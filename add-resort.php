@@ -1,5 +1,7 @@
 <?php include 'nav-payment.php' ?>
 <?php include 'search-content-frontend.php' ?>
+
+
 <div id="input-container">
 
       <?php include 'add-1.php' ?>
@@ -7,8 +9,7 @@
   </div>
 </div>
 
-<?php include 'footer-payment.php' ?>
-
+<?php include 'footer.php' ?>
 
 <script>
 var count = 1;
