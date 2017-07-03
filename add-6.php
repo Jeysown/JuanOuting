@@ -170,21 +170,4 @@ $(".datepicker").datepicker("refresh",{
    beforeShowDay : availableDays
 });
 }
-// $(".datepicker").datepicker({
-//   minDate: 0,
-//   rangeSelect: true,
-//   beforeShow: customRange,
-//   onSelect: customRange
-//
-// });
-//
-// function customRange(input) {
-//   if (input.class == "datepicker") {
-//     $("#ui-datepicker-div td").die();
-//     if (selectedDate != null) {
-//       $('.datepicker').datepicker('option', 'minDate', selectedDate).datepicker('refresh');
-//     }
-//
-//   }
-// }
 </script>

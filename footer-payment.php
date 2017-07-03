@@ -71,9 +71,9 @@
 
 <script>
 
-$( "#spinner" ).spinner();
-$( "#spinner1" ).spinner();
-$( "#spinner2" ).spinner();
+// $( "#spinner" ).spinner();
+// $( "#spinner1" ).spinner();
+// $( "#spinner2" ).spinner();
 
 $("#FromDate1").val($.datepicker.formatDate('mm/dd/yy', new Date(new Date())));
 $("#ToDate1").val($.datepicker.formatDate('mm/dd/yy', new Date(new Date().getTime() + 1*24*60*60*1000)));
