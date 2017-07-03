@@ -1,4 +1,4 @@
-<?php include 'nav.php' ?>
+<?php include 'nav-login.php' ?>
   <div class="parent-header">
       <div class="child-header">
         <div class="col-sm-3">
