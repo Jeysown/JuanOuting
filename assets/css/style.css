@@ -67,6 +67,7 @@ body.modal-open[style] {
   letter-spacing: 1px;
   color: #696969;
   font-weight: bold;
+  font-size: 12px;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
@@ -320,8 +321,9 @@ padding-left: 8px;
   color: #fff;
   z-index: 501;
   right: 0;
-bottom: 0;
-left: 0;
+  bottom: 0;
+  left: 0;
+  position: relative;
 }
 
 .footer2-title{
@@ -1907,7 +1909,7 @@ input[type=number]::-webkit-outer-spin-button {
 /*Navigation when logged in*/
 .dropdown-nav{
   overflow-y:auto;
-  width: 250px;
+  width: 200px;
 }
 .anchor-logged{
   font-weight: bold;
@@ -1944,9 +1946,9 @@ padding-left: 5px;padding-top:15px;
   border:none;
   padding-top:10px;
   float:none;
-  margin-right: 10px;
+  margin-right: 2px;
 }
-@media(max-width:770px){
+@media(max-width:760px){
   .profile-name{
     float:none !important;
   }
@@ -1968,4 +1970,58 @@ padding-left: 5px;padding-top:15px;
     padding: 5px 0px;
   border-bottom: none;
   }
+}
+/*Settings Content*/
+.settings-container{
+  padding:62px 0px 0px 0px;
+  width:100%;
+}
+
+.form-settings{
+  margin-bottom: 10px;
+}
+.upload {
+    border: 1px solid #e6e6e6;
+    padding: 5px;
+    width: 220px;
+}
+.control-label {
+    text-align: right;
+}
+/*sidebar for settings*/
+@media(min-width:1000px){
+  #sidebar-wrapper{
+    position: fixed;
+    width: 230px;
+  }
+  .sidebar-container{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media(min-width:1200px){
+  #sidebar-wrapper{
+    position: fixed;
+    width: 300px;
+  }
+}
+#sidebar-wrapper{
+  height: 100%;
+  border-right: 2px solid rgba(234, 234, 234, 0.8);
+
+}
+.nav-settings, .settings-container-content{
+  padding-top: 10px;
+}
+.nav-settings>li{
+  border-bottom: 1px solid #d6d6d6;
+
+}
+.nav-settings>li>a{
+  color:#696969;
+  font-weight: bold;
+    padding: 18px;
+}
+.nav-settings>.active{
+    background-color: #eee;
 }

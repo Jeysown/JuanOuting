@@ -60,7 +60,7 @@
                     <span class="caret"></span></a>
                     <ul class="dropdown-menu dropdown-nav">
                       <li><a href="#">Account Settings</a></li>
-                      <li><a href="#">Edit Profile</a></li>
+                      <li><a href="edit-profile.php">Edit Profile</a></li>
                       <li><a href="#">Log Out</a></li>
                     </ul>
                   </li>

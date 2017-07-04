@@ -1,7 +1,6 @@
 
 <div class="footer">
   <div class="container" >
-
     <div class="row footer-container footer-hr">
       <div class="footer-content">
         <div class="footer-title">
@@ -86,7 +85,7 @@ if (screen && screen.width < 768) {
 }
 else {
   document.write('<script type="text/javascript" src="assets/js/search2.js"><\/script>');
-    
+
     document.getElementById("myFilter").style.height = "100%";
     $("#myFilter").removeAttr('class');
     $("#content-filter").removeAttr('class');
