@@ -1992,13 +1992,25 @@ padding-left: 5px;padding-top:15px;
 @media(min-width:1000px){
   #sidebar-wrapper{
     position: fixed;
-    width: 230px;
+    width: 250px;
   }
   .sidebar-container{
     padding-left: 0px;
     padding-right: 0px;
   }
 }
+.nav-settings>li>a{
+  color:#696969;
+  font-weight: bold;
+  padding: 18px;
+}
+.nav-settings>li>a:hover,.nav-settings>li>a:focus{
+  padding: 20px;
+}
+.nav-settings>.active{
+    background-color: #eee;
+}
+
 @media(min-width:1200px){
   #sidebar-wrapper{
     position: fixed;
@@ -2008,20 +2020,23 @@ padding-left: 5px;padding-top:15px;
 #sidebar-wrapper{
   height: 100%;
   border-right: 2px solid rgba(234, 234, 234, 0.8);
-
 }
 .nav-settings, .settings-container-content{
   padding-top: 10px;
 }
 .nav-settings>li{
   border-bottom: 1px solid #d6d6d6;
-
 }
-.nav-settings>li>a{
-  color:#696969;
-  font-weight: bold;
-    padding: 18px;
-}
-.nav-settings>.active{
-    background-color: #eee;
+@media(max-width:1000px){
+  .nav-settings>li{
+      float: left;
+      width: 33.33%;
+      border-right: 2px solid rgba(234, 234, 234, 0.8);
+  }
+  .sidebar-container{
+    padding: 0px;
+  }
+  .nav-settings>li>a{
+    padding: 14px;
+  }
 }

@@ -3,7 +3,6 @@
     <div class="container settings-container">
       <div class=" col-md-3 sidebar-container" >
         <div id="sidebar-wrapper" class="sidebar-toggle">
-
           <ul class="nav-settings nav">
             <li class="active">
               <a href="home" >
@@ -20,7 +19,7 @@
             <li>
               <a href="inquiries">
                 <i class="fa fa-user" aria-hidden="true"></i>
-                Account Settings
+                Account
               </a>
             </li>
             <li>
@@ -35,9 +34,15 @@
                 Mobile
               </a>
             </li>
+            <li>
+              <a href="inquiries">
+                <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+                Payment
+              </a>
+            </li>
             </ul>
-          </div>
         </div>
+      </div>
       <div class="col-md-9 settings-container-content">
         <div class="form-title-row resort-name">
               General Account Settings
