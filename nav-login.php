@@ -53,15 +53,13 @@
                       <a href="#Maps" class="anchor-logged">Help</a>
                   </li>
                   <li class="visible-xs"><a href="#">Account Settings</a></li>
-                  <li class="visible-xs"><a href="#">Edit Profile</a></li>
                   <li class="visible-xs"><a href="#">Log Out</a></li>
                   <li class="dropdown hidden-xs">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Settings
                     <span class="caret"></span></a>
                     <ul class="dropdown-menu dropdown-nav">
-                      <li><a href="#">Account Settings</a></li>
-                      <li><a href="edit-profile.php">Edit Profile</a></li>
-                      <li><a href="#">Log Out</a></li>
+                      <li><a href="edit-profile.php">Account Settings</a></li>
+                      <li><a href="#"  style="border-bottom:none !important;">Log Out</a></li>
                     </ul>
                   </li>
 
