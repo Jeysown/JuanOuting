@@ -4,13 +4,13 @@
       <div class=" col-md-3 sidebar-container" >
         <div id="sidebar-wrapper" class="sidebar-toggle">
           <ul class="nav-settings nav">
-            <li class="sidebar-li">
+            <li class="sidebar-li active">
               <a href="#" onclick="sidebar();">
                 <i class="fa fa-cogs" aria-hidden="true"></i>
                 General
               </a>
             </li>
-            <li class="sidebar-li active">
+            <li class="sidebar-li">
               <a href="#">
                 <i class="fa fa-unlock-alt" aria-hidden="true"></i>
                 Password
@@ -31,8 +31,8 @@
             </ul>
         </div>
       </div>
-      <div class="col-md-9 settings-container-content">
-        <?php include 'password.php' ?>
+      <div class="col-md-9 settings-container-content" id="settings-container">
+        <?php include 'settings-1.php' ?>
     </div>
   </div>
 

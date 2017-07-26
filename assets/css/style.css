@@ -248,7 +248,7 @@ collapse
 
 /*Featured titles*/
 .featured-title{
-  color:#333;
+  color:#337ab7;
   font-size: 1.5em;
   padding-bottom: 10px;
   position: relative;
@@ -449,13 +449,13 @@ padding-left: 8px;
   border-bottom: 1px solid #e8e8e8;
 }
 .filtered-title{
-  color:#696969;
+  color:#337ab7;
   font-size: 1em;
   min-height: 1px;
   font-weight: bold;
 }
 .filtered-subtitle{
-  color:#696969;
+  color:#337ab7;
   font-size: 1em;
   min-height: 1px;
   font-weight: bold;
@@ -541,7 +541,7 @@ padding: 0px 8px;
   color:#fff;
 }
 .search-title{
-  color:#696969;
+  color:#337ab7;
   font-size: 1.2em;
   padding-bottom: 10px;
   position: relative;
@@ -726,7 +726,7 @@ overflow:hidden;
     width: 100%;
     cursor: pointer;
     position: absolute;
-          filter:brightness(.7);
+    filter:brightness(.7);
 
 }
 /*header*/
@@ -793,6 +793,7 @@ padding-bottom: 30px;
     font-weight: 600;
     line-height: 26px;
     font-size: 24px;
+    color: #337ab7;
 }
 .r-review{
     font-weight: 500;
@@ -814,7 +815,7 @@ padding-bottom: 30px;
   padding-top: 30px;
 }
 .r-title-description{
-  color:#333;
+  color: #337ab7;
   font-size: 1.4em;
   position: relative;
   min-height: 1px;
@@ -842,7 +843,7 @@ font-weight: 600;
 }
 .img-circle{
   margin: 0 auto;
-border: 7px solid #fff;
+  border: 7px solid #fff;
   width:100px;
 }
 .review-hr{
@@ -856,6 +857,7 @@ border: 7px solid #fff;
 }
 .r-comment-header{
   font-size: 1.2em;
+  color: #337ab7;
 }
 .review-name{
   font-weight: bolder;
@@ -2085,6 +2087,15 @@ padding-left: 5px;padding-top:15px;
 }
 .notification-title{
     font-size: 1.2em;
+    position: relative;
+    font-weight: bold;
+    min-height: 1px;
+    border-bottom: 1px solid #e8e8e8;
+    clear: both;
+    margin-bottom: 10px;
+}
+.notification-subtitle{
+    font-size: 1em;
     position: relative;
     font-weight: bold;
     min-height: 1px;

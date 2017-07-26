@@ -341,7 +341,7 @@
             </div>
               <div class="review-content">
                 <div class="col-sm-3 r-content-description">
-                  <center><img src="assets/images/jason.jpg" class="img-responsive img-circle" alt="">
+                  <center><img src="assets/images/jasooon.jpg" class="img-responsive img-circle" alt="">
                   <p class="review-name">Jason Lopez</p>
                   <p>Manila, Philippines</p>
                   </center>
