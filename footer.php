@@ -1,7 +1,5 @@
 
-  <div class="container" >
     <div class="footer">
-
     <div class="row footer-container footer-hr">
       <div class="footer-content">
         <div class="footer-title">
@@ -69,10 +67,11 @@
 <script type="text/javascript" src="assets/js/ease.js"></script>
 <script type="text/javascript" src="assets/js/header.js"></script>
 <script src="assets/js/login.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-1.7.js"></script>
+<script type="text/javascript" src="assets/js/jquery-1.7.js"></script>
 <script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
 <script src="assets/js/search.js"></script>
 <!-- <script>
+
 $( "#spinner" ).spinner();
 $( "#spinner1" ).spinner();
 $( "#spinner2" ).spinner();

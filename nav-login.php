@@ -14,7 +14,7 @@
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/aleo" type="text/css"/>
   </head>
   <body id="page-top">
-  <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+  <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top nav-frontend" style="box-shadow: 1px 1px 5px 3px rgba(0,0,0,0.1);">
       <div class="header-container">
           <div class="navbar-header page-scroll">
 
@@ -25,7 +25,7 @@
               <a class="navbar-brand page-scroll" href="index.php" style="color:#2196F3;font-family:Lobster;font-weight:600;">JuanderPool</a>
 
               <i class="fa fa-search search-show" aria-hidden="true"  onClick="openSearch();visibleSearch();"></i>
-                <div id="searchOffset">
+                <div id="searchOffset" style="position: fixed;">
                   <i class="fa fa-search search-header-icon" aria-hidden="true" id="yey"></i><input id="resort1" onkeyup="AutoComplete1()" class="ui-autocomplete-input search-header" placeholder="Search" autocomplete="off" >
                 </div>
           </div>
@@ -37,17 +37,34 @@
                       <a href="#page-top"></a>
                   </li>
                   <li>
-                      <a href="#Maps">Help</a>
+                      <a href="#Maps" class="anchor-profile anchor-logged"><img src="assets/images/jason.jpg" class="img-circle profile-image" alt="" ><p class="profile-name">Jason Lopez</p></a>
                   </li>
+                  <li class="dropdown hidden-xs">
+                    <a class="dropdown-toggle anchor-logged" data-toggle="dropdown" href="#">Bookings
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-nav">
+                      <li><a href="#">Current Booking</a></li>
+                      <li><a href="#">Wishlist</a></li>
+                      <li><a href="#">Booking History</a></li>
+                    </ul>
+                  </li>
+                  <li class="visible-xs"><a href="#">Bookings</a></li>
                   <li>
-                      <a href="#" data-toggle="modal" data-target="#registerModal">Sign Up</a>
+                      <a href="#Maps" class="anchor-logged">Help</a>
                   </li>
-                  <li>
-                      <a href="#" data-toggle="modal" data-target="#loginModal">Log In</a>
-
+                  <li class="visible-xs"><a href="#">Account Settings</a></li>
+                  <li class="visible-xs"><a href="#">Log Out</a></li>
+                  <li class="dropdown hidden-xs">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Settings
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-nav">
+                      <li><a href="edit-profile.php">Account Settings</a></li>
+                      <li><a href="#"  style="border-bottom:none !important;">Log Out</a></li>
+                    </ul>
                   </li>
 
-                      </ul>
+
+              </ul>
           </div>
                   </div>
 

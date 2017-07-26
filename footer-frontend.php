@@ -62,7 +62,6 @@
 </html>
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="assets/js/functions.js"></script>
 <script type="text/javascript" src="assets/js/ease.js"></script>
 <script type="text/javascript" src="assets/js/header.js"></script>

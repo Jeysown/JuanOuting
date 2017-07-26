@@ -198,8 +198,14 @@
                                         <td></td>
                                         <td class="col-md-1 text-center">₱6,515</td>
                                       </tr>
-
-
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
             <div class="fixedElement clearFixed" id="book-responsive">
               <div>
                 <div class="container" id="book">
@@ -301,8 +307,10 @@
                 </div>
               </div>
             </div>
-
           </div>
-
         </div>
+      </div>
+    </div>
+  </div>
+</div>
         <?php include 'footer-payment.php' ?>
